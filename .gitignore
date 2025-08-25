@@ -1,0 +1,157 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# MATLAB
+*.asv
+*.m~
+*.mex*
+slprj/
+octave-workspace
+*.autosave
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# LaTeX
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.dvi
+*.xdv
+*-converted-to.*
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+.hypothesis/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and Keys
+*.pem
+*.key
+.env.local
+.env.*.local
+secrets.json
+config.json
+
+# Compressed Files (usually temporary)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# SPSS/SAS/Stata temporary files
+*.sav.bak
+*.sas7bdat.bak
+*.dta.bak
+
+# Note: The following file types are intentionally NOT ignored
+# to enable tracking across devices:
+# *.pdf
+# *.md
+# *.docx
+# *.pptx
+# *.xlsx
+# *.txt
+# *.csv
+# *.json (except secrets.json and config.json)
+# *.html
+# *.css
+# *.js
