@@ -15,7 +15,7 @@ ipykernel>=6.25.0
 notebook>=7.0.0
 
 # Document processing
-markitdown>=0.0.1a2
+markitdown[all]>=0.0.1a2
 openpyxl>=3.1.0
 xlrd>=2.0.0
 python-docx>=1.1.0
