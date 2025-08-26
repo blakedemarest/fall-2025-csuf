@@ -460,10 +460,9 @@ References .....................................................................
 
 Index ..................................................................................................................  387
 
-   Chapter 1
-  Introduction
+# Chapter 1: Introduction
 
-  1.1  Building Valid Models
+## 1.1 Building Valid Models
 
  This book focuses on tools and techniques for building valid regression models
 for  real-world  data.  We  shall  see  that  a  key  step  in  any  regression  analysis  is
@@ -479,13 +478,13 @@ need to understand the mathematical properties of the fitted regression models a
 associated diagnostic procedures. As such this will be an area of focus throughout
 the book.
 
-  1.2  Motivating Examples
+## 1.2 Motivating Examples
 
  Throughout the book we shall carefully consider a number of real data sets. The
 following examples provide examples of four such data sets and thus provide an
 indication of what is to come.
 
-  1.2.1  Assessing the Ability of NFL Kickers
+### 1.2.1 Assessing the Ability of NFL Kickers
 
  The  first  example  illustrates  the  importance  of  only  basing  inferences  or  conclu-
 sions  on  a  valid  model.  In  other  words,  any  conclusion  is  only  as  sound  as  the
@@ -540,40 +539,7 @@ Unadjusted Correlation = -0.139
 
 70
 
-t
-
-r
-a
-e
-Y
-n
-
-i
-
-t
-
-e
-g
-a
-n
-e
-c
-r
-e
-P
-
-l
-
-a
-o
-G
-d
-e
-F
-
-i
-
-l
+**Y-axis:** Field Goal Percentage in Year t
 
 70
 
@@ -619,10 +585,10 @@ such that each line has the same slope but a different intercept.
  There are two notable aspects of the regression lines in Figure  1.2 . Firstly, the
 common slope of each line is negative. This means that if a kicker had a high field
 goal percentage in the previous year then they are predicted to have a lower field
-goal percentage in the current year. Let qi denote the true average field goal per-
+goal percentage in the current year. Let $q_i$ denote the true average field goal per-
 centage of kicker  i , the negative slope means that a field goal percentage one year
-above qi is likely to be followed by a lower field goal percentage, i.e., one that has
-shrunk back toward qi. (We shall discuss the concept of shrinkage in Chapter 10.)
+above $q_i$ is likely to be followed by a lower field goal percentage, i.e., one that has
+shrunk back toward $q_i$. (We shall discuss the concept of shrinkage in Chapter 10.)
 Secondly,  the  difference  in  the  heights  of  the  lines  (i.e.,  in  the  intercepts)  is  as
 much as 20%, indicating a great range in performance across the 19 kickers.
 
@@ -636,41 +602,7 @@ Slope of each line = -0.504
 
 70
 
-t
-
-r
-a
-e
-Y
-n
-
-i
-
-e
-g
-a
-
-t
-
-n
-e
-c
-r
-e
-P
-
-l
-
-a
-o
-G
-d
-e
-F
-
-i
-
-l
+**Y-axis:** Field Goal Percentage in Year t
 
 70
 
@@ -698,7 +630,7 @@ Field Goal Percentage in Year t − 1
 
 Introduction
 
-  1.2.2  Newspaper Circulation
+### 1.2.2 Newspaper Circulation
 
  This example illustrates the use of so-called dummy variables along with trans-
 formations to overcome skewness.
@@ -735,70 +667,24 @@ Taking logs has made the variability much more constant.
 
  We shall return to this example in Chapter 6.
 
- Table 1.1
-publisher.com/eandp/yearbook/reports_trends.jsp”    . Accessed November 8, 2005)
+**Table 1.1**  
+Partial list of the newspaper circulation data (circulation.txt)  
+(http://www.editorandpublisher.com/eandp/yearbook/reports_trends.jsp, Accessed November 8, 2005)
 
-  Partial list of the newspaper circulation data (circulation.txt) (  http://www.editorand
+| Newspaper | Sunday circulation | Weekday circulation | Tabloid with a serious competitor |
+|-----------|-------------------|---------------------|----------------------------------|
+| Akron Beacon Journal (OH) | 185,915 | 134,401 | 0 |
+| Albuquerque Journal (NM) | 154,413 | 109,693 | 0 |
+| Allentown Morning Call (PA) | 165,607 | 111,594 | 0 |
+| Atlanta Journal-Constitution (GA) | 622,065 | 371,853 | 0 |
+| Austin American-Statesman (TX) | 233,767 | 183,312 | 0 |
+| Baltimore Sun (MD) | 465,807 | 301,186 | 0 |
+| Bergen County Record (NJ) | 227,806 | 179,270 | 0 |
+| Birmingham News (AL) | 186,747 | 148,938 | 0 |
+| Boston Herald (MA) | 151,589 | 241,457 | 0 |
+| Boston Globe (MA) | 706,153 | 450,538 | 0 |
 
- Newspaper
-
-  Akron Beacon Journal     (OH)
-  Albuquerque Journal   (NM)
-  Allentown Morning Call   (PA)
-  Atlanta Journal-Constitution   (GA)
-  Austin American-Statesman   (TX)
-  Baltimore Sun   (MD)
-  Bergen County Record   (NJ)
-  Birmingham News   (AL)
-  Boston Herald   (MA)
-  Boston Globe   (MA)
-
- Sunday
- circulation
-
- Weekday
- circulation
-
- Tabloid with a
- serious competitor
-
- 185,915
- 154,413
- 165,607
- 622,065
- 233,767
- 465,807
- 227,806
- 186,747
- 151,589
- 706,153
-
- 134,401
- 109,693
- 111,594
- 371,853
- 183,312
- 301,186
- 179,270
- 148,938
- 241,457
- 450,538
-
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 0
- 1
- 0
-
-1.2  Motivating Examples
-
-5
-
+
 Tabloid dummy variable
 
 0
@@ -905,7 +791,7 @@ log(Weekday Circulation)
 
   A plot of log(Sunday Circulation) against log(Weekday Circulation)
 
-  1.2.3  Menu Pricing in a New Italian Restaurant in New York City
+### 1.2.3 Menu Pricing in a New Italian Restaurant in New York City
 
  This  example  highlights  the  use  of  multiple  regression  in  a  practical  business
 setting. It will be discussed in detail in Chapters 5 and 6.
@@ -913,13 +799,7 @@ setting. It will be discussed in detail in Chapters 5 and 6.
  Imagine that you have been asked to join the team supporting a young New York
 City chef who plans to create a new Italian restaurant in Manhattan. The stated aims
 
-6
-
-1
-
-Introduction
-
-of the restaurant are to provide the highest quality Italian food utilizing state-of-the-
+of the restaurant are to provide the highest quality Italian food utilizing state-of-the-
 art décor while setting a new standard for high-quality service in Manhattan. The
 creation and the initial operation of the restaurant will be the basis of a reality TV
 show  for  the  US  and  international  markets  (including  Australia).  You  have  been
@@ -933,11 +813,11 @@ collected in order to produce a regression model to predict the price of dinner.
 data from surveys of customers of 168 Italian restaurants in the target area are avail-
 able. The data are in the form of the average of customer views on
 
-    Y   = Price = the price (in $US) of dinner (including one drink & a tip)
-   x   1    = Food = customer rating of the food (out of 30)
-   x   2    = Décor = customer rating of the decor (out of 30)
-   x   3    = Service = customer rating of the service (out of 30)
-   x   4    =  East = dummy variable = 1 (0) if the restaurant is east (west) of Fifth Avenue
+    $Y$ = Price = the price (in $US) of dinner (including one drink & a tip)
+   $x_1$ = Food = customer rating of the food (out of 30)
+   $x_2$ = Décor = customer rating of the decor (out of 30)
+   $x_3$ = Service = customer rating of the service (out of 30)
+   $x_4$ = East = dummy variable = 1 (0) if the restaurant is east (west) of Fifth Avenue
  Figures  1.5  and  1.6  contain plots of the data.
 
  Whilst  the  situation  described  above  is  imaginary,  the  data  are  real  ratings  of
@@ -955,130 +835,26 @@ theater, movies and music.
 
  In particular you have been asked to:
 
-  (cid:129)
-
- (cid:129)
-
- (cid:129)
-
- (cid:129)
-
- (cid:129)
-
- Develop a regression model that  directly predicts  the price of dinner (in dollars)
-using a subset or all of the four potential predictor variables listed above.
- Determine  which  of  the  predictor  variables  Food,  Décor  and  Service  has  the
-largest  estimated  effect  on  Price?  Is  this  effect  also  the  most  statistically
-significant?
- If the aim is to choose the location of the restaurant so that the price achieved
-for dinner is maximized, should the new restaurant be on the east or west of Fifth
-Avenue?
- Does it seem possible to achieve a price premium for “setting a new standard for
-high-quality service in Manhattan” for Italian restaurants?
- Identify the restaurants in the data set which, given the customer ratings, are
-(i) unusually highly priced; and (ii) unusually lowly priced.
+- Develop a regression model that directly predicts the price of dinner (in dollars) using a subset or all of the four potential predictor variables listed above.
+- Determine which of the predictor variables Food, Décor and Service has the largest estimated effect on Price? Is this effect also the most statistically significant?
+- If the aim is to choose the location of the restaurant so that the price achieved for dinner is maximized, should the new restaurant be on the east or west of Fifth Avenue?
+- Does it seem possible to achieve a price premium for "setting a new standard for high-quality service in Manhattan" for Italian restaurants?
+- Identify the restaurants in the data set which, given the customer ratings, are (i) unusually highly priced; and (ii) unusually lowly priced.
 
  We shall return to this example in Chapters 5 and 6.
 
-7
-
-60
-
-50
-
-40
-
-30
-
-20
-
-25
-
-20
-
-15
-
-10
-
-1.2  Motivating Examples
-
-16 18 20 22 24
-
-14
-
-18
-
-22
-
-Price
-
-Food
-
-24
-
-22
-
-20
-
-18
-
-16
-
-22
-
-18
-
-14
-
-Decor
-
-Service
-
-20 30 40 50 60
-
-10 15 20 25
+
 
   Figure 1.5
 
   Matrix plot of Price, Food, Décor and Service ratings
 
-e
-c
-i
-r
-
-P
-
-60
-
-50
-
-40
-
-30
-
-20
-
   Figure 1.6
   Box plots of Price for the
 two levels of the dummy variable East
 
-0
 
-1
-
-East (1 = East of Fifth Avenue)
-
-8
-
-  1.2.4
-
- Effect of Wine Critics’ Ratings on Prices
-of Bordeaux Wines
-
-1
-
-Introduction
+### 1.2.4 Effect of Wine Critics' Ratings on Prices of Bordeaux Wines
 
  In  this  example  we  look  at  the  effects  two  wine  critics  have  on  Bordeaux  wine
 prices in the UK. The two critics are Robert Parker from the US and Clive Coates
@@ -1189,60 +965,31 @@ a score between 12.5 and 20 that ends in 0 or 0.5 as follows:
 
  Data are available on the following other potentially important predictor variables:
 
-  (cid:129)
-
- (cid:129)
-
- (cid:129)
-
- (cid:129)
-
- (cid:129)
-
- P95andAbove is a dummy variable which is 1 if the wine scores 95 or above
-from  Robert  Parker  (and  0  otherwise).  This  variable  is  included  as  potential
-predictor in view of the comment by Hardy Rodenstock.
- FirstGrowth is a dummy variable which is 1 if the wine is a First Growth (and 0
-otherwise).  First  Growth  is  the  highest  classification  given  to  a  wine  from
-Bordeaux. The classification system dates back to at least 1855 and it is based
-on the “selling price and vineyard condition” (Parker, 2003, page 1148). Thus,
-first-growth wines are expected to achieve higher prices than other wines.
- CultWine  is  a  dummy  variable  which  is  1  if  the  wine  is  a  cult  wine  (and  0
-otherwise).  Cult  wines  (such  as  Le  Pin)  have  limited  availability  and  as  such
-demand way outstrips supply. As such cult wines are among the most expensive
-wines of Bordeaux.
- Pomerol  is  a  dummy  variable  which  is  1  if  the  wine  is  from  Pomerol  (and  0
-otherwise). According to Parker (2003, page 610):
+- **P95andAbove** is a dummy variable which is 1 if the wine scores 95 or above from Robert Parker (and 0 otherwise). This variable is included as potential predictor in view of the comment by Hardy Rodenstock.
+- **FirstGrowth** is a dummy variable which is 1 if the wine is a First Growth (and 0 otherwise). First Growth is the highest classification given to a wine from Bordeaux. The classification system dates back to at least 1855 and it is based on the "selling price and vineyard condition" (Parker, 2003, page 1148). Thus, first-growth wines are expected to achieve higher prices than other wines.
+- **CultWine** is a dummy variable which is 1 if the wine is a cult wine (and 0 otherwise). Cult wines (such as Le Pin) have limited availability and as such demand way outstrips supply. As such cult wines are among the most expensive wines of Bordeaux.
+- **Pomerol** is a dummy variable which is 1 if the wine is from Pomerol (and 0 otherwise). According to Parker (2003, page 610):
 
  The smallest of the great red wine districts of Bordeaux, Pomerol produces some of the
 most  expensive,  exhilarating,  and  glamorous  wines  in  the  world.  …,  wines  are  in  such
 demand that they must be severely allocated.
 
- VintageSuperstar is a dummy variable which is 1 if the wine is a vintage super-
-star  (and  0  otherwise).  Superstar  status  is  awarded  by  Robert  Parker  to  a  few
-wines in certain vintages. For example, Robert Parker (2003, page 529) describes
-the 2000 La Mission Haut-Brion as follows:
+- **VintageSuperstar** is a dummy variable which is 1 if the wine is a vintage superstar (and 0 otherwise). Superstar status is awarded by Robert Parker to a few wines in certain vintages. For example, Robert Parker (2003, page 529) describes the 2000 La Mission Haut-Brion as follows:
 
  A superstar of the vintage, the 2000 La Mission Haut-Brion is as profound as such recent
 superstars as 1989, 1982 and 1975. … The phenomenal aftertaste goes on for more than
 a minute.
 
-10
+In summary, data are available on the following variables:
 
-1
-
-Introduction
-
- In summary, data are available on the following variables:
-
-    Y   = Price = the price (in pounds sterling) of 12 bottles of wine
-   x   1    = ParkerPoints = Robert Parker’s rating of the wine (out of 100)
-   x   2    = CoatesPoints = Clive Coates’ rating of the wine (out of 20)
-   x   3    = P95andAbove = 1 (0) if the Parker score is 95 or above (otherwise)
-   x   4    = FirstGrowth = 1 (0) if the wine is a First Growth (otherwise)
-   x   5    = CultWine = 1 (0) if the wine is a cult wine (otherwise)
-   x   6    = Pomerol = 1 (0) if the wine is from Pomerol (otherwise)
-   x   7    = VintageSuperstar = 1 (0) if the wine is a superstar (otherwise)
+    $Y$ = Price = the price (in pounds sterling) of 12 bottles of wine
+   $x_1$ = ParkerPoints = Robert Parker's rating of the wine (out of 100)
+   $x_2$ = CoatesPoints = Clive Coates' rating of the wine (out of 20)
+   $x_3$ = P95andAbove = 1 (0) if the Parker score is 95 or above (otherwise)
+   $x_4$ = FirstGrowth = 1 (0) if the wine is a First Growth (otherwise)
+   $x_5$ = CultWine = 1 (0) if the wine is a cult wine (otherwise)
+   $x_6$ = Pomerol = 1 (0) if the wine is from Pomerol (otherwise)
+   $x_7$ = VintageSuperstar = 1 (0) if the wine is a superstar (otherwise)
  The data are given on the book web site in the file Bordeaux.csv.
 
  Figure  1.7  contains a matrix plot of price, Parker’s ratings and Coates’ ratings,
@@ -1691,7 +1438,7 @@ Vintage Superstar
 
   Box plots of log(Price) against each of the dummy variables
 
-  1.3  Level of Mathematics
+## 1.3 Level of Mathematics
 
  Throughout the book we will focus on understanding the properties of a number of
 regression  procedures.  An  important  component  of  this  understanding  will  come
@@ -1703,22 +1450,9 @@ mates demonstrates the level of mathematics associated with this book:
 
  Consider the linear regression model written in matrix form as
 
-Y X
-   = b +
+$$\mathbf{Y} = \mathbf{X}\boldsymbol{\beta} + \boldsymbol{\varepsilon}$$
 
-e
-
-Var
-
-with
-Y, b, e and the n × (p + 1)matrix, X are given by
-
-s=e
-( )
-
-2
-
-I , where I is the (n × n) identity matrix and the (n × 1) vectors,
+with $\text{Var}(\boldsymbol{\varepsilon}) = \sigma^2\mathbf{I}$, where $\mathbf{I}$ is the $(n \times n)$ identity matrix and the $(n \times 1)$ vectors $\mathbf{Y}$, $\boldsymbol{\beta}$, $\boldsymbol{\varepsilon}$ and the $n \times (p + 1)$ matrix $\mathbf{X}$ are given by
 
 Y
 
@@ -1876,85 +1610,15 @@ Introduction
 
  The least squares estimates are given by
 
-ˆ
-b
-
-= X X X Y
-)
-
-(
-
-′
-
-′
-
-1
-−
+$$\hat{\boldsymbol{\beta}} = (\mathbf{X}^\prime \mathbf{X})^{-1} \mathbf{X}^\prime \mathbf{Y}$$
 
  We next derive the conditional mean of the least squares estimates:
 
-(
-ˆE
-b
+$$\text{E}(\hat{\boldsymbol{\beta}} | \mathbf{X}) = \text{E}[(\mathbf{X}^\prime \mathbf{X})^{-1} \mathbf{X}^\prime \mathbf{Y} | \mathbf{X}] = (\mathbf{X}^\prime \mathbf{X})^{-1} \mathbf{X}^\prime \text{E}(\mathbf{Y} | \mathbf{X}) = (\mathbf{X}^\prime \mathbf{X})^{-1} \mathbf{X}^\prime \mathbf{X} \boldsymbol{\beta} = \boldsymbol{\beta}$$
 
-|
+# Chapter 2: Simple Linear Regression
 
-X
-
-)
-=
-=
-
-=
-
-1
-−
-X X X Y X
-
-′
-
-)
-
-(
-E (
-1
-−
-X X X
-)
-E
-′
-′
-1
-−
-X X X X
-)
-
-(
-
-|
-
-)
-′
-)
-(
-Y X
-|
-b
-
-′
-
-′
-
-(
-
-=
-
-b
-
-   Chapter 2
-  Simple Linear Regression
-
-  2.1  Introduction and Least Squares Estimates
+## 2.1 Introduction and Least Squares Estimates
 
  Regression analysis is a method for investigating the functional relationship among
 variables. In this chapter we consider problems involving modeling the relationship
@@ -1984,7 +1648,7 @@ linear, quadratic, exponential, etc.).
 
   (x1, y1),(x2, y2), . . . ,(xn, yn)
 
- where  x  1  denotes the first value of the so-called  X -variable and  y  1  denotes the first
+ where $x_1$ denotes the first value of the so-called $X$-variable and $y_1$ denotes the first
 value of the so-called  Y -variable.  The  X -variable is called the  explanatory  or  pre-
 dictor  variable ,  while  the   Y -variable  is  called  the   response  variable   or  the
  dependent variable .  The  X -variable often has a different status to the  Y -variable
@@ -2129,79 +1793,13 @@ sents the mean (or average) sales on a given day.
 
  The regression of  Y  on  X  is linear if
 
-2.1
+$$E(Y | X = x) = \beta_0 + \beta_1 x \quad (2.1)$$
 
-Introduction and Least Squares Estimates
+ where the unknown parameters $\beta_0$ and $\beta_1$ determine the intercept and the slope of a specific straight line, respectively. Suppose that $Y_1, Y_2, \ldots, Y_n$ are independent realizations of the random variable Y that are observed at the values $x_1, x_2, \ldots, x_n$ of a random variable X. If the regression of Y on X is linear, then for $i = 1, 2, \ldots, n$
 
-E(
+$$Y_i = E(Y | X = x_i) + e_i = \beta_0 + \beta_1 x_i + e_i \quad (2.2)$$
 
-Y X x
-
-=
-
-|
-
-)
-
-=
-
-b
-
-+0
-
-b
-1
-
-x
-
-17
-
-  (2.1)
-
- where the unknown parameters   b0   and   b1   determine the intercept and the slope of a
-specific straight line, respectively. Suppose that  Y  1 ,  Y  2 , …,  Y   n   are independent reali-
-zations of the random variable  Y  that are observed at the values  x  1 ,  x  2 , …,  x   n   of a
-random variable  X . If the regression of  Y  on  X  is linear, then for  i  = 1, 2, …,  n
-
-Y
-i
-
-=
-
-E(
-
-Y X x
-
-=
-
-|
-
-)
-
-+
-
-e
-i
-
-=
-
-b
-
-0
-
-+
-
-b
-1
-
-x
-
-+
-
-e
-i
-
- where  e   i   is the random error in  Y   i   and is such that   E(e | X) = 0.
+ where $e_i$ is the random error in $Y_i$ and is such that $E(e_i | X) = 0$.
 
  The random error term is there since there will almost certainly be some varia-
 tion in  Y  due strictly to random phenomenon that cannot be predicted or explained.
@@ -2235,42 +1833,22 @@ s
  Suppose for example that  X  = height and  Y  = weight of a randomly selected individual
 from some population, then for a straight line regression model the mean weight of
 individuals of a given height would be a linear function of that height. In practice, we
-usually have a sample of data instead of the whole population. The slope   b1   and inter-
-cept   b0   are unknown, since these are the values for the whole population. Thus, we
+usually have a sample of data instead of the whole population. The slope $\beta_1$ and intercept $\beta_0$ are unknown, since these are the values for the whole population. Thus, we
 wish to use the given data to estimate the slope and the intercept. This can be achieved
-by finding the equation of the line which “best” fits our data, that is, choose  b  0  and  b  1
-     is as “close” as possible to   yi  . Here the notation   ŷi   is used to
-such that
-denote the value of the line of best fit in order to distinguish it from the observed values
-of  y , that is,   yi  . We shall refer to   ŷi   as the  i th  predicted value  or the  fitted value  of  y   i  .
-  Residuals
+by finding the equation of the line which "best" fits our data, that is, choose $\hat{\beta}_0$ and $\hat{\beta}_1$ such that $\hat{y}_i$ is as "close" as possible to $y_i$. Here the notation $\hat{y}_i$ is used to denote the value of the line of best fit in order to distinguish it from the observed values of y, that is, $y_i$. We shall refer to $\hat{y}_i$ as the *i*th **predicted value** or the **fitted value** of $y_i$.
+### Residuals
 
-b x
-i
-1
+$$\hat{y}_i = \hat{\beta}_0 + \hat{\beta}_1 x_i$$
 
-b
-0
+In practice, we wish to minimize the difference between the actual value of y ($y_i$) and the predicted value of y ($\hat{y}_i$). This difference is called the residual, $\hat{e}_i$, that is,
 
-ˆi
-y
+$$\hat{e}_i = y_i - \hat{y}_i$$
 
-+
+Figure 2.2 shows a hypothetical situation based on six data points. Marked on this plot is a line of best fit, $\hat{y}_i$, along with the residuals.
 
-=
+### Least squares line of best fit
 
- In practice, we wish to minimize the difference between the actual value of  y  ( y  i )
-and the predicted value of  y  (  ŷi  ). This difference is called the residual,   ê i  , that is,
-
-  êi = yi– ŷi   .
-
- Figure  2.2  shows a hypothetical situation based on six data points. Marked on this
-plot is a  line of best fit ,   ŷi   along with the residuals.
-  Least squares line of best fit
-
- A very popular method of choosing  b  0  and  b  1  is called the method of least squares.
-As the name suggests  b  0  and  b  1  are chosen to minimize the sum of squared residuals
-(or residual sum of squares [RSS]),
+A very popular method of choosing $\hat{\beta}_0$ and $\hat{\beta}_1$ is called the method of least squares. As the name suggests, $\hat{\beta}_0$ and $\hat{\beta}_1$ are chosen to minimize the sum of squared residuals (or residual sum of squares [RSS]),
 
 18
 
@@ -2319,255 +1897,24 @@ X
 
   A scatter plot of data with a line of best fit and the residuals identified
 
-n
+$$\text{RSS} = \sum_{i=1}^{n} \hat{e}_i^2 = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 = \sum_{i=1}^{n} (y_i - \hat{\beta}_0 - \hat{\beta}_1 x_i)^2$$
+For RSS to be a minimum with respect to $\hat{\beta}_0$ and $\hat{\beta}_1$ we require
 
-n
-
-n
-
-RSS
-
-=
-
-2
-ˆ
-∑ ∑
-e
-=
-i
-
-i
-
-=
-
-1
-
-i
-
-=
-
-1
-
-(
-
-y
-i
-
-−
-
-ˆ
-y
-i
-
-2
-
-)
-
-=
-
-∑
-
-i
-
-=
-
-1
-
-y
-(
-i
-
-−
-
-b
-0
-
-−
-
-b x
-i
-1
-
-2
-) .
-
-      For RSS to be a minimum with respect to  b  0  and  b  1  we require
-
-RSS
-∂
-b
-∂
-0
-
-2
-= −
-
-n
-
-∑
-
-i
-
-=
-
-1
-
-y
-(
-i
-
-−
-
-b
-0
-
-−
-
-b x
-i
-1
-
-)
-
-=
-
-0
-
- and
-
-∂
-∂
-
-RSS
-b
-1
-
-2
-= −
-
-n
-
-∑
-
-i
-
-=
-
-1
-
-x y
-(
-i
-i
-
-−
-
-b
-0
-
-−
-
-b x
-i
-1
-
-)
-
-=
-
-0
-
- Rearranging terms in these last two equations gives
-
-n
-
-∑
-
-i
-
-=
-
-1
-
-y
-i
-
-=
-
-b n b
-+
-0
-1
-
-n
-
-∑
-x
-i
-
-i
-
-=
-
-1
+$$\frac{\partial \text{RSS}}{\partial \hat{\beta}_0} = -2 \sum_{i=1}^{n} (y_i - \hat{\beta}_0 - \hat{\beta}_1 x_i) = 0$$
 
 and
 
-n
+$$\frac{\partial \text{RSS}}{\partial \hat{\beta}_1} = -2 \sum_{i=1}^{n} x_i (y_i - \hat{\beta}_0 - \hat{\beta}_1 x_i) = 0$$
 
-n
+Rearranging terms in these last two equations gives
 
-n
+$$\sum_{i=1}^{n} y_i = \hat{\beta}_0 n + \hat{\beta}_1 \sum_{i=1}^{n} x_i$$
 
-∑
+and
 
-i
+$$\sum_{i=1}^{n} x_i y_i = \hat{\beta}_0 \sum_{i=1}^{n} x_i + \hat{\beta}_1 \sum_{i=1}^{n} x_i^2$$
 
-=
-
-1
-
-x y
-i
-i
-
-=
-
-b
-0
-
-x
-i
-
-+
-
-b
-1
-
-∑
-
-i
-
-=
-
-1
-
-∑
-
-i
-
-=
-
-1
-
-2
-x
-i
-
-.
-
- These last two equations are called the  normal equations . Solving these equations
-for  b  0  and  b  1  gives the so-called  least squares estimates  of the intercept
+These last two equations are called the **normal equations**. Solving these equations for $\hat{\beta}_0$ and $\hat{\beta}_1$ gives the so-called **least squares estimates** of the intercept
 
 ˆ
 b
@@ -2696,48 +2043,32 @@ i
 SXY
 SXX
 
-.
 
-  Regression Output from R
+### Regression Output from R
 
 The least squares estimates for the production data were calculated using R, giving
 the following results:
- Coefficients:
+**Coefficients:**
 
- Estimate  Std. Error  t value  Pr(>|t|)
+| | Estimate | Std. Error | $t$ value | $\text{Pr}(>|t|)$ |
+|---|----------|------------|-----------|-------------------|
+| (Intercept) | 149.74770 | 8.32815 | 17.98 | 6.00e-13 *** |
+| RunSize | 0.25924 | 0.03714 | 6.98 | 1.61e-06 *** |
 
- (Intercept)
- RunSize
- ---
- Signif. codes:0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ‘ 1
-
-17.98  6.00e-13 ***
-6.98  1.61e-06 ***
-
-149.74770
-0.25924
-
-8.32815
-0.03714
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
  Residual standard error: 16.25 on 18 degrees of freedom
- Multiple R-Squared: 0.7302,
- F-statistic: 48.72 on 1 and 18 DF, p-value: 1.615e-06
+ Multiple $R^2$: 0.7302,
+ $F$-statistic: 48.72 on 1 and 18 DF, $p$-value: 1.615e-06
 
-Adjusted R-squared: 0.7152
+Adjusted $R^2$: 0.7152
 
   The least squares line of best fit for the production data
 
  Figure  2.3  shows a scatter plot of the production data with the least squares line of
 best fit. The equation of the least squares line of best fit is
 
-y
-
-=
-
-x
-149.7 0.26 .
-+
+$$\hat{y} = 149.7 + 0.26x$$
 
  Let us look at the results that we have obtained from the line of best fit in Figure
  2.3 . The intercept in Figure  2.3  is 149.7, which is where the line of best fit crosses
@@ -2751,69 +2082,11 @@ average set up time is 149.7 minutes.
  Consider  the  linear  regression  model  with  constant  variance  given  by  (2.1)  and
 (2.2). In this case,
 
-Y
-i
+$$Y_i = \beta_0 + \beta_1 x_i + e_i \quad (i = 1, 2, \ldots, n)$$
 
-=
+ where the random error $e_i$ has mean 0 and variance $\sigma^2$. We wish to estimate $\sigma^2 = \text{Var}(e)$. Notice that
 
-b
-
-0
-
-+
-
-b
-1
-
-x
-i
-
-+
-
-e
-i
-
-i
-(
-
-=
-
-n
-1,2,..., )
-
- where the random error  e   i   has mean 0 and variance   s2  . We wish to estimate
-  s2 = Var(e)  . Notice that
-
-e
-i
-
-=
-
-Y
-i
-
-−
-
-(
-
-b
-
-0
-
-+
-
-b
-1
-
-x
-)i
-
-=
-
-Y
-i
-
-– unknown regression line at xi.
+$$e_i = Y_i - (\beta_0 + \beta_1 x_i) = Y_i - \text{unknown regression line at } x_i$$
 
 20
 
@@ -2966,501 +2239,65 @@ RSS
 
   b0   and   b1  .
 
-  2.2  Inferences About the Slope and the Intercept
+## 2.2 Inferences About the Slope and the Intercept
 
- In  this  section,  we  shall  develop  methods  for  finding  confidence  intervals
-and  for  performing  hypothesis  tests  about  the  slope  and  the  intercept  of  the
-regression line.
+In this section, we shall develop methods for finding confidence intervals and for performing hypothesis tests about the slope and the intercept of the regression line.
 
-2.2
+### 2.2.1 Assumptions Necessary in Order to Make Inferences About the Regression Model
 
-Inferences About the Slope and the Intercept
+Throughout this section we shall make the following assumptions:
 
-21
+1. Y is related to x by the simple linear regression model
+   $$Y_i = \beta_0 + \beta_1 x_i + e_i \quad (i = 1, 2, \ldots, n)$$
 
-  2.2.1
+2. The errors $e_1, e_2, \ldots, e_n$ are independent of each other
 
- Assumptions Necessary in Order to Make Inferences
-About the Regression Model
+3. The errors $e_1, e_2, \ldots, e_n$ have a common variance $\sigma^2$
 
- Throughout this section we shall make the following assumptions:
+4. The errors are normally distributed with a mean of 0 and variance $\sigma^2$, that is,
+   $$e_i | X \sim N(0, \sigma^2)$$
 
-0
+Methods for checking these four assumptions will be considered in Chapter 3. In addition, since the regression model is conditional on X we can assume that the values of the predictor variable, $x_1, x_2, \ldots, x_n$ are known fixed constants.
 
-+
+### 2.2.2 Inferences About the Slope of the Regression Line
 
-Y
-i
+Recall from equation (2.4) that the least squares estimate of $\beta_1$ is given by
 
-    1.      Y  is related to  x  by the simple linear regression model
-n
-1,..., )
-+0
+$$\hat{\beta}_1 = \frac{\sum_{i=1}^{n} x_i y_i - n\bar{x}\bar{y}}{\sum_{i=1}^{n} x_i^2 - n\bar{x}^2} = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2} = \frac{S_{XY}}{S_{XX}} \quad (2.4)$$
 
-x
-b
-b
-+
-=
-i
-1
-e e
-2,
-   2.     The errors    1
-e e
-2,
-   3.     The errors    1
-   4.     The errors are normally distributed with a mean of 0 and variance   s 2  , that is,
+Since $\sum_{i=1}^{n} (x_i - \bar{x}) = 0$, we find that
 
-E(
-b
-e    are independent of each other
-e    have a common variance   s 2
+$$\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y}) = \sum_{i=1}^{n} (x_i - \bar{x}) y_i$$
 
-e i
-(
-=
-i
-,..., n
-,..., n
+Thus, we can rewrite $\hat{\beta}_1$ as
 
-Y X x
-
-  , i.e.,
-
-x
-i
-
-b
-1
-
-)i
-
-=
-
-=
-
-|
-
-e X N s
-  (~
-)
-
-0,
-
-|
-
-2
-
- Methods for checking these four assumptions will be considered in Chapter 3. In
-addition,  since  the  regression  model  is  conditional  on   X   we  can  assume  that  the
-values of the predictor variable,  x  1 ,  x  2 , …,  x   n   are known fixed constants.
-
-  2.2.2  Inferences About the Slope of the Regression Line
-
- Recall from (2.4) that the least squares estimate of   b1   is given by
-
-n
-
-n
-
-x y
-i
-i
-
-−
-
-nxy
-
-=
-
-2
-x
-i
-
-2
-
-−
-
-nx
-
-∑
-
-i
-
-1
-=
-n
-
-∑
-
-i
-
-=
-
-1
-
-∑
-
-i
-
-=
-
-1
-
-(
-
-x
-i
-
-−
-
-x y
-)(
-i
-
-−
-
-y
-
-)
-
-n
-
-(
-
-x
-i
-
-2
-
-x
-
-)
-
-−
-
-∑
-
-i
-
-=
-
-1
-
-=
-
-SXY
-SXX
-
-ˆ
-b
-
-1
-
-=
-
-n
-
- Since,
-i
-
-∑
-
-=
-
-1
-
-(
-
-x
-i
-
-−
-
-x
-
-)
-
-=
-
-   we find that
-0
-
-n
-
-∑
-   1
-i
-=
-
-(
-
-x
-i
-
-−
-
-x y
-)(
-i
-
-−
-
-y
-
-)
-
-=
-
- Thus, we can rewrite   bˆ
-
-1   as
-
-n
-
-n
-
-n
-
-∑
-
-i
-
-=
-
-1
-
-(
-
-x
-i
-
-−
-
-x y
-)
-i
-
-−
-
-y
-
-∑
-
-i
-
-=
-
-1
-
-(
-
-x
-i
-
-−
-
-x
-
-)
-
-=
-
-∑
-
-i
-
-=
-
-1
-
-(
-
-x
-i
-
-−
-
-x y
-)
-i
-
-ˆ
-b
-1
-
-=
-
-n
-
-∑
-
-i
-
-=
-
-1
-
-c y
-i
-i
+$$\hat{\beta}_1 = \sum_{i=1}^{n} c_i y_i$$
 
 where
 
-c
-i
+$$c_i = \frac{x_i - \bar{x}}{S_{XX}} \quad (2.5)$$
 
-=
-
-x
-x
-−
-i
-SXX
-
-(2.5)
-
- We shall see that this version of   bˆ
-properties.
-
-1   will be used whenever we study its theoretical
+We shall see that this version of $\hat{\beta}_1$ will be used whenever we study its theoretical properties.
 
  Under the above assumptions, we shall show in Section  2.7  that
 
-ˆE(
-b
+$$E(\hat{\beta}_1 | X) = \beta_1 \quad (2.6)$$
 
-|
+$$\text{Var}(\hat{\beta}_1 | X) = \frac{\sigma^2}{S_{XX}} \quad (2.7)$$
 
-)X
+$$\hat{\beta}_1 | X \sim N\left(\beta_1, \frac{\sigma^2}{S_{XX}}\right) \quad (2.8)$$
 
-1
+Note that in (2.7) the variance of the least squares slope estimate decreases as $S_{XX}$ increases (i.e., as the variability in the X's increases). This is an important fact to note if the experimenter has control over the choice of the values of the X variable.
 
-b=
-1
+Standardizing (2.8) gives
 
-ˆVar(
-b
-1
+$$Z = \frac{\hat{\beta}_1 - \beta_1}{\sigma/\sqrt{S_{XX}}} \sim N(0,1)$$
 
-|
+If $\sigma$ were known then we could use a Z to test hypotheses and find confidence intervals for $\beta_1$. When $\sigma$ is unknown (as is usually the case) replacing $\sigma$ by S, the standard deviation of the residuals results in
 
-)X
+$$T = \frac{\hat{\beta}_1 - \beta_1}{S/\sqrt{S_{XX}}} = \frac{\hat{\beta}_1 - \beta_1}{\text{se}(\hat{\beta}_1)}$$
 
-=
-
-2
-
-s
-SXX
-
-(2.6)
-
-(2.7)
-
-22
-
-2  Simple Linear Regression
-
-ˆ
-b
-1
-
-|
-
-X N
- ~
-
-⎛
-⎜
-⎝
-
-b
-1
-
-,
-
-2
-
-s
-⎞
-⎟
-SXX
-⎠
-
-(2.8)
-
- Note that in (2.7) the variance of the least squares slope estimate decreases as  SXX
-increases (i.e., as the variability in the  X ’s increases). This is an important fact to note
-if the experimenter has control over the choice of the values of the  X  variable.
-
- Standardizing (2.8) gives
-
-Z
-
-=
-
-ˆ
-b b
-−
-1
-s
-
-1
-
-SXX
-
-~ (0,1)
-
-N
-
- If    s    were  known  then  we  could  use  a   Z   to  test  hypotheses  and  find  confidence
-intervals for   b  1. When   s   is unknown (as is usually the case) replacing   s   by  S , the
-standard deviation of the residuals results in
-
-T
-
-=
-
-ˆ
-b
-1
-S
-
-−
-
-b
-1
-
-SXX
-
-=
-
-−
-
-ˆ
-b
-1
-se (
-
-b
-1
-ˆ
-)
-b
-1
-
- where se
-
-ˆ(
-)
-b =
-1
-
-S
-
-SXX
+where $\text{se}(\hat{\beta}_1) = \frac{S}{\sqrt{S_{XX}}}$
 
    is the estimated standard error (se) of   bˆ
 
@@ -4987,7 +3824,7 @@ confidence interval, as is expected.
 
  There is a linear association between  Y  and  x  if
 
-  Y = b0 + b1x + e
+$$Y = \beta_0 + \beta_1 x + \epsilon$$
 
  and b1    ≠ 0. If we knew that   b1≠ 0   then we would predict  Y  by
 
@@ -5143,7 +3980,7 @@ y
 )
 
  It is clear that SSreg is close to zero if for each  i,  yˆi is close to y¯ while SSreg is large
-if yˆi differs from ¯y for most values of  x .
+if $\hat{y}_i$ differs from $\bar{y}$ for most values of $x$.
 
  We  next  look  at  the  hypothetical  situation  in  Figure   2.4   with  just  a  single
 data  point  ( x   i  ,   y   i  )  shown  along  with  the  least  squares  regression  line  and  the
@@ -5441,23 +4278,15 @@ between  Y  and  X . It is arguably one of the most commonly misused statistics.
 
   Regression Output from R
 
- Analysis of Variance Table
- Response: RunTime
+**Analysis of Variance Table**  
+Response: RunTime
 
-Df  Sum Sq  Mean Sq  F value
- 1  12868.4  12868.4
-264.1
+| | Df | Sum Sq | Mean Sq | F value | $\text{Pr}(>F)$ |
+|---|----|---------|---------|---------|-----------------| 
+| RunSize | 1 | 12868.4 | 12868.4 | 48.717 | 1.615e-06 *** |
+| Residuals | 18 | 4754.6 | 264.1 | | |
 
- RunSize
- Residuals  18
- ---
- Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ‘ 1
-
-48.717  1.615e-06  ***
-
-Pr(>F)
-
-4754.6
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
  Notice that the observed  F -value of 48.717 is just the square of the observed  t -value
 6.98 which can be found between Figures 2.2 and 2.3. We shall see in Chapter 5
@@ -5521,30 +4350,20 @@ sponds to the new change-over method and 0 if it corresponds to the existing met
 
   Regression Output from R
 
- Coefficients:
+**Coefficients:**
 
- Estimate  Std. Error  t value
-0.8905   20.058
--2.254
-1.4080
+| | Estimate | Std. Error | $t$ value | $\text{Pr}(>|t|)$ |
+|---|----------|------------|-----------|-------------------|
+| (Intercept) | 17.8611 | 0.8905 | 20.058 | <2e-16 *** |
+| New | -3.1736 | 1.4080 | -2.254 | 0.0260 * |
 
- (Intercept) 17.8611
- New
--3.1736
- ---
- Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ‘ 1
- Residual standard error: 7.556 on 118 degrees of freedom
- Multiple R-Squared: 0.04128, Adjusted R-squared: 0.03315
- F-statistic: 5.081 on 1 and 118 DF, p-value: 0.02604
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
-Pr(>|t|)
-<2e-16
-0.0260
+Residual standard error: 7.556 on 118 degrees of freedom  
+Multiple $R^2$: 0.04128, Adjusted $R^2$: 0.03315  
+$F$-statistic: 5.081 on 1 and 118 DF, $p$-value: 0.02604
 
-***
-*
-
- We can test whether there is significant reduction in the change-over time for the
+We can test whether there is significant reduction in the change-over time for the
 new method by testing the significance of the dummy variable, that is, we wish to
 test whether the coefficient of  x  is zero or less than zero, that is:
 
@@ -7979,29 +6798,21 @@ Number of Invoices
 
   Regression output from R for the invoice data
 
- Call:
- lm(formula = Time ~ Invoices)
+```output
+Call:
+lm(formula = Time ~ Invoices)
 
- Coefficients:
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 0.6417099  0.1222707   5.248 1.41e-05 ***
+Invoices    0.0112916  0.0008184  13.797 5.17e-14 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
- Estimate  Std. Error  t value
- 5.248
-13.797
-
- (Intercept) 0.6417099
- Invoices
-0.0112916
- ---
-  Residual standard error: 0.3298 on 28 degrees of freedom
- Multiple R-Squared: 0.8718, Adjusted R-squared: 0.8672
- F-statistic: 190.4 on 1 and 28 DF, p-value: 5.175e-14
-
-0.1222707
-0.0008184
-
-Pr(>|t|)
-1.41e-05  ***
-5.17e-14  ***
+Residual standard error: 0.3298 on 28 degrees of freedom
+Multiple R-squared:  0.8718,	Adjusted R-squared:  0.8672 
+F-statistic: 190.4 on 1 and 28 DF,  p-value: 5.175e-14
+```
 
  mean(Time)
  2.1
@@ -8456,57 +7267,18 @@ figures.
  Briefly explain how it is entirely possible that 95% of the observations fall outside
 the 95% CI as depicted in the figures.
 
-   Chapter 3
-  Diagnostics and Transformations for Simple
-Linear Regression
+# Chapter 3: Diagnostics and Transformations for Simple Linear Regression
 
  In Chapter 2 we studied the simple linear regression model. Throughout Chapter 2,
 we assumed that the simple linear regression model was a valid model for the data,
 that is, the conditional mean of  Y  given  X  is a linear function of  X  and the conditional
-variance of  Y  given  X  is constant. In other words,
+variance of Y given X is constant. In other words,
 
-E(
+$$E(Y | X = x) = \beta_0 + \beta_1 x$$
 
-Y X x
+and
 
-=
-
-|
-
-)
-
-=
-
-b
-
-0
-
-+
-
-b
-1
-
-x
-
-   and
-
-Var(
-
-Y X x
-
-=
-
-|
-
-)
-
-=
-
-s
-
-2
-
-.
+$$\text{Var}(Y | X = x) = \sigma^2$$
 
  In Section  3.1,  we start by examining the important issue of deciding whether
 the  model  under  consideration  is  indeed  valid.  In  Section   3.2 ,  we  will  see  that
@@ -8804,47 +7576,9 @@ x
  The regression output for data sets 1 to 4 is given below. The regression output for the
 four constructed data sets is identical (to two decimal places) in every respect.
 
-3.1  Valid and Invalid Regression Models: Anscombe’s Four Data Sets
+## 3.1 Valid and Invalid Regression Models: Anscombe's Four Data Sets
 
-47
-
-)
-
-=
-
-ar(
-
-V Y X x
-|
-
-   Looking at Figure  3.1  it is obvious that a straight-line regression model is appropri-
-x
-ate only for Data Set 1, since it is the only data set for which
-and
-   seem reasonable assumptions. On the other hand, the data
-in  Data  Set  2  seem  to  have  a  curved  rather  than  a  straight-line  relationship.  The
-third data set has an extreme outlier that should be investigated. For the fourth data
-set, the slope of the regression line is solely determined by a single point, namely,
-the point with the largest  x -value.
-
-Y X x
-
-b
-1
-
-E(
-
-s
-
-b
-
-=
-
-+
-
-=
-
-=
+Looking at Figure 3.1, it is obvious that a straight-line regression model is appropriate only for Data Set 1, since it is the only data set for which $E(Y | X = x) = \beta_0 + \beta_1 x$ and $\text{Var}(Y | X = x) = \sigma^2$ seem reasonable assumptions. On the other hand, the data in Data Set 2 seem to have a curved rather than a straight-line relationship. The third data set has an extreme outlier that should be investigated. For the fourth data set, the slope of the regression line is solely determined by a single point, namely, the point with the largest x-value.
 
 )
 
@@ -8858,7 +7592,7 @@ b
 
  Coefficients:
 
- Estimate  Std. Error  t value
+ Estimate  Std. Error  $t$ value
 2.667
 4.241
 
@@ -8867,7 +7601,7 @@ b
  ---
  Signif.  codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05‘.’ 0.1 ‘‘ 1
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.02573
 0.00217
 
@@ -8878,12 +7612,12 @@ Pr(>|t|)
 0.5001
 
  Residual  standard  error:  1.237 on 9 degrees of freedom
- Multiple R-Squared: 0.6665,  Adjusted R-squared: 0.6295
- F-statistic: 17.99 on 1 and 9 DF,  p-value: 0.002170
+ Multiple $R^2$: 0.6665,  Adjusted $R^2$: 0.6295
+ $F$-statistic: 17.99 on 1 and 9 DF,  $p$-value: 0.002170
 
  Coefficients:
 
- Estimate  Std. Error  t value
+ Estimate  Std. Error  $t$ value
 2.667
 4.239
 
@@ -8892,7 +7626,7 @@ Pr(>|t|)
  ---
  Signif.  codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05‘.’ 0.1 ‘‘ 1
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.02576
 0.00218
 
@@ -8903,12 +7637,12 @@ Pr(>|t|)
 0.500
 
  Residual  standard  error:  1.237 on 9 degrees of freedom
-   Multiple R-Squared: 0.6662,  Adjusted R-squared: 0.6292
- F-statistic: 17.97 on 1 and 9 DF,  p-value: 0.002179
+   Multiple $R^2$: 0.6662,  Adjusted $R^2$: 0.6292
+ $F$-statistic: 17.97 on 1 and 9 DF,  $p$-value: 0.002179
 
  Coefficients:
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 0.02562
 0.00218
 
@@ -8927,12 +7661,12 @@ Pr(>|t|)
 4.239
 
    Residual standard error: 1.236 on 9 degrees of freedom
- Multiple R-Squared: 0.6663,  Adjusted R-squared: 0.6292
- F-statistic: 17.97 on 1 and 9 DF,  p-value: 0.002176
+ Multiple $R^2$: 0.6663,  Adjusted $R^2$: 0.6292
+ $F$-statistic: 17.97 on 1 and 9 DF,  $p$-value: 0.002176
 
  Coefficients:
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 0.02559
 0.00216
 
@@ -8951,8 +7685,8 @@ Pr(>|t|)
 4.243
 
    Residual standard error: 1.236 on 9 degrees of freedom
- Multiple R-Squared: 0.6667,  Adjusted R-squared: 0.6297
- F-statistic: 18 on 1 and 9 DF,  p-value: 0.002165
+ Multiple $R^2$: 0.6667,  Adjusted $R^2$: 0.6297
+ $F$-statistic: 18 on 1 and 9 DF,  $p$-value: 0.002165
 
 *
 **
@@ -9184,9 +7918,9 @@ the function of x that is missing from the model .
 
  For example, suppose that the true model is a straight line
 
-  Yi = E(Yi | Xi = xi) + ei = b0 + b1xi + ei
+$$Y_i = E(Y_i | X_i = x_i) + e_i = \beta_0 + \beta_1 x_i + e_i$$
 
- where   ei =    random fluctuation (or error) in   Yi    and is such that   E(ei ) = 0   and that
+ where $e_i$ = random fluctuation (or error) in $Y_i$ and is such that $E(e_i) = 0$ and that
 we fit a straight line
 
     .
@@ -9725,20 +8459,20 @@ Estimate
  0.06833
 -0.08146
 
-Std. Error  t value
+Std. Error  $t$ value
  0.108
 -0.599
 
 0.63279
 0.13595
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.919
 0.581
 
  Residual standard error: 1.55 on 4 degrees of freedom
- Multiple R-Squared: 0.08237,  Adjusted R-squared: -0.147
- F-statistic: 0.3591 on 1 and 4 DF,  p-value: 0.5813
+ Multiple $R^2$: 0.08237,  Adjusted $R^2$: -0.147
+ $F$-statistic: 0.3591 on 1 and 4 DF,  $p$-value: 0.5813
 
  Call:
  lm(formula = YGood ~ x)
@@ -9769,17 +8503,17 @@ Std. Error
 0.19640
 0.04219
 
-t value
+$t$ value
 -9.326
 -22.714
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.000736  ***
 2.23e-05  ***
 
      Residual standard error: 0.4811 on 4 degrees of freedom
- Multiple R-Squared: 0.9923,  Adjusted R-squared: 0.9904
- F-statistic: 515.9 on 1 and 4 DF,  p-value: 2.225e-05
+ Multiple $R^2$: 0.9923,  Adjusted $R^2$: 0.9904
+ $F$-statistic: 515.9 on 1 and 4 DF,  $p$-value: 2.225e-05
 
  It  is  clear  from  Figure   3.7   that   x   =  10  is  very  distant  from  the  rest  of  the   x ’s,
 which range in value from –4 to 0. Next, recall that the only difference between
@@ -10363,7 +9097,7 @@ j
   yˆi = 1 × yi + other terms ≅ yi  .
 
  In this situation, the predicted value,   yˆi  , will be close to the actual value,   yi  , no
-matter what values of the rest of the data take. Notice also that   hii   depends only on
+matter wha$t$ values of the rest of the data take. Notice also that   hii   depends only on
 the  x ’s. Thus a point of high leverage (or a leverage point) can be found by looking
 at just the values of the  x ’s and not at the values of the  y ’s.
 
@@ -10575,7 +9309,7 @@ x
 
  Coefficients:
 
-   Estimate  Std. Error  t value  Pr(>|t|)
+   Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
  (Intercept)  -1.74057
 -0.65945
@@ -10597,8 +9331,8 @@ x
 
  Residual  standard  error:  0.4096  on  3  degrees  of  freedom
 
-    Multiple R-Squared: 0.952, Adjusted R-squared: 0.9199
- F-statistic: 29.72 on 2 and 3 DF, p-value: 0.01053
+    Multiple $R^2$: 0.952, Adjusted $R^2$: 0.9199
+ $F$-statistic: 29.72 on 2 and 3 DF, $p$-value: 0.01053
 
   “Good” leverage points
 
@@ -11878,14 +10612,14 @@ e
 3.0661
  ---
  Residual standard error: 4.175 on 33 degrees of freedom
- Multiple R-Squared: 0.7516, Adjusted R-squared: 0.7441
- F-statistic: 99.87 on 1 and 33 DF, p-value: 1.645e-11
+ Multiple $R^2$: 0.7516, Adjusted $R^2$: 0.7441
+ $F$-statistic: 99.87 on 1 and 33 DF, $p$-value: 1.645e-11
 
 Std. Error
 2.8267
 0.3068
 
-t value  Pr(>|t|)
+$t$ value  $\text{Pr}(>|t|)$
 
 <2e-16 ***
 9.994  1.64e-11 ***
@@ -12129,18 +10863,18 @@ Std. Error
  ---
  Signif. codes: 0  ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘‘ 1
 
-t value
+$t$ value
 55.31
 44.67
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 
 <2e-16 ***
 <2e-16 ***
 
  Residual standard error: 1.024 on 30 degrees of freedom
- Multiple R-Squared: 0.9852, Adjusted R-squared: 0.9847
- F-statistic: 1996 on 1 and 30 DF, p-value: < 2.2e-16
+ Multiple $R^2$: 0.9852, Adjusted $R^2$: 0.9847
+ $F$-statistic: 1996 on 1 and 30 DF, $p$-value: < 2.2e-16
 
  Based  on  all  the  data,  we  found  previously  that  the  regression  coefficient  of
 CouponRate (i.e., the slope of the fitted line in Figure  3.11 ) is 3.07 while a 95%
@@ -12336,7 +11070,7 @@ quantity  measures  the  extent  to  which  the   i th  case  is  outlying  whil
 quantity measures the leverage of the  i th case. Thus, a large value of  D   i   may be due
 to a large value of  r   i  , a large value of  h   ii   or both.
 
- According to Weisberg (2005, p. 200), “… if the largest value of  D   i   is substan-
+ According to Weisberg (2005, p. 200), “… if the larges$t$ value of  D   i   is substan-
 tially less than one, deletion of a case will not change the estimate … by much”.
 Fox  (2002,  p.  198)  is  among  many  authors  who  recommend    4
 2n −     as  “a  rough
@@ -12989,7 +11723,7 @@ ance. In this section we examine methods for checking whether the assumption of
  constant  variance   of  the  errors  is  reasonable.  When  the  variance  is  found  to  be
 nonconstant, we can consider two methods for overcoming this, namely, transfor-
 mations and weighted least squares.  Ignoring nonconstant variance when it exists
-invalidates  all  inferential  tools  (i.e.,  p-values,  confidence  intervals,  prediction
+invalidates  all  inferential  tools  (i.e.,  $p$-values,  confidence  intervals,  prediction
 intervals  etc. ).
 
   Example: Developing a bid on contract cleaning
@@ -13302,7 +12036,7 @@ output from R is given below including 95% prediction intervals when  x  = 4 and
 1.7847
 3.7009
 
-Std. Error  t value  Pr(>|t|)
+Std. Error  $t$ value  $\text{Pr}(>|t|)$
 0.399
 
 2.0965
@@ -13318,8 +12052,8 @@ Std. Error  t value  Pr(>|t|)
 73
 
      Residual standard error: 7.336 on 51 degrees of freedom
- Multiple R-Squared: 0.8569, Adjusted R-squared: 0.854
- F-statistic: 305.3 on 1 and 51 DF, p-value: < 2.2e-16
+ Multiple $R^2$: 0.8569, Adjusted $R^2$: 0.854
+ $F$-statistic: 305.3 on 1 and 51 DF, $p$-value: < 2.2e-16
 
 fit
  1 16.58827
@@ -14086,7 +12820,7 @@ e
 0.2001
 1.9016
 
- Estimate  Std. Error  t value
+ Estimate  Std. Error  $t$ value
 0.726
 20.316
 
@@ -14094,13 +12828,13 @@ e
  sqrtcrews
  ---
  Residual standard error: 0.594 on 51 degrees of freedom
- Multiple R-Squared: 0.89, Adjusted R-squared: 0.8879
- F-statistic: 412.7 on 1 and 51 DF, p-value: < 2.2e-16
+ Multiple $R^2$: 0.89, Adjusted $R^2$: 0.8879
+ $F$-statistic: 412.7 on 1 and 51 DF, $p$-value: < 2.2e-16
 
 0.2758
 0.0936
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.471
 
 <2e-16 ***
@@ -14819,7 +13553,7 @@ log(Price)
 4.8029
 -5.1477
 
- Estimate  Std. Error  t value
+ Estimate  Std. Error  $t$ value
 27.53
 -10.10
 
@@ -14827,13 +13561,13 @@ log(Price)
  log(Price)
  ---
  Residual standard error: 0.4013 on 50 degrees of freedom
- Multiple R-Squared: 0.671, Adjusted R-squared: 0.6644
- F-statistic: 102 on 1 and 50 DF, p-value: 1.159e-13
+ Multiple $R^2$: 0.671, Adjusted $R^2$: 0.6644
+ $F$-statistic: 102 on 1 and 50 DF, $p$-value: 1.159e-13
  The slope   bˆ
 
 1   in the fitted model
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
   <2e-16 ***
 1.16e-13 ***
 
@@ -17347,12 +16081,12 @@ Estimate  Std. Error
  ---
      Residual standard  error:  0.05168  on  248  degrees  of  freedom
  Multiple  R-Squared:   0.9956,   Adjusted   R-squared: 0.9956
- F-statistic:  5.667e+04   on   1   and   248    DF,   p-value:   <   2.2e-16
+ $F$-statistic:  5.667e+04   on   1   and   248    DF,   $p$-value:   <   2.2e-16
 
 0.802
 238.058
 
-t value  Pr(>|t|)
+$t$ value  $\text{Pr}(>|t|)$
 0.423
 
 <2e-16 ***
@@ -19315,17 +18049,17 @@ Std. Error
 4.405493
 0.004421
 
-t value
+$t$ value
 11.12
 49.69
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 1.22e-08 ***
 <2e-16 ***
 
  Residual standard error: 10.41 on 15 degrees of freedom
- Multiple R-Squared:0.994, Adjusted  R-squared: 0.9936
- F-statistic: 2469 on 1 and 15 DF, p-value: < 2.2e-16
+ Multiple $R^2$:0.994, Adjusted  R-squared: 0.9936
+ $F$-statistic: 2469 on 1 and 15 DF, $p$-value: < 2.2e-16
 
    2.     Is the following statement true or false? If you believe that the statement is false,
 
@@ -19800,15 +18534,15 @@ Regression output from R for model (3.8)
 
  Coefficients:
 
- Estimate Std. Error t value  Pr(>|t|)
+ Estimate Std. Error $t$ value  $\text{Pr}(>|t|)$
 
  (Intercept)  12.344707
  0.006518
  Tonnage
  ---
  Residual   standard    error:   10.7 on  29   degrees   of  freedom
- Multiple R-Squared: 0.8386, Adjusted R-squared: 0.833
- F-statistic: 150.7 on 1 and 29 DF, p-value: 5.218e-13
+ Multiple $R^2$: 0.8386, Adjusted $R^2$: 0.833
+ $F$-statistic: 150.7 on 1 and 29 DF, $p$-value: 5.218e-13
 
 2.642633   4.671  6.32e-05 ***
 0.000531  12.275  5.22e-13 ***
@@ -19857,7 +18591,7 @@ df
 
  Coefficients:
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 1.18842
  (Intercept)
@@ -19872,8 +18606,8 @@ df
 11.332  3.60e-12 ***
 
  Residual standard error: 0.3034 on 29 degrees of freedom
- Multiple R-Squared: 0.8158, Adjusted R-squared: 0.8094
- F-statistic: 128.4 on 1 and 29 DF, p-value: 3.599e-12
+ Multiple $R^2$: 0.8158, Adjusted $R^2$: 0.8094
+ $F$-statistic: 128.4 on 1 and 29 DF, $p$-value: 3.599e-12
 
 i
 
@@ -20495,18 +19229,18 @@ Std. Error
 81.801381
 0.002638
 
-t value
+$t$ value
 -0.757
 412.768
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.45
 
 <2e-16 ***
 
  Residual standard error: 587 on 232 degrees of freedom
  Multiple
- F-statistic:  1.704e+05  on  1  and  232   DF,   p-value:  <  2.2e-16
+ $F$-statistic:  1.704e+05  on  1  and  232   DF,   $p$-value:  <  2.2e-16
 
 R-Squared:0.9986,  Adjusted  R-squared: 0.9986
 
@@ -20517,7 +19251,7 @@ R-Squared:0.9986,  Adjusted  R-squared: 0.9986
 
  Coefficients:
 
- Estimate  Std. Error  t value
+ Estimate  Std. Error  $t$ value
 -2.625
 0.026459
 387.942
@@ -20529,14 +19263,14 @@ R-Squared:0.9986,  Adjusted  R-squared: 0.9986
  ---
  Signif.codes:0‘***’0.001 ‘**’0.01 ‘*’0.05‘.’ 0.1 ‘‘1
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.00924 **
 
 <2e-16 ***
 
  Residual standard error: 0.01865 on 232 degrees of freedom
- Multiple R-Squared: 0.9985,
- F-statistic: 1.505e+05 on 1 and 232 DF, p-value: < 2.2e-16
+ Multiple $R^2$: 0.9985,
+ $F$-statistic: 1.505e+05 on 1 and 232 DF, $p$-value: < 2.2e-16
 
 Adjusted  R-squared: 0.9985
 
@@ -20785,7 +19519,7 @@ plot. It produces the estimate   lˆ = 0.61  . In this case, the correct transfo
 e
 +   .
 Explain why the inverse response plot fails to produce an estimated value of   l
-close to the correct value of   l   in this situation.
+close to the correc$t$ value of   l   in this situation.
 
 1
 −
@@ -20893,116 +19627,26 @@ model.
  Compare the model in Part A with that in Part B. Decide which provides a better
 model. Give reasons to justify your choice.
 
-   Chapter 4
-  Weighted Least Squares
+# Chapter 4
+## Weighted Least Squares
 
  In  Chapter  3,  we  saw  that  it  is  sometimes  possible  to  overcome  nonconstant  error
 variance by transforming  Y  and/or  X . In this chapter we consider an alternative way of
 coping with nonconstant error variance, namely weighted least squares (WLS).
 
-  4.1
+## 4.1 Straight-Line Regression Based on Weighted Least Squares
 
- Straight-Line Regression Based
-on Weighted Least Squares
+Consider the straight linear regression model
 
- Consider the straight linear regression model
+$$Y_i = \beta_0 + \beta_1 x_i + \epsilon_i$$
 
-Y
-   =
-i
+where the $\epsilon_i$ have mean 0 but variance $\sigma^2 / w_i$. When $w_i$ is very large then the variance of $\epsilon_i$ is close to 0. In this situation, the estimates of the regression parameters $\beta_0$ and $\beta_1$ should be such that the fitted line at $x_i$ should be very close to $y_i$. On the other hand, when $w_i$ is very small then the variance of $\epsilon_i$ is very large. In this situation, the estimates of the regression parameters $\beta_0$ and $\beta_1$ should take little account of the values $(x_i, y_i)$. In the extreme situation that $w_i$ is 0 then the variance of $\epsilon_i$ is equal to infinity and the $i$th case $(x_i, y_i)$ should be ignored in fitting the line: this is equivalent to deleting the $i$th case $(x_i, y_i)$ from the data and fitting the line based on the other $n - 1$ cases.
 
-b
+Thus, we need to take account of the weights $w_i$ when estimating the regression parameters $\beta_0$ and $\beta_1$. This is achieved by considering the following weighted version of the residual sum of squares
 
-0
+$$\text{WRSS} = \sum_{i=1}^n w_i(y_i - \hat{y}_i)^2 = \sum_{i=1}^n w_i(y_i - \beta_0 - \beta_1 x_i)^2$$
 
-+
-
-b
-1
-
-x
-i
-
-+
-
-e
-i
-
- where  the   e   i    have  mean  0  but  variance    s 2  / wi  .  When   w   i    is  very  large  then  the
-variance  of   e   i    is  close  to  0.  In  this  situation,  the  estimates  of  the  regression
-parameters   b0 and b1   should be such that the fitted line at  x   i   should be very close to  y   i  .
-On the other hand, when  w   i   is very small then the variance of  e   i   is very large. In this
-situation,  the  estimates  of  the  regression  parameters    b0  and  b1    should  take  little
-account of the values ( x   i  ,  y   i  ). In the extreme situation that  w   i   is 0 then the variance of
- e   i   is equal to infinity and the  i th case ( x   i  ,  y   i  ) should be ignored in fitting the line: this
-is equivalent to deleting the  i th case ( x   i  ,  y   i  ) from the data and fitting the line based
-on the other  n  – 1 cases.
-
- Thus, we need to take account of the weights  w   i   when estimating the regression
-parameters   b0 and b1  . This is achieved by considering the following weighted version
-of the residual sum of squares
-
-n
-
-n
-
-WRSS
-
-=
-
-∑
-
-i
-
-=
-
-1
-
-w y
-(
-i
-i
-
-−
-
-ˆ
-y
-Wi
-
-)
-
-∑2
-=
-
-i
-
-=
-
-1
-
-w y
-(
-i
-i
-
-−
-
-b
-0
-
-−
-
-b x
-i
-1
-
-2
-) .
-
- WRSS is such that the larger the value of  w   i   the more the  i th case ( x   i  ,  y   i  ) is taken
-into account. To obtain the weighted least squares estimates we seek the values of
- b  0  and  b   1   that minimize WRSS. For WRSS to be a minimum with respect to  b  0  and
- b   1   we require
+WRSS is such that the larger the value of $w_i$ the more the $i$th case $(x_i, y_i)$ is taken into account. To obtain the weighted least squares estimates we seek the values of $\beta_0$ and $\beta_1$ that minimize WRSS. For WRSS to be a minimum with respect to $\beta_0$ and $\beta_1$ we require
 
 S.J. Sheather, A Modern Approach to Regression with R,
 DOI: 10.1007/978-0-387-09608-7_4, © Springer Science + Business Media LLC 2009
@@ -21013,403 +19657,35 @@ DOI: 10.1007/978-0-387-09608-7_4, © Springer Science + Business Media LLC 2009
 
 4  Weighted Least Squares
 
-∂
+$$\frac{\partial \text{WRSS}}{\partial \beta_0} = -2\sum_{i=1}^n w_i(y_i - \beta_0 - \beta_1 x_i) = 0$$
 
-WRSS
-b
-0
-
-∂
-
-2
-= −
-
-n
-
-∑
-
-i
-
-=
-
-1
-
-w y
-(
-i
-i
-
-−
-
-b
-0
-
-−
-
-b x
-i
-1
-
-)
-
-=
-
-0
-
-∂
-
-WRSS
-b
-1
-
-∂
-
-2
-= −
-
-n
-
-∑
-
-i
-
-=
-
-1
-
-w x y
-i
-i
-
-(
-
-i
-
-−
-
-b
-0
-
-−
-
-b x
-i
-1
-
-)
-
-=
-
-0.
+$$\frac{\partial \text{WRSS}}{\partial \beta_1} = -2\sum_{i=1}^n w_i x_i(y_i - \beta_0 - \beta_1 x_i) = 0$$
 
  Rearranging terms in these last two equations gives
 
-n
+$$\sum_{i=1}^n w_i y_i = \beta_0 \sum_{i=1}^n w_i + \beta_1 \sum_{i=1}^n w_i x_i \quad (4.1)$$
 
-n
+$$\sum_{i=1}^n w_i x_i y_i = \beta_0 \sum_{i=1}^n w_i x_i + \beta_1 \sum_{i=1}^n w_i x_i^2 \quad (4.2)$$
 
-w y
-i
-i
+ These last two equations are called the **normal equations**. 
 
-=
+To solve for $\beta_0$ and $\beta_1$, we can use matrix notation. Let:
 
-b
-0
+$$\mathbf{w} = \begin{pmatrix} w_1 \\ w_2 \\ \vdots \\ w_n \end{pmatrix}, \quad \mathbf{y} = \begin{pmatrix} y_1 \\ y_2 \\ \vdots \\ y_n \end{pmatrix}, \quad \mathbf{X} = \begin{pmatrix} 1 & x_1 \\ 1 & x_2 \\ \vdots & \vdots \\ 1 & x_n \end{pmatrix}$$
 
-∑
+Then the weighted least squares estimates are given by:
 
-i
+$$\hat{\boldsymbol{\beta}} = (\mathbf{X}^T \mathbf{W} \mathbf{X})^{-1} \mathbf{X}^T \mathbf{W} \mathbf{y}$$
 
-=
+where $\mathbf{W} = \text{diag}(w_1, w_2, \ldots, w_n)$ is the diagonal matrix of weights.
 
-1
+Alternatively, we can solve these normal equations directly to get the weighted least squares estimates:
 
-∑
+$$\hat{\beta}_{1W} = \frac{\sum_{i=1}^n w_i x_i y_i \sum_{i=1}^n w_i - \sum_{i=1}^n w_i x_i \sum_{i=1}^n w_i y_i}{\sum_{i=1}^n w_i x_i^2 \sum_{i=1}^n w_i - \left(\sum_{i=1}^n w_i x_i\right)^2}$$
 
-i
+$$\hat{\beta}_{0W} = \frac{\sum_{i=1}^n w_i y_i}{\sum_{i=1}^n w_i} - \hat{\beta}_{1W} \frac{\sum_{i=1}^n w_i x_i}{\sum_{i=1}^n w_i}$$
 
-=
-
-1
-
-w b
-+
-i
-1
-
-n
-
-∑
-w x
-i
-i
-
-i
-
-=
-
-1
-
-n
-
-n
-
-n
-
-∑
-
-i
-
-=
-
-1
-
-w x y
-i
-i
-i
-
-=
-
-b
-0
-
-w x
-i
-i
-
-+
-
-b
-1
-
-∑
-
-i
-
-=
-
-1
-
-∑
-
-i
-
-=
-
-1
-
-2
-w x
-i
-i
-
-(4.1)
-
-(4.2)
-
- These  last  two  equations  are  called  the   normal  equations .  Multiplying  equation
-n
-
-n
-
-(4.1) by
-
-∑    and equation (4.2) by
-
-w x
-i
-i
-
-∑    gives
-
-w
-i
-
-i
-
-=
-
-1
-
-i
-
-=
-
-1
-
-n
-
-n
-
-n
-
-n
-
-∑ ∑
-w x
-i
-i
-
-i
-
-=
-
-1
-
-i
-
-=
-
-1
-
-w y
-i
-i
-
-=
-
-b
-0
-
-∑ ∑
-w
-i
-
-i
-
-=
-
-1
-
-i
-
-=
-
-1
-
-w x
-i
-i
-
-⎛
-b
-+ ⎜
-1
-⎝
-
-n
-
-∑
-
-i
-
-=
-
-1
-
-w x
-i
-i
-
-2
-
-⎞
-⎟
-⎠
-
-and
-
-n
-
-n
-
-n
-
-n
-
-n
-
-n
-
-∑ ∑
-w
-i
-
-i
-
-=
-
-1
-
-i
-
-=
-
-1
-
-w x y
-i
-i
-i
-
-=
-
-b
-0
-
-∑ ∑
-w
-i
-
-i
-
-=
-
-1
-
-i
-
-=
-
-1
-
-w x
-i
-i
-
-+
-
-b
-1
-
-∑ ∑
-w
-i
-
-i
-
-=
-
-1
-
-i
-
-=
-
-1
-
-w x
-i
-
-2
-i
-
-.
-
- Subtracting the first equation from the second and solving for  b   1   gives the so-called
- weighted least squares estimate  of the slope
+These estimates can also be expressed in terms of **weighted sample means**:
 
 n
 
@@ -21812,7 +20088,7 @@ Max
 
 3Q
 
- Estimate  Std. Error  t value
+ Estimate  Std. Error  $t$ value
 0.725
 21.400
 
@@ -21822,7 +20098,7 @@ Max
  ---
  Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘’ 1
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
  0.471
 <2e-16  ***
 
@@ -21830,8 +20106,8 @@ Pr(>|t|)
 0.1788
 
  Residual standard error: 0.9648 on 51 degrees of freedom
- Multiple R-Squared: 0.8998, Adjusted R-squared: 0.8978
- F-statistic: 458 on 1 and 51 DF, p-value: < 2.2e-16
+ Multiple $R^2$: 0.8998, Adjusted $R^2$: 0.8978
+ $F$-statistic: 458 on 1 and 51 DF, $p$-value: < 2.2e-16
 
  fit
 
@@ -22703,7 +20979,7 @@ Max
 
  Coefficients:
 
-     Estimate Std.  Error  t value
+     Estimate Std.  Error  $t$ value
 0.725
 21.400
 
@@ -22712,7 +20988,7 @@ Max
  ---
  Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘’ 1
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.471
 
 1.1158
@@ -22724,8 +21000,8 @@ Pr(>|t|)
 <2e-16 ***
 
  Residual standard error: 0.9648 on 51 degrees of freedom
- Multiple R-Squared: 0.9617, Adjusted R-squared: 0.9602
- F-statistic: 639.6 on 2 and 51 DF, p-value: < 2.2e-16
+ Multiple $R^2$: 0.9617, Adjusted $R^2$: 0.9602
+ $F$-statistic: 639.6 on 2 and 51 DF, $p$-value: < 2.2e-16
 
  1
  2
@@ -23274,8 +21550,8 @@ e
    (b)     Explain why (4.6) is not a valid regression model.
    (c)     Describe what steps you would take to obtain a valid regression model (Figure  4.1 ).
 
-   Chapter 5
- Multiple Linear Regression
+# Chapter 5
+## Multiple Linear Regression
 
  It is common for more than one factor to influence an outcome. Fitting regression
 models to data involving two or more predictors is one of the most widely used sta-
@@ -23285,13 +21561,11 @@ predictor variables  x  1 ,  x  2 ,  x  3 , etc. Throughout Chapter 5, we will a
 tiple linear regression model under consideration is a valid model for the data. In the
 next chapter we will consider a series of tools to check model validity.
 
-  5.1  Polynomial Regression
+## 5.1 Polynomial Regression
 
- We begin this chapter by looking at an important special case of multiple regres-
-sion, known as polynomial regression. In this case the predictors are a single pre-
-dictor,  x , and its polynomial powers ( x  2 ,  x  3 , etc.). In polynomial regression, we can
-display the results of our multiple regression on a single two-dimensional graph.
-  Example: Modeling salary from years of experience
+We begin this chapter by looking at an important special case of multiple regression, known as polynomial regression. In this case the predictors are a single predictor, $x$, and its polynomial powers ($x^2$, $x^3$, etc.). In polynomial regression, we can display the results of our multiple regression on a single two-dimensional graph.
+
+### Example: Modeling salary from years of experience
 
  This example is taken from Tryfos (1998, pp. 5–7). According to Tryfos:
 
@@ -23304,10 +21578,7 @@ given number of years experience. It is of considerable interest to members of t
 who like to know where they stand among their peers. It is also valuable to personnel depart-
 ments of businesses considering salary adjustments or intending to hire new professionals.
 
- We want to develop a regression equation to model the relationship between  Y ,
-salary (in thousands of dollars) and  x , the number of years of experience and find a
-95% prediction interval for  Y  when  x  = 10. The 143 data points are plotted in Figure
- 5.1  and can be found on the book web site in the file profsalary.txt.
+We want to develop a regression equation to model the relationship between $Y$, salary (in thousands of dollars) and $x$, the number of years of experience and find a 95% prediction interval for $Y$ when $x = 10$. The 143 data points are plotted in Figure 5.1 and can be found on the book web site in the file profsalary.txt.
 
  It is clear from Figure  5.1  that the relationship between salary and years of experi-
 ence is nonlinear. For illustrative purposes we will start by fitting a simple linear model
@@ -23869,7 +22140,7 @@ Experience
 I(Experience^2)  -0.053316
 ---
 
-Std. Error  t value
+Std. Error  $t$ value
 41.90
 30.01
 -21.53
@@ -23878,7 +22149,7 @@ Std. Error  t value
 0.095697
 0.002477
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 
 <2e-16 ***
 <2e-16 ***
@@ -23889,8 +22160,8 @@ Pr(>|t|)
 5  Multiple Linear Regression
 
 Residual standard error: 2.817 on 140 degrees of freedom
-Multiple R-Squared: 0.9247,  Adjusted R-squared:0.9236
-F-statistic: 859.3 on 2 and 140 DF,  p-value:< 2.2e-16
+Multiple $R^2$: 0.9247,  Adjusted $R^2$:0.9236
+$F$-statistic: 859.3 on 2 and 140 DF,  $p$-value:< 2.2e-16
 
 upr
 [1,]  58.11164  52.50481  63.71847
@@ -26506,7 +24777,7 @@ H0 : b1 = b2 = … = bk = 0 where k < p
 under the full model (i.e., the model which includes all the predictors, i.e.,  H   A  ) and
 RSS(Reduced) be the residual sum of squares under the reduced model (i.e., the
 model which includes only the predictors thought to be non-zero, i.e.,  H  0 ). Then the
-F-statistic is given by
+$F$-statistic is given by
 
 f
 
@@ -26676,7 +24947,7 @@ Food
 1.910087
 Decor
 
-Std. Error  t value  Pr(>|t|)
+Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 4.708359
 0.368951
@@ -26701,8 +24972,8 @@ East
 ---
 Signif.  codes:  ‘***’  0.001  ‘**’  0.01  ‘*’ 0.05 ‘.’0.1  ‘ ‘ 1
 Residual standard error: 5.738 on 163 degrees of freedom
-Multiple R-Squared: 0.6279, Adjusted R-squared:0.6187
-F-statistic: 68.76 on 4 and 163 DF, p-value: <2.2e-16
+Multiple $R^2$: 0.6279, Adjusted $R^2$:0.6187
+$F$-statistic: 68.76 on 4 and 163 DF, $p$-value: <2.2e-16
 
 0.9945
 0.0304  *
@@ -26750,7 +25021,7 @@ Food
 
 Decor  + East)
 
-Std. Error  t value  Pr(>|t|)
+Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 Estimate
 -24.0269
@@ -26770,9 +25041,9 @@ East
 ---
 Signif.  codes:  0  ‘***’ 0.001  ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘  ‘ 1
 Residual standard error: 5.72 on 164 degrees of freedom
-Multiple R-Squared:
+Multiple $R^2$:
 0.6279,  Adjusted  R-squared:0.6211
-F-statistic:  92.24  on  3  and  164  DF, p-value:  < 2.2e-16
+$F$-statistic:  92.24  on  3  and  164  DF, $p$-value:  < 2.2e-16
 
 -5.142  7.67e-07  ***
 5.838  2.76e-08  ***
@@ -27183,7 +25454,7 @@ C
 40.4461
 Age:C
 
-Std. Error  t value  Pr(>|t|)
+Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 8.6011
 0.1878
@@ -27202,11 +25473,11 @@ Std. Error  t value  Pr(>|t|)
 
 Residual standard error: 47.63 on 921 degrees of freedom
 Multiple  R-Squared:
-F-statistic:  7379  on  3  and  921
+$F$-statistic:  7379  on  3  and  921
 
-0.9601,  Adjusted R-squared:0.9599
+0.9601,  Adjusted $R^2$:0.9599
 
-DF,  p-value:<2.2e-16
+DF,  $p$-value:<2.2e-16
 
 142
 
@@ -28379,14 +26650,14 @@ Estimate
 957.9103
 -1.1140
 
-Std. Error  t value  Pr(>|t|)
+Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 (Intercept)
 Age
 ---
 Residual standard error: 237.7 on 923 degrees of freedom
-Multiple R-Squared: 0.002913, Adjusted R-squared: 0.001833
-F-statistic: 2.697 on 1 and 923 DF, p-value: 0.1009
+Multiple $R^2$: 0.002913, Adjusted $R^2$: 0.001833
+$F$-statistic: 2.697 on 1 and 923 DF, $p$-value: 0.1009
 
 31.3056
 0.6784
@@ -28402,7 +26673,7 @@ F-statistic: 2.697 on 1 and 923 DF, p-value: 0.1009
 of squares under the full model (i.e., the model which includes all the predictors,
 i.e.,  H   A  ) and RSS(Reduced) be the residual sum of squares under the reduced model
 (i.e., the model which includes only the predictors thought to be nonzero, i.e.,  H  0 ).
-Then the F-statistic is given by
+Then the $F$-statistic is given by
 
 F
 
@@ -28430,7 +26701,7 @@ RSS(full) df
 
 full
 
- Given below is the output from R associated with this F-statistic:
+ Given below is the output from R associated with this $F$-statistic:
 
 144
 
@@ -28452,7 +26723,7 @@ Sum of Sq
 
 F
 
-Pr(>F)
+$\text{Pr}(>F)$
 
 923  52158945
 921
@@ -28622,7 +26893,7 @@ lm(formula = Price ~ Food + Decor + Service + East +
 Food:East + Decor:East + Service:East)
 Coefficients:
 
-Estimate   Std. Error   t value    Pr(>|t|)
+Estimate   Std. Error   $t$ value    $\text{Pr}(>|t|)$
 
 8.4672
 0.5704
@@ -28650,8 +26921,8 @@ Service:East  -1.2719
 ---
 Signif.  codes:  0 ‘***’ 0.001  ‘**’ 0.01 ‘*’ 0.05  ‘.’0.1  ‘ ‘  1
 Residual standard error: 5.713 on 160 degrees of freedom
-Multiple R-Squared: 0.6379,     Adjusted R-squared:0.622
-F-statistic: 40.27 on 7 and 160 DF, p-value: <2.2e-16
+Multiple $R^2$: 0.6379,     Adjusted $R^2$:0.622
+$F$-statistic: 40.27 on 7 and 160 DF, $p$-value: <2.2e-16
 
 0.00172
 0.07946
@@ -28774,7 +27045,7 @@ appears next.
 lm(formula = Price ~ Food + Decor + East)
 Coefficients:
 
-Estimate  Std. Error  t value  Pr(>|t|)
+Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 (Intercept)  -24.0269
 1.5363
@@ -28785,8 +27056,8 @@ Decor
 East
 ---
 Residual standard error: 5.72 on 164 degrees of freedom
-Multiple R-Squared: 0.6279, Adjusted R-squared:0.6211
-F-statistic: 92.24 on 3 and 164 DF,  p-value:<2.2e-16
+Multiple $R^2$: 0.6279, Adjusted $R^2$:0.6211
+$F$-statistic: 92.24 on 3 and 164 DF,  $p$-value:<2.2e-16
 
 -5.142  7.67e-07  ***
 5.838  2.76e-08  ***
@@ -28828,7 +27099,7 @@ RSS(full) df
 
 full
 
- Given below is the output from R associated with this F-statistic:
+ Given below is the output from R associated with this $F$-statistic:
 
   Regression output from R
 
@@ -28848,7 +27119,7 @@ RSS  Df  Sum of Sq
 
 1.1057
 
-Pr(>F)
+$\text{Pr}(>F)$
 
 0.3558
 
@@ -29021,7 +27292,7 @@ lm(formula = Quality ~ EndofHarvest + Rain +
 Rain:EndofHarvest)
 Coefficients:
 
-Estimate  Std. Error  t value  Pr(>|t|)
+Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 5.16122
 (Intercept)
@@ -29033,8 +27304,8 @@ EndofHarvest:Rain  -0.08314
 ---
 Residual  standard  error:  0.7578  on  40 degrees  of freedom
 Multiple  R-Squared:  0.6848,
-Adjusted R-squared: 0.6612
-F-statistic:  28.97 on 3 and
+Adjusted $R^2$: 0.6612
+$F$-statistic:  28.97 on 3 and
 
 0.68917
 0.01760
@@ -29045,7 +27316,7 @@ F-statistic:  28.97 on 3 and
 0.1826
 0.0120 *
 
-40 DF, p-value: 4.017e-10
+40 DF, $p$-value: 4.017e-10
 
 -1.787
 1.356
@@ -29106,7 +27377,7 @@ Call:
 lm(formula = Quality ~ EndofHarvest + Rain)
 Coefficients:
 
-Estimate  Std. Error  t value  Pr(>|t|)
+Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 (Intercept)
 6.14633
@@ -29115,8 +27386,8 @@ EndofHarvest  -0.05723
 Rain
 ---
 Residual standard error: 0.8107 on 41 degrees of freedom
-Multiple R-Squared: 0.6303,
-F-statistic: 34.95 on 2 and 41 DF,  p-value: 1.383e-09
+Multiple $R^2$: 0.6303,
+$F$-statistic: 34.95 on 2 and 41 DF,  $p$-value: 1.383e-09
 
 9.930  1.80e-12  ***
 -3.660  0.000713  ***
@@ -29126,7 +27397,7 @@ F-statistic: 34.95 on 2 and 41 DF,  p-value: 1.383e-09
 0.01564
 0.25478
 
-Adjusted R-squared: 0.6123
+Adjusted $R^2$: 0.6123
 
 Analysis of Variance Table
 Model 1: Quality ~ EndofHarvest + Rain
@@ -29138,7 +27409,7 @@ RSS  Df  Sum of Sq
 
 F
 
-Pr(>F)
+$\text{Pr}(>F)$
 
 1
 2
@@ -29152,9 +27423,8 @@ Pr(>F)
 
 6.9218  0.01203  *
 
-   Chapter 6
-  Diagnostics and Transformations for Multiple
-Linear Regression
+# Chapter 6
+## Diagnostics and Transformations for Multiple Linear Regression
 
  In the previous chapter we studied multiple linear regression. Throughout Chapter 5,
 we  assumed  that  the  multiple  linear  regression  model  was  a  valid  model  for  the
@@ -29996,55 +28266,11 @@ ii
 
 ]
 
- where   hii   is the  i th diagonal element of  H . Thus, the  i th  standardized residual ,  r   i   is
-given by
+ where $h_{ii}$ is the $i$th diagonal element of $\mathbf{H}$. Thus, the $i$th **standardized residual**, $r_i$ is given by
 
-r
-i
+$$r_i = \frac{e_i}{\hat{\sigma}\sqrt{1-h_{ii}}}$$
 
-=
-
-s
-
-ˆ
-e
-i
-−
-
-1
-
-h
-ii
-
-n
-
-+ ∑   is the usual estimate of   s   .
-1)
-
-ˆ
-e
-
-2
-j
-
-j
-
-=
-
-1
-
-s
- where
-
-=
-
-1
-p
-(
-
-n
-
-−
+where $\hat{\sigma} = \sqrt{\frac{1}{n-p-1} \sum_{j=1}^{n} \hat{e}_j^2}$ is the usual estimate of $\sigma$.
 
  We shall follow the common practice of labelling points as  outliers  in small to
 moderate size data sets if the standardized residual for the point falls outside the
@@ -30139,82 +28365,9 @@ conditions hold:
 
  and
 
-E(
+$$E(Y|\mathbf{X} = \mathbf{x}) = g(\beta_0 + \beta_1 x_1 + \beta_2 x_2 + \ldots + \beta_p x_p) \qquad (6.6)$$
 
-Y X x
-
-=
-
-|
-
-)
-
-=
-
-g
-
-(
-
-b
-
-0
-
-+
-
-b
-
-x
-1 1
-
-+
-
-b
-
-x
-2 2
-
-...
-+ +
-
-b
-
-x
-
-p
-
-)
-
-p
-
-E(
-
-X X
-|
-i
-
-j
-
-)
-
-≈
-
-a
-
-0
-
-+
-
-a
-
-1
-
-X
-
-j
-
- (6.6)
-
- (6.7)
+$$E(X_i|X_j) \approx \alpha_0 + \alpha_1 X_j \qquad (6.7)$$
 
 156
 
@@ -30244,44 +28397,7 @@ more work than would otherwise be necessary.
  To understand how (6.7) affects the interpretability of residual plots we shall consider
 the following stylized situation in which the true model is
 
-y
-i
-
-=
-
-b
-
-0
-
-+
-
-b
-
-x
-i
-1 1
-
-+
-
-b
-
-x
-2 2
-
-i
-
-+
-
-b
-
-x
-3 3
-
-i
-
-e
-+
-i
+$$y_i = \beta_0 + \beta_1 x_{i1} + \beta_2 x_{i2} + \beta_3 x_{i3} + e_i$$
 
  and that  x   1   and  x   3   and  x   2   and  x   3   are nonlinearly related (i.e., that (6.7) does not hold).
 Suppose that we fit a model without the predictor  x  3  and obtain the following least
@@ -34097,7 +32213,7 @@ Regression Output from R from model (6.15)
 
  Coefficients:
 
- Estimate  Std. Error t value  Pr(>|t|)
+ Estimate  Std. Error $t$ value  $\text{Pr}(>|t|)$
 0.2978
 0.0259  *
 0.0218  *
@@ -34111,8 +32227,8 @@ Regression Output from R from model (6.15)
 0.01290
  ---
  Residual standard error: 0.5677 on 26 degrees of freedom
- Multiple R-Squared: 0.943,      Adjusted R-squared: 0.9365
- F-statistic: 143.5 on 3 and 26 DF,  p-value: 2.713e-16
+ Multiple $R^2$: 0.943,      Adjusted $R^2$: 0.9365
+ $F$-statistic: 143.5 on 3 and 26 DF,  $p$-value: 2.713e-16
 
 1.062
 5.26401
@@ -34143,183 +32259,15 @@ bottom left-hand plot of Figure  6.18 .
 formations of these variables are desirable, the following two alternative approaches
 are suggested by Cook and Weisberg (1999b , p. 329):
 
-  Approach 1:
+  **Approach 1:**
 
-,
+   1. Transform $X_1, X_2, \ldots, X_p$ so that the distribution of the transformed versions $\Psi_S(x_1, \lambda_1), \Psi_S(x_2, \lambda_2), \ldots, \Psi_S(x_p, \lambda_p)$ are as jointly normal as possible. The multivariate version of the Box-Cox transformation procedure is one way to do this.
 
-(
+   2. Having transformed $X_1, X_2, \ldots, X_p$ to $\Psi_S(x_1, \lambda_1), \Psi_S(x_2, \lambda_2), \ldots, \Psi_S(x_p, \lambda_p)$, consider a multivariate linear regression model of the form:
 
-l
+$$Y = g(\beta_0 + \beta_1 \Psi_S(x_1, \lambda_1) + \beta_2 \Psi_S(x_2, \lambda_2) + \ldots + \beta_p \Psi_S(x_p, \lambda_p) + e)$$
 
-),
-
-x
-1
-
-Ψ
-S
-
-    1.     Transform   X  1 ,   X  2 ,  …,   X   p    so  that  the  distribution  of  the  transformed  versions
-)
- are as jointly normal as possible. The mul-
-Ψ
-S
-tivariate version of the Box-Cox transformation procedure is one way to do this.
-  ,
-)
-
-   2.     Having  transformed   X  1 ,   X  2 ,  …,   X   p    to
-
-,
-2
-      consider a multivariate linear regression model of the form
-
-…Ψ
-S
-
-…Ψ
-S
-
-Ψ
-S
-
-Ψ
-S
-
-x
-1
-
-),
-
-),
-
-),
-
-l
-
-l
-
-l
-
-l
-
-l
-
-x
-
-x
-
-x
-
-x
-
-X
-1
-
-X
-1
-
-(
-
-(
-
-(
-
-(
-
-(
-
-,
-
-,
-
-,
-
-,
-
-X
-
-X
-
-X
-
-X
-
-p
-
-p
-
-2
-
-p
-
-2
-
-p
-
-2
-
-Y
-
-=
-
-g
-
-(
-
-b
-
-0
-
-b
-+ Ψ
-S
-1
-
-(
-
-x
-1
-
-,
-
-l
-
-)
-
-X
-1
-
-+ …+ Ψ
-S
-
-b
-
-p
-
-(
-
-x
-
-p
-
-,
-
-l
-
-X
-
-p
-
-)
-
-+
-
-e
-
-).
-
-   Then use an inverse response plot to decide on the transformation,  g  –1  for  Y .
+   Then use an inverse response plot to decide on the transformation, $g^{-1}$ for $Y$.
 
 Added−Variable Plot
 
@@ -34530,42 +32478,10 @@ p.value
 1100.018626  3  0.00000000
 
  Using the Box-Cox method to transform the predictor variables toward normality,
-results values of l close to 0. Thus, we shall log transform all three predictors and
+results values of $\lambda$ close to 0. Thus, we shall log transform all three predictors and
 consider a model of the form
 
-AdRevenue
-g
-
-b
-
-(
-
-+
-
-b
-1
-
-0
-
-=
-
-log(AdPages)+ log(SubRevenue) +
-
-b
-
-b
-
-2
-
-log(NewsRevenue)
-
-+
-
-e
-
-)
-
-3
+$$g(\text{AdRevenue}) = \beta_0 + \beta_1 \log(\text{AdPages}) + \beta_2 \log(\text{SubRevenue}) + \beta_3 \log(\text{NewsRevenue}) + e$$
 
 178
 
@@ -34621,25 +32537,9 @@ NewsRevenue
 
   A scatter plot matrix of the data in file magazines.csv
 
- and seek to find  g  –1  using an inverse response plot, since,
+ and seek to find $g^{-1}$ using an inverse response plot, since,
 
-1
-−
-
-g
-
-(AdRevenue)
-
-=
-
-b
-
-0
-
-log(AdPages)+ log(SubRevenue)
-2
-
-b
+$$g^{-1}(\text{AdRevenue}) = \beta_0 + \beta_1 \log(\text{AdPages}) + \beta_2 \log(\text{SubRevenue}) + \beta_3 \log(\text{NewsRevenue}) + e$$
 
 b
 1
@@ -34906,47 +32806,7 @@ s
 a
 u
 d
-s
-e
-R
-d
-e
-z
-d
-r
-a
-d
-n
-a
-t
-S
-
-i
-
-i
-
-l
-
-s
-a
-u
-d
-s
-e
-R
-d
-e
-z
-d
-r
-a
-d
-n
-a
-t
-S
-
-i
+Standardized Residuals
 
 5.5
 
@@ -34976,36 +32836,7 @@ log(AdPages)
 
 −3
 
-l
-
-i
-
-s
-a
-u
-d
-s
-e
-R
-d
-e
-z
-d
-r
-a
-d
-n
-a
-t
-S
-
-i
-
-i
-
-l
-
-s
+Standardized Residuals
 a
 u
 d
@@ -35140,30 +32971,7 @@ Residuals vs Fitted
 
 97
 
-l
-
-i
-
-s
-a
-u
-d
-s
-e
-R
-d
-e
-z
-d
-r
-a
-d
-n
-a
-t
-S
-
-i
+Standardized Residuals
 
 Normal Q−Q
 
@@ -35320,24 +33128,7 @@ Leverage
  Figure  6.26  shows the diagnostic plots provided by R for model (6.16). These
 plots further confirm that model (6.16) is a valid model for the data. The dashed
 vertical line in the bottom right-hand plot of Figure  6.26  is the usual cut-off for declar-
-ing a point of high leverage (i.e.,    2(
-1) /
-). Thus, there is a bad
-leverage point (i.e., case 199) that requires further investigation.
-
-8 / 204
-
-0.039
-
-=
-
-=
-
-+
-
-p
-
-n
+ing a point of high leverage (i.e., $2(p+1)/n = 8/204 = 0.039$). Thus, there is a bad leverage point (i.e., case 199) that requires further investigation.
 
  Given  below  is  the  output  from  R  associated  with  fitting  model  (6.16).    The
 variable  log(NewsRevenue)  is  not  statistically  significant,  while  the  other  two
@@ -35405,30 +33196,7 @@ l
 
 log(AdPages) | Others
 
-s
-r
-e
-h
-t
-o
-
-|
-
-)
-e
-u
-n
-e
-v
-e
-R
-d
-A
-(
-g
-o
-
-l
+log(AdRevenue)|Others
 
 1.0
 
@@ -35451,30 +33219,7 @@ log(SubRevenue) | Others
 
 −1.0
 
-s
-r
-e
-h
-t
-o
-
-|
-
-)
-e
-u
-n
-e
-v
-e
-R
-d
-A
-(
-g
-o
-
-l
+log(AdRevenue)|Others
 
 Added−Variable Plot
 
@@ -35501,7 +33246,7 @@ log(NewsRevenue) | Others
 log(NewsRevenue))
  Coefficients:
 
- Estimate  Std. Error t value  Pr(>|t|)
+ Estimate  Std. Error $t$ value  $\text{Pr}(>|t|)$
 -2.02894
  (Intercept)
 1.02918
@@ -35511,9 +33256,9 @@ log(NewsRevenue))
  log(NewsRevenue)  0.04109
  ---
  Residual standard error: 0.4483 on 200 degrees of freedom
- Multiple R-Squared: 0.8326,
-Adjusted R-squared: 0.8301
- F-statistic: 331.6 on 3 and 200 DF, p-value: < 2.2e-16
+ Multiple $R^2$: 0.8326,
+Adjusted $R^2$: 0.8301
+ $F$-statistic: 331.6 on 3 and 200 DF, $p$-value: < 2.2e-16
 
 0.41407  -4.900  1.98e-06  ***
 0.05564  18.497  < 2e-16  ***
@@ -36255,7 +34000,7 @@ Competitor)
 
  Coefficients:
 
- Estimate  Std. Error t value  Pr(>|t|)
+ Estimate  Std. Error $t$ value  $\text{Pr}(>|t|)$
 0.206
 -0.44730
 1.06133
@@ -36270,9 +34015,9 @@ a.Serious.
 Competitor
  ---
  Residual standard error: 0.1392 on 86 degrees of freedom
- Multiple R-Squared: 0.9427,
-Adjusted R-squared: 0.9413
- F-statistic: 706.8 on 2 and 86 DF, p-value: < 2.2e-16 ---
+ Multiple $R^2$: 0.9427,
+Adjusted $R^2$: 0.9413
+ $F$-statistic: 706.8 on 2 and 86 DF, $p$-value: < 2.2e-16 ---
 Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 
 0.06800  -7.814  1.26e-11  ***
@@ -38690,7 +36435,7 @@ log(Length) + log(Spans))
 
  Coefficients:
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 2.28590
 -0.04564
@@ -38707,8 +36452,8 @@ log(Length) + log(Spans))
  log(Spans)
  ---
  Residual standard error: 0.3139 on 39 degrees of freedom
- Multiple R-Squared: 0.7762,  Adjusted R-squared: 0.7475
- F-statistic: 27.05 on 5 and 39 DF,  p-value: 1.043e-11
+ Multiple $R^2$: 0.7762,  Adjusted $R^2$: 0.7475
+ $F$-statistic: 27.05 on 5 and 39 DF,  $p$-value: 1.043e-11
 
 0.61926
 0.12675
@@ -38732,7 +36477,7 @@ log(Length) + log(Spans))
 0.10835
 
  Notice  that  while  the  overall  F-test  for  model  (6.28)  is  highly  statistically
-significant (i.e., has a very small p-value), only one of the estimated regression
+significant (i.e., has a very small $p$-value), only one of the estimated regression
 
 6.4  Multicollinearity
 
@@ -38906,7 +36651,7 @@ Fitted Values
 
   Marginal model plots for model (6.28)
 
-coefficients is statistically significant (i.e., log(Dwgs) with a p-value < 0.001).
+coefficients is statistically significant (i.e., log(Dwgs) with a $p$-value < 0.001).
 Even  more  troubling  is  the  fact  that  the  estimated  regression  coefficients  for
 log(DArea) and log(Length) are of the wrong sign (i.e., negative), since longer
 bridges  or  bridges  with  larger  area  should  take  a  longer  rather  than  a  shorter
@@ -40088,7 +37833,7 @@ Points)  +  P95andAbove  +  FirstGrowth  +  CultWine  +  Pomerol  +
 VintageSuperstar)
  Coefficients:
 
-  Estimate  Std. Error  t value  Pr(>|t|)
+  Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
  (Intercept)
 -51.14156
  log(ParkerPoints)  11.58862
@@ -40106,8 +37851,8 @@ VintageSuperstar)
 0.61590
  ---
  Residual standard error: 0.2883 on 64 degrees of freedom
- Multiple R-Squared: 0.9278,  Adjusted R-squared: 0.9199
- F-statistic: 117.5 on 7 and 64 DF,  p-value: < 2.2e-16
+ Multiple $R^2$: 0.9278,  Adjusted $R^2$: 0.9199
+ $F$-statistic: 117.5 on 7 and 64 DF,  $p$-value: < 2.2e-16
 
 -5.692  3.39e-07  ***
 5.605  4.74e-07  ***
@@ -40609,7 +38354,7 @@ Regression output from R
 10.073  6.66e-15  ***
 1.26915
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 6.5  Case Study: Effect of Wine Critics' Ratings on Prices of Bordeaux Wines
 
@@ -40629,8 +38374,8 @@ Regression output from R
  ---
  Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ‘ 1
  Residual standard error: 0.2873 on 65 degrees of freedom
- Multiple R-Squared: 0.9272,  Adjusted R-squared: 0.9205
- F-statistic: 138 on 6 and 65 DF,  p-value: < 2.2e-16
+ Multiple $R^2$: 0.9272,  Adjusted $R^2$: 0.9205
+ $F$-statistic: 138 on 6 and 65 DF,  $p$-value: < 2.2e-16
 
 0.60898
  0.12430
@@ -40670,7 +38415,7 @@ VintageSuperstar
 
 RSS  Df  Sum of Sq
 
-F  Pr(>F)
+F  $\text{Pr}(>F)$
 
    Res.Df
  1
@@ -40878,7 +38623,7 @@ Regression output from R
 
  Coefficients:
 
- Estimate  Std. Error   t value  Pr(>|t|)
+ Estimate  Std. Error   $t$ value  $\text{Pr}(>|t|)$
 
 4.3293
 3.6585
@@ -40887,8 +38632,8 @@ Regression output from R
  Storks
  ---
  Residual standard error: 5.451 on 52 degrees of freedom
- Multiple R-Squared: 0.6807,  Adjusted R-squared: 0.6745
- F-statistic: 110.8 on 1 and 52 DF,  p-value: 1.707e-14
+ Multiple $R^2$: 0.6807,  Adjusted $R^2$: 0.6745
+ $F$-statistic: 110.8 on 1 and 52 DF,  $p$-value: 1.707e-14
 
  2.3225
 0.3475
@@ -41078,10 +38823,10 @@ Std. Error
  Storks
  ---
  Residual standard error: 4.201 on 51 degrees of freedom
- Multiple R-Squared: 0.814,  Adjusted R-squared: 0.8067
- F-statistic: 111.6 on 2 and 51 DF,  p-value: < 2.2e-16
+ Multiple $R^2$: 0.814,  Adjusted $R^2$: 0.8067
+ $F$-statistic: 111.6 on 2 and 51 DF,  $p$-value: < 2.2e-16
 
-t value  Pr(>|t|)
+$t$ value  $\text{Pr}(>|t|)$
 
 4.948  8.56e-06  ***
 6.045  1.74e-07  ***
@@ -41682,7 +39427,7 @@ of manufacturer on suggested retail price.
  Cylinders
  Horsepower
 
-Estimate  Std. Error  t value  Pr(>|t|)
+Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 -68965.793
 -6957.457
@@ -41726,8 +39471,8 @@ Estimate  Std. Error  t value  Pr(>|t|)
 0.071  0.943562
 
  Residual standard error: 7533 on 226 degrees of freedom
- Multiple R-squared:0.7819,  Adjusted R-squared: 0.7751
- F-statistic: 115.7 on 7 and 226 DF,  p-value: < 2.2e-16
+ Multiple R-squared:0.7819,  Adjusted $R^2$: 0.7751
+ $F$-statistic: 115.7 on 7 and 226 DF,  $p$-value: < 2.2e-16
 
  box.cox Transformations to Multinormality
 
@@ -42008,7 +39753,7 @@ Std. Error
 4.872e+01
 1.866e-01
 
-t value  Pr(>|t|)
+$t$ value  $\text{Pr}(>|t|)$
 
 8.168  2.22e-14  ***
 -6.703  1.61e-10  ***
@@ -42302,8 +40047,8 @@ Leverage
   Diagnostic plots from model (6.37)
 
 Residual standard error: 0.1724 on 226 degrees of freedom
-Multiple R-Squared: 0.872,  Adjusted R-squared: 0.868
-F-statistic: 219.9 on 7 and 226 DF,  p-value: < 2.2e-16
+Multiple $R^2$: 0.872,  Adjusted $R^2$: 0.868
+$F$-statistic: 219.9 on 7 and 226 DF,  $p$-value: < 2.2e-16
 
  Output from R for model (6.37)
 
@@ -42334,7 +40079,7 @@ Hybrid
 + tCylinders + tHorsepower + Weight + Hybrid)
  Coefficients:
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
  (Intercept)
 5.422e+00
@@ -42367,8 +40112,8 @@ Hybrid
  Hybrid
 ---
  Residual standard error: 0.1781 on 228 degrees of freedom
- Multiple R-squared: 0.862,  Adjusted R-squared: 0.859
- F-statistic: 284.9 on 5 and 228 DF,  p-value: < 2.2e-16
+ Multiple R-squared: 0.862,  Adjusted $R^2$: 0.859
+ $F$-statistic: 284.9 on 5 and 228 DF,  $p$-value: < 2.2e-16
 
 8.305e-02
 5.203e-05
@@ -43026,7 +40771,7 @@ Provide a detailed critique of this suggestion.
  lm(formula = KPOINT ~ RA + VTINV + DIPINV + HEAT)
  Coefficients:
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
  (Intercept)  7.031e+01
 1.047e+01
@@ -43059,8 +40804,8 @@ Provide a detailed critique of this suggestion.
 16.312  1.66e-15  ***
 
  Residual standard error: 3.919 on 27 degrees of freedom
- Multiple R-Squared: 0.9446,  Adjusted R-squared: 0.9363
- F-statistic: 115 on 4 and 27 DF,  p-value: < 2.2e-16
+ Multiple $R^2$: 0.9446,  Adjusted $R^2$: 0.9363
+ $F$-statistic: 115 on 4 and 27 DF,  $p$-value: < 2.2e-16
 vif(m1)
 
 HEAT
@@ -43321,8 +41066,8 @@ approach.
  In  the  next  chapter,  we  will  consider  variable  selection  techniques  in  order  to
 remove any redundancy from this regression model.
 
-   Chapter 7
-  Variable Selection
+# Chapter 7
+## Variable Selection
 
  In this chapter we consider methods for choosing the “best” model from a class of
 multiple  regression  models  using  what  are  called  variable  selection  methods.
@@ -43452,7 +41197,7 @@ n
 
 adj    =  0.692  for  a  subset  of   p   =  10  predictors,    R2
 
- We shall see that  choosing the subset of the predictors that has the highest value
+ We shall see that  choosing the subset of the predictors that has the highes$t$ value
 adj    tends towards over-fitting . For example, suppose that the maximum value is
 of    R2
 adj    =  0.691  for  a  subset  of   p   =  9
@@ -44856,7 +42601,7 @@ technique for finding the best subsets without examining all possible subsets.�
   With a fixed number of terms in the regression model , all four criteria for evaluat-
 ing  a  subset  of  predictor  variables  (  R2
 adj  ,  AIC,  AIC C   and  BIC)  agree  that  the  best
-choice is the set of predictors with the smallest value of the residual sum of squares.
+choice is the set of predictors with the smalles$t$ value of the residual sum of squares.
 Thus, for example, if a subset with a fixed number of terms maximizes   R2
 adj   (i.e.,
 minimizes RSS) among all subsets of size  p , then this subset will also minimize
@@ -44975,7 +42720,7 @@ with fitting model (7.4).
 
  Coefficients:
 
-Std. Error   t value  Pr(>|t|)
+Std. Error   $t$ value  $\text{Pr}(>|t|)$
 
  Estimate
  (Intercept)  2.28590
@@ -45012,8 +42757,8 @@ Std. Error   t value  Pr(>|t|)
 0.10835
 
  Residual standard error: 0.3139  on 39 degrees of freedom
- Multiple R-Squared: 0.7762, Adjusted R-squared: 0.7475
- F-statistic: 27.05 on 5 and 39 DF, p-value: 1.043e-11
+ Multiple $R^2$: 0.7762, Adjusted $R^2$: 0.7475
+ $F$-statistic: 27.05 on 5 and 39 DF, $p$-value: 1.043e-11
 
  Notice that while the overall F-test for model (7.4) is highly statistically signifi-
 cant,  only  one  of  the  estimated  regression  coefficients  is  statistically  significant
@@ -45227,7 +42972,7 @@ Coefficients:
 
 7  Variable Selection
 
-t value  Pr(>|t|)
+$t$ value  $\text{Pr}(>|t|)$
 
 Estimate  Std. Error
 0.26871
@@ -45241,8 +42986,8 @@ log(Spans)
 0.28530
 ---
 Residual standard error: 0.3105 on 42 degrees of freedom
-Multiple R-Squared: 0.7642,     Adjusted R-squared: 0.753
-F-statistic: 68.08 on 2 and 42 DF,  p-value: 6.632e-14
+Multiple $R^2$: 0.7642,     Adjusted $R^2$: 0.753
+$F$-statistic: 68.08 on 2 and 42 DF,  $p$-value: 6.632e-14
 
 9.905  1.49e-12  ***
 6.755  3.26e-08  ***
@@ -45255,7 +43000,7 @@ lm(formula = log(Time) ~ log(Dwgs) + log(Spans) + log(CCost))
 
 Coefficients:
 
-t value  Pr(>|t|)
+$t$ value  $\text{Pr}(>|t|)$
 
 2.3317
 0.8356
@@ -45274,8 +43019,8 @@ log(Spans)
 log(CCost)
 ---
 Residual standard error: 0.3072 on 41 degrees of freedom
-Multiple R-Squared: 0.7747,     Adjusted R-squared: 0.7582
-F-statistic: 46.99 on 3 and 41 DF,  p-value: 2.484e-13
+Multiple $R^2$: 0.7747,     Adjusted $R^2$: 0.7582
+$F$-statistic: 46.99 on 3 and 41 DF,  $p$-value: 2.484e-13
 
 7.9e-08  ***
 6.519
@@ -45306,7 +43051,7 @@ increases.
 
   Forward selection  starts with no potential predictor variables in the regression
 equation. Then, at each step, it adds the predictor such that the resulting model has
-the lowest value of an information criterion. (This amounts to adding the predictor
+the lowes$t$ value of an information criterion. (This amounts to adding the predictor
 with the  smallest   p -value each time.) This process is continued until all variables
 have been added to the model or the information criterion increases.
 
@@ -45752,78 +43497,7 @@ pgg45
 the following full model with all eight potential predictor variables for the training
 data set:
 
-lpsa
-
-=
-
-b
-
-0
-
-+
-
-b
-1
-
-lcavol
-
-lweight
-
-2
-
-b
-
-+
-gleason
-
-+
-
-b
-
-3
-
-b
-
-+
-
-age
-
-+
-pgg45 e
-
-+
-
-lbph
-
-+
-
-b
-
-5
-
-svi
-
-4
-
-(7.5)
-
-b
-
-8
-
-+
-
-b
-
-6
-
-lcp
-
-+
-
-b
-
-7
+$$\text{lpsa} = \beta_0 + \beta_1 \text{lcavol} + \beta_2 \text{lweight} + \beta_3 \text{age} + \beta_4 \text{lbph} + \beta_5 \text{svi} + \beta_6 \text{lcp} + \beta_7 \text{gleason} + \beta_8 \text{pgg45} + e \qquad (7.5)$$
 
  Figure  7.3  contains scatter plots of the standardized residuals against each pre-
 dictor and the fitted values for model (7.5). Each of the plots in Figure  7.3  shows a
@@ -46008,32 +43682,7 @@ a
 t
 S
 
-i
-
-i
-
-l
-
-s
-a
-u
-d
-s
-e
-R
-d
-e
-z
-d
-r
-a
-d
-n
-a
-t
-S
-
-i
+Standardized Residuals
 
 2
 
@@ -46205,11 +43854,7 @@ pgg45
 
   Plots of the standardized residuals from model (7.5)
 
-a
-s
-p
-
-l
+lpsa
 
 5
 
@@ -46245,43 +43890,7 @@ Residuals vs Fitted
 
 Normal Q−Q
 
-l
-
-s
-a
-u
-d
-s
-e
-R
-
-i
-
-l
-
-s
-a
-u
-d
-s
-e
-r
-
-i
-
-i
-
-d
-e
-z
-d
-r
-a
-d
-n
-a
-t
-S
+Standardized Residuals
 
 1
 
@@ -46489,7 +44098,7 @@ gleason + pgg45)
  pgg45
  ---
 
-Std. Error  t value
+Std. Error  $t$ value
 0.276
 5.366
 2.751
@@ -46510,7 +44119,7 @@ Std. Error  t value
 0.201136
 0.005447
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.78334
 
 1.47e-06  ***
@@ -46524,8 +44133,8 @@ Pr(>|t|)
 
  Signif. codes: 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ‘ 1
  Residual standard error: 0.7123 on 58 degrees of  freedom
- Multiple R-Squared: 0.6944, Adjusted R-squared: 0.6522
- F-statistic: 16.47 on 8 and 58 DF, p-value: 2.042e-12
+ Multiple $R^2$: 0.6944, Adjusted $R^2$: 0.6522
+ $F$-statistic: 16.47 on 8 and 58 DF, $p$-value: 2.042e-12
 
 2.5 3.0 3.5 4.0 4.5
 lWeight
@@ -47264,15 +44873,15 @@ two-, four- and seven-predictor variables to the training data.
 0.73838
  ---
  Residual standard error: 0.7613 on 64 degrees of freedom
- Multiple R-Squared: 0.6148, Adjusted R-squared: 0.6027
- F-statistic: 51.06 on 2 and 64 DF, p-value: 5.54e-14
+ Multiple $R^2$: 0.6148, Adjusted $R^2$: 0.6027
+ $F$-statistic: 51.06 on 2 and 64 DF, $p$-value: 5.54e-14
 
 Std. Error
 0.72904
 0.07906
 0.20613
 
-t value  Pr(>|t|)
+$t$ value  $\text{Pr}(>|t|)$
 -1.439  0.154885
 
 7.938  4.14e-11  ***
@@ -47295,10 +44904,10 @@ t value  Pr(>|t|)
 0.14001
  ---
  Residual standard error: 0.7275 on 62 degrees of freedom
- Multiple R-Squared: 0.6592, Adjusted R-squared: 0.6372
- F-statistic: 29.98 on 4 and 62 DF, p-value: 6.911e-14
+ Multiple $R^2$: 0.6592, Adjusted $R^2$: 0.6372
+ $F$-statistic: 29.98 on 4 and 62 DF, $p$-value: 6.911e-14
 
-Std. Error  t value
+Std. Error  $t$ value
 -0.418
 5.461
 2.441
@@ -47311,7 +44920,7 @@ Std. Error  t value
 0.27323
 0.07041
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.6775
 
 8.85e-07  ***
@@ -47324,7 +44933,7 @@ Pr(>|t|)
 
  Coefficients:
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.8014
 
  Estimate
@@ -47345,10 +44954,10 @@ Pr(>|t|)
 -0.019480
  ---
  Residual standard error: 0.7064 on 59 degrees of freedom
- Multiple R-Squared: 0.6943, Adjusted R-squared: 0.658
- F-statistic: 19.14 on 7 and 59 DF, p-value: 4.496e-13
+ Multiple $R^2$: 0.6943, Adjusted $R^2$: 0.658
+ $F$-statistic: 19.14 on 7 and 59 DF, $p$-value: 4.496e-13
 
-Std. Error  t value
+Std. Error  $t$ value
 0.253
 5.462
 2.833
@@ -47408,7 +45017,7 @@ two-, four and seven-predictor variables to the 30 cases in the test data.
 0.7478
 0.1968
 
-Std. Error  t value
+Std. Error  $t$ value
 0.768
 5.778
 0.796
@@ -47418,14 +45027,14 @@ Std. Error  t value
  lweight
  ---
  Residual standard error: 0.721 on 27 degrees of freedom
- Multiple R-Squared: 0.5542, Adjusted R-squared: 0.5212
- F-statistic: 16.78 on 2 and 27 DF, p-value: 1.833e-05
+ Multiple $R^2$: 0.5542, Adjusted $R^2$: 0.5212
+ $F$-statistic: 16.78 on 2 and 27 DF, $p$-value: 1.833e-05
 
 0.9572
 0.1294
 0.2473
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.449
 
 3.81e-06  ***
@@ -47444,7 +45053,7 @@ Pr(>|t|)
 0.95051
 -0.05337
 
-Std. Error  t value
+Std. Error  $t$ value
 0.569
 4.706
 1.070
@@ -47458,8 +45067,8 @@ Std. Error  t value
  lbph
  ---
  Residual standard error: 0.6445 on 25 degrees of freedom
- Multiple R-Squared: 0.6703, Adjusted R-squared: 0.6175
- F-statistic: 12.7 on 4 and 25 DF, p-value: 8.894e-06
+ Multiple $R^2$: 0.6703, Adjusted $R^2$: 0.6175
+ $F$-statistic: 12.7 on 4 and 25 DF, $p$-value: 8.894e-06
 
 0.93066
 0.12655
@@ -47467,7 +45076,7 @@ Std. Error  t value
 0.32214
 0.09237
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.5744
 
 7.98e-05  ***
@@ -47499,10 +45108,10 @@ Pr(>|t|)
  age
  ---
  Residual standard error: 0.6589 on 22 degrees of  freedom
- Multiple R-Squared: 0.6967, Adjusted R-squared:  0.6001
- F-statistic: 7.218 on 7 and 22 DF, p-value: 0.0001546
+ Multiple $R^2$: 0.6967, Adjusted $R^2$:  0.6001
+ $F$-statistic: 7.218 on 7 and 22 DF, $p$-value: 0.0001546
 
-Std. Error  t value
+Std. Error  $t$ value
 0.586
 2.901
 1.220
@@ -47521,7 +45130,7 @@ Std. Error  t value
 0.166970
 0.022220
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.56381
 0.00828  **
 0.23549
@@ -48466,20 +46075,20 @@ term is used.
 0.7975
 0.6947
 
-Std. Error  t value
+Std. Error  $t$ value
 0.593
 5.421
 
 1.3452
 0.1282
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 0.5950
 0.0123  *
 
  Residual standard error: 0.8391 on 3 degrees of freedom
- Multiple R-Squared: 0.9074, Adjusted R-squared: 0.8765
- F-statistic: 29.38 on 1 and 3 DF, p-value: 0.01232
+ Multiple $R^2$: 0.9074, Adjusted $R^2$: 0.8765
+ $F$-statistic: 29.38 on 1 and 3 DF, $p$-value: 0.01232
 
  Call:
  lm(formula = Y ~ X1 + X2)
@@ -48488,7 +46097,7 @@ Pr(>|t|)
 
  Estimate  Std. Error
 
-t value  Pr(>|t|)
+$t$ value  $\text{Pr}(>|t|)$
 
  (Intercept) -1.000e+03
 1.000e+00
@@ -48497,8 +46106,8 @@ t value  Pr(>|t|)
 1.000e+00
  ---
  Residual standard error: 1.607e-14 on 2 degrees of freedom
- Multiple R-Squared: 1, Adjusted R-squared: 1
- F-statistic: 4.415e+28 on 2 and 2 DF, p-value: < 2.2e-16
+ Multiple $R^2$: 1, Adjusted $R^2$: 1
+ $F$-statistic: 4.415e+28 on 2 and 2 DF, $p$-value: < 2.2e-16
 
 4.294e-12  -2.329e+14
 4.250e-15  2.353e+14
@@ -48515,7 +46124,7 @@ t value  Pr(>|t|)
 
  Estimate  Std. Error
 
-t value  Pr(>|t|)
+$t$ value  $\text{Pr}(>|t|)$
 
  (Intercept) -1.000e+03
 1.000e+00
@@ -48526,15 +46135,15 @@ t value  Pr(>|t|)
  X3
  ---
  Residual standard error: 2.147e-14 on 1 degrees of freedom
- Multiple R-Squared:
- F-statistic: 1.648e+28 on 3 and 1 DF, p-value: 5.726e-15
+ Multiple $R^2$:
+ $F$-statistic: 1.648e+28 on 3 and 1 DF, $p$-value: 5.726e-15
 
 1.501e-11  -6.660e+13  9.56e-15  ***
 1.501e-14  6.661e+13  9.56e-15  ***
 1.501e-14  6.664e+13  9.55e-15  ***
 1.186e-14  3.460e-01
 
-1,   Adjusted R-squared:
+1,   Adjusted $R^2$:
 
 0.788
 
@@ -49263,10 +46872,10 @@ AIC
 -0.7382
  ---
  Residual standard error: 8.964 on 11 degrees of freedom
- Multiple R-Squared: 0.6745, Adjusted R-squared: 0.645
- F-statistic: 22.8 on 1 and 11 DF, p-value: 0.0005762
+ Multiple $R^2$: 0.6745, Adjusted $R^2$: 0.645
+ $F$-statistic: 22.8 on 1 and 11 DF, $p$-value: 0.0005762
 
-t value  Pr(>|t|)
+$t$ value  $\text{Pr}(>|t|)$
 
 22.342  1.62e-10  ***
 -4.775  0.000576  ***
@@ -49280,7 +46889,7 @@ t value  Pr(>|t|)
 
  Coefficients:
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
  (Intercept)  52.57735
 1.46831
@@ -49289,8 +46898,8 @@ t value  Pr(>|t|)
 0.66225
  ---
  Residual standard error: 2.406 on 10 degrees of freedom
- Multiple R-Squared: 0.9787, Adjusted R-squared: 0.9744
- F-statistic: 229.5 on 2 and 10 DF, p-value: 4.407e-09
+ Multiple $R^2$: 0.9787, Adjusted $R^2$: 0.9744
+ $F$-statistic: 229.5 on 2 and 10 DF, $p$-value: 4.407e-09
 
 2.28617
 0.12130
@@ -49312,7 +46921,7 @@ x2
 
  Coefficients:
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
 71.6483
 1.4519
@@ -49325,8 +46934,8 @@ x2
  x4
  ---
  Residual standard error: 2.309 on 9 degrees of freedom
- Multiple R-Squared: 0.9823, Adjusted R-squared: 0.9764
- F-statistic: 166.8 on 3 and 9 DF, p-value: 3.323e-08
+ Multiple $R^2$: 0.9823, Adjusted $R^2$: 0.9764
+ $F$-statistic: 166.8 on 3 and 9 DF, $p$-value: 3.323e-08
 
 14.1424
 0.1170
@@ -49360,7 +46969,7 @@ x4
  x4
  ---
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 0.3991
 0.0708  .
 0.5009
@@ -49386,8 +46995,8 @@ x4
 -0.203
 
  Residual standard error: 2.446 on 8 degrees of freedom
- Multiple R-Squared: 0.9824, Adjusted R-squared: 0.9736
- F-statistic: 111.5 on 4 and 8 DF, p-value: 4.756e-07
+ Multiple $R^2$: 0.9824, Adjusted $R^2$: 0.9736
+ $F$-statistic: 111.5 on 4 and 8 DF, $p$-value: 4.756e-07
 
  vif(om4)
  x1
@@ -49508,8 +47117,8 @@ those in (a) and (b) are the same.
 
 cautious about taking these results to literally?
 
-   Chapter 8
-  Logistic Regression
+# Chapter 8
+## Logistic Regression
 
  Thus far in this book we have been concerned with developing models where the
 response variable is numeric and ideally follows a normal distribution. In this chapter,
@@ -55232,54 +52841,9 @@ x
 
  by the fitted values
 
-ˆ
-Y
+The fitted values are obtained from:
 
-ˆ
-q
-
-=
-
-x
-( )
-
-=
-
-1
-
-1 exp
-
-+
-
-(
-
-−
-
-{
-ˆ
-b
-
-0
-
-ˆ
-x
-b
-1 1
-
-ˆ
-b
-
-x
-2 2
-
-+
-
-+
-
-.
-
-)
-}
+$$\hat{p}_i = \frac{e^{\hat{\beta}_0 + \hat{\beta}_1 x_{i1} + \hat{\beta}_2 x_{i2} + \ldots}}{1 + e^{\hat{\beta}_0 + \hat{\beta}_1 x_{i1} + \hat{\beta}_2 x_{i2} + \ldots}}$$
 
  Utilizing (8.3) we can therefore estimate
 
@@ -55670,9 +53234,13 @@ Linear Predictor
 
   Marginal model plots for model (8.2)
 
- 8.2  Binary Logistic Regression
+# Chapter 8: Logistic Regression
 
-289
+## 8.1 Introduction to Logistic Regression
+
+Logistic regression is a statistical method used for binary classification problems where the response variable is categorical with two possible outcomes. Unlike linear regression, which models the mean of a continuous response variable, logistic regression models the probability that an instance belongs to a particular category.
+
+## 8.2 Binary Logistic Regression
 
 In Michelin Guide?
 No
@@ -55733,25 +53301,13 @@ view of this we shall expand model (8.2) to include a two-way interaction terms
 between  x  2  = Décor rating and  x  3  = Service rating. Thus we shall consider the fol-
 lowing model:
 
-q
+The logistic function is defined as:
 
-x
-( )
+$$p_i = \frac{e^{\beta_0 + \beta_1 x_i}}{1 + e^{\beta_0 + \beta_1 x_i}}$$
 
-=
+Alternatively, this can be written using the logit (log-odds) transformation:
 
-1 exp
-
-+
-
-1
-(
-−
-
-)
-{ }
-x
-b¢
+$$\log\left(\frac{p_i}{1-p_i}\right) = \beta_0 + \beta_1 x_i$$
 
  where
 
@@ -56085,7 +53641,7 @@ We shall use the usual cut-off of twice the average, which in this case equals 0
 The three points with the largest leverage values evident in Figure  8.13  correspond
 to the restaurants Arabelle, Alain Ducasse and per se. The price of dinner at each
 of these restaurants is $71, $179 and $201, respectively. Looking back at the box
-plots of Price in Figure  8.8  we see that these last two values are the highest values
+plots of Price in Figure  8.8  we see that these last two values are the highes$t$ values
 of Price. Thus, for at least two of these points their high leverage values are mainly
 due to their extreme values of Price.
 
@@ -56766,17 +54322,17 @@ x, Population (in millions)
  ---
  Signif. codes: 0 ‘ ’ 0.001 ‘ ’ 0.01 ‘ ’ 0.05 ‘.’ 0.1 ‘ ’ 1
  Residual standard error: 2.619 on 28 degrees of freedom
- Multiple R-squared: 0.07952, Adjusted R-squared: 0.04664
- F-statistic: 2.419 on 1 and 28 DF, p-value: 0.1311
+ Multiple R-squared: 0.07952, Adjusted $R^2$: 0.04664
+ $F$-statistic: 2.419 on 1 and 28 DF, $p$-value: 0.1311
 
 0.0279 *
 0.1311
 
-t value
+$t$ value
 2.319
 1.555
 
-Pr(>|t|)
+$\text{Pr}(>|t|)$
 
    2.     This question is based on one of the data sets discussed in an unpublished manu-
 script  by  Powell,  T.  and  Sheather,  S.  (2008)  entitled  “ A  Theory  of  Extreme
@@ -57708,8 +55264,8 @@ ance. A number of authors, including Atkinson and Riani (2000, p. 251), com-
 ment that for perfect logistic fits, the estimates of the   β′  s approach infinity and
 the  z -values approach zero.
 
-   Chapter 9
-  Serially Correlated Errors
+# Chapter 9
+## Serially Correlated Errors
 
  In many situations data are collected over time. It is common for such data sets to
 exhibit serial correlation, that is, results from the current time period are correlated
@@ -59442,7 +56998,7 @@ t-value
 3.498565
 2.680813
 
-p-value
+$p$-value
 0.000
 0.000
 0.001
@@ -60810,7 +58366,7 @@ response and predictor variables in (9.6).
    Call:lm(formula = ystar ~ xstar - 1)
      Coefficients:
 
-Estimate  Std. Error  t value  Pr(>|t|)
+Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
  xstar(Intercept)  4.67566
  xstarlog(Price)  -4.32741
@@ -61797,7 +59353,7 @@ t-value
 -2.874452
 -0.583710
 
-p-value
+$p$-value
 0.0000
 0.0110
 0.5676
@@ -61855,7 +59411,7 @@ in the previous R output.
 
 Coefficients:
 
-Estimate  Std. Error  t value  Pr(>|t|)
+Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 
  xstar(Intercept)  7.122990
  xstarLoansClosed  -0.003432
@@ -62515,7 +60071,7 @@ t-value
 0.062054
 7.853259
 
-p-value
+$p$-value
 0.9509
 0.0000
 
@@ -62540,7 +60096,7 @@ the results match those in the previous R output.
  xstar(Intercept)
  xstarYearS1975
 
- Estimate  Std. Error  t value  Pr(>|t|)
+ Estimate  Std. Error  $t$ value  $\text{Pr}(>|t|)$
 0.95
 
 72.744
@@ -62729,8 +60285,8 @@ following variables:
 weaknesses in your model. Write up the results in the form of a report that is to
 be given to the manager at Carlsen’s brewery.
 
-   Chapter 10
-  Mixed Models
+# Chapter 10
+## Mixed Models
 
  In the previous chapter we looked at regression models for data collected over time.
 The  data  sets  we  studied  in  Chapter  9  typically  involve  a  single  relatively  long
@@ -63416,34 +60972,21 @@ ij
 
   . In general matrix notation, this is
 
-Y X
-=
+In matrix form, the mixed model can be written as:
 
-b e
-+
+$$\mathbf{Y} = \mathbf{X}\boldsymbol{\beta} + \mathbf{e}$$ 
 
-(10.3)
+where $\mathbf{e} \sim N(\mathbf{0}, \boldsymbol{\Sigma})$ and $\boldsymbol{\Sigma}$ has a specific structure due to the random effects.
 
  where in this example
 
-Y
+For the orthodontic data:
 
-=
+$$\mathbf{Y} = \begin{pmatrix}
+y_{1,1} \\ \vdots \\ y_{1,4} \\ \vdots \\ y_{11,1} \\ \vdots \\ y_{11,4}
+\end{pmatrix}$$
 
-y
-1,1
-⋮
-
-y
-1,4
-⋮
-
-y
-11,1
-⋮
-
-y
-11,4
+represents the distance measurements for 11 subjects at 4 ages each.
 
 ⎛
 ⎜
@@ -63947,7 +61490,7 @@ e
  StdDev:    2.06847  0.7800331
 
  Fixed effects: distance ~ age
-                    Value  Std. Error  DF      t-value  p-value
+                    Value  Std. Error  DF      t-value  $p$-value
  (Intercept) 17.372727   0.8587419  32  20.230440             0
  age              0.479545   0.0525898  32   9.118598             0
  Correlation:
@@ -64531,7 +62074,7 @@ e
  StdDev:     1.625019    1.67822
 
  Fixed effects: distance ~ age
-                        Value  Std. Error  DF      t-value  p-value
+                        Value  Std. Error  DF      t-value  $p$-value
   (Intercept)  16.340625   1.1287202  47  14.477126          0
  age             0.784375   0.0938154  47    8.360838          0
  Correlation:
@@ -64904,7 +62447,7 @@ males and females reported earlier.
 10  Mixed Models
 
  Fixed effects: distance ~ age * Sex
-                       Value  Std. Error   DF        t-value      p-value
+                       Value  Std. Error   DF        t-value      $p$-value
 16.340625
 0.0000
   (Intercept)
@@ -65021,7 +62564,7 @@ Value  Std. Error  DF
  1.032102  1.5374208  25
  age:SexFemale  -0.304830  0.1214209  79  -2.510520
 
-t-value  p-value
+t-value  $p$-value
 0.0000
 0.0000
 0.5082
@@ -65053,7 +62596,7 @@ AIC
 
 BIC
 
-logLik  Test  L.Ratio p-value
+logLik  Test  L.Ratio $p$-value
 
  m10.6  1  6 445.7572  461.6236 -216.8786
  m10.5  2  7 429.2205  447.7312 -207.6102 1 vs 2 18.53677  <.0001
@@ -66804,7 +64347,7 @@ t-value
 57.92552
 78.00249
 
-p-value
+$p$-value
 0
 0
 
@@ -66829,7 +64372,7 @@ discernible pattern in Figure  10.15 . Instead, the loess fit in Figure  10.15  
 that there is some structure in the Cholesky residuals. In order to check that we are
 not over interpreting the pattern in Figure  10.15 , we fit a fifth-order polynomial fit
 to the Cholesky residuals in Figure  10.15  as a function of  x *. The resulting overall
-F-statistic  is  highly  significant  ( p -value  =  0.0002).  Thus,  there  is  evidence  that
+$F$-statistic  is  highly  significant  ( p -value  =  0.0002).  Thus,  there  is  evidence  that
 model (10.13) is an invalid model for the fixed effects.
 
 3
@@ -67477,7 +65020,7 @@ t-value
 2.80114
 -3.36251
 
-p-value
+$p$-value
 0.0000
 0.0000
 0.1600
@@ -67508,7 +65051,7 @@ AIC
 
 BIC
 
-logLik  Test  L.Ratio  p-value
+logLik  Test  L.Ratio  $p$-value
 
  m10p13.ML  1 47  1632.303 1823.520  -769.1517
  m10p15.ML  2 54  1600.992 1820.687  -746.4958  1   vs   2  45.31183  <.0001
@@ -67843,7 +65386,7 @@ BIC
 
 AIC
 
-Test  L.Ratio p-value
+Test  L.Ratio $p$-value
 
 0.129
 
@@ -67949,7 +65492,7 @@ t-value
 3.93447
 -3.07509
 
-p-value
+$p$-value
 0.0000
 0.0000
 0.0000
@@ -68411,7 +65954,7 @@ logLik
  m10p17.ML  1 51  1599.149 1806.639 -748.5744
 m10p16.ML  2 50  1600.125 1803.546 -750.0624 1 vs 2 2.976025  0.0845
 
-Test  L.Ratio p-value
+Test  L.Ratio $p$-value
 
 AIC
 
@@ -68717,7 +66260,7 @@ t-value
 3.79876
 -2.70303
 
-p-value
+$p$-value
 0.0000
 0.0000
 0.0000
@@ -68757,7 +66300,7 @@ BIC
 
 AIC
 
-Test  L.Ratio p-value
+Test  L.Ratio $p$-value
 
 m10p16
 
@@ -68922,20 +66465,15 @@ which allows for variances to differ across Days. Show that it is an improve-
 ment  on  model  (10.17).  Remove  any  redundancies  in  the  fixed  effects.
 Finally, attempt to find a parsimonious model for the error structure.
 
-     Appendix: Nonparametric Smoothing
+# Appendix: Nonparametric Smoothing
 
- In  this  book  we  make  use  of  two  nonparametric  smoothing  techniques,  namely,
-kernel density estimation and nonparametric regression for a single predictor. We
-discuss each of these in turn next.
+In this book we make use of two nonparametric smoothing techniques, namely, kernel density estimation and nonparametric regression for a single predictor. We discuss each of these in turn next.
 
-  A.1  Kernel Density Estimation
+## A.1 Kernel Density Estimation
 
- In this section we provide a brief practical description of density estimation based
-on kernel methods. We shall follow the approach taken by Sheather (2004).
+In this section we provide a brief practical description of density estimation based on kernel methods. We shall follow the approach taken by Sheather (2004).
 
- Let   X1, X2, ..., Xn   denote a sample of size  n  from a random variable with density
-
-function  f . The kernel density estimate of  f  at the point  x  is given by
+Let X₁, X₂, ..., Xₙ denote a sample of size n from a random variable with density function f. The kernel density estimate of f at the point x is given by
 
 ˆ ( )
 f x
@@ -70760,48 +68298,41 @@ more robust to misspecifying the correlation structure than fits based on genera
 ized cross-validation or AIC. They also demonstrated the simplicity of obtaining
 the REML-based fits using R.
 
-   References
+# References
 
-                 Abraham B and Ledolter J (2006) Introduction to regression modeling. Duxbury, MA.
-Alkhamisi     MA    and    Shukur     G       (2005)     Bayesian analysis of a linear mixed model with AR(p)
-errors via MCMC  .   Journal of Applied Statistics  ,   32  ,   741  –  755  .
-    Anscombe     F       (1973)     Graphs in statistical analysis  .   The American Statistician  ,   27  ,   17  –  21  .
-  Anonymous (2005) Michelin guide New York City 2006. Michelin Travel Publications, Greenville,
+Abraham B and Ledolter J (2006) Introduction to regression modeling. Duxbury, MA.
 
-South Carolina.
+Alkhamisi MA and Shukur G (2005) Bayesian analysis of a linear mixed model with AR(p) errors via MCMC. Journal of Applied Statistics, 32, 741–755.
 
-    Atkinson     A    and    Riani     M       (2000)     Robust diagnostic regression analysis  .   Springer  ,   New York  .
-    Belenky      G   ,     Wesensten      NJ   ,     Thorne      DR   ,     Thomas      ML   ,     Sing      HC   ,     Redmond      DP   ,     Russo      MB   ,  and
-   Balkin     TJ       (2003)     Patterns of performance degradation and restoration during sleep restriction
-and subsequent recovery: a sleep does response study  .   Journal of Sleep Research  ,   12  ,   1  –  12  .
-    Bowman     A    and    Azzalini     A       (1997)     Applied smoothing techniques for data analysis: The Kernel
+Anscombe F (1973) Graphs in statistical analysis. The American Statistician, 27, 17–21.
 
-approach with S-plus illustrations  .   University Press  ,   Oxford  .
+Anonymous (2005) Michelin guide New York City 2006. Michelin Travel Publications, Greenville, South Carolina.
 
-    Box      GEP     and     Cox      DR        (1964)      An  analysis  of  transformations  .    Journal  of  the  Royal  Statistical
+Atkinson A and Riani M (2000) Robust diagnostic regression analysis. Springer, New York.
 
-Society, Series B  ,   26  ,   211  –  252  .
+Belenky G, Wesensten NJ, Thorne DR, Thomas ML, Sing HC, Redmond DP, Russo MB, and Balkin TJ (2003) Patterns of performance degradation and restoration during sleep restriction and subsequent recovery: a sleep does response study. Journal of Sleep Research, 12, 1–12.
 
-    Bradbury     JC       (2007)     The baseball economist  .   Dutton  ,   New York  .
-    Brook     S       (2001)     Bordeaux – people, power and politics, pp. 104, 106  .   Mitchell Beazley  ,   London  .
-Brumback BA, Ruppert D and Wand MP (1999) Comment on Shively, Kohn and Wood.  Journal
+Bowman A and Azzalini A (1997) Applied smoothing techniques for data analysis: The Kernel approach with S-plus illustrations. University Press, Oxford.
 
-of the American Statistical Association , 94, 794–797.
 
-    Bryant      PG     and     Smith      MA        (1995)      Practical  data  analysis  -  Cases  in  business  statistics  .    Irwin  ,
+Box GEP and Cox DR (1964) An analysis of transformations. Journal of the Royal Statistical Society, Series B, 26, 211–252.
 
-  Chicago  .
+Bradbury JC (2007) The baseball economist. Dutton, New York.
 
-    Burnham      KP     and     Anderson      DR        (2004)      Understanding  AIC  and  BIC  in  model  selection  .
+Brook S (2001) Bordeaux – people, power and politics, pp. 104, 106. Mitchell Beazley, London.
+Brumback BA, Ruppert D and Wand MP (1999) Comment on Shively, Kohn and Wood. Journal of the American Statistical Association, 94, 794–797.
 
-  Sociological Methods & Research  ,   33  ,   261  –  304  .
+Bryant PG and Smith MA (1995) Practical data analysis - Cases in business statistics. Irwin, Chicago.
 
-    Carlson     WL       (1997)     Cases in managerial data analysis  .   Duxbury  ,   Belmont, CA  .
-    Casella       G    and    Berger     R        (2002)      Statistical inference   (  2nd   edn).   Duxbury ,      Pacific Grove ,  CA .
-    Chatterjee     S    and    Hadi     AS       (1988)     Sensitivity analysis in linear regression  .   Wiley  ,   New York  .
-    Cleveland     W       (1979)     Robust locally weighted regression and smoothing scatterplots  .   Journal of
 
-the American Statistical Association  ,   74  ,   829  –  836  .
+Burnham KP and Anderson DR (2004) Understanding AIC and BIC in model selection. Sociological Methods & Research, 33, 261–304.
+
+Carlson WL (1997) Cases in managerial data analysis. Duxbury, Belmont, CA.
+
+Casella G and Berger R (2002) Statistical inference (2nd edn). Duxbury, Pacific Grove, CA.
+
+Chatterjee S and Hadi AS (1988) Sensitivity analysis in linear regression. Wiley, New York.
+Cleveland W (1979) Robust locally weighted regression and smoothing scatterplots. Journal of the American Statistical Association, 74, 829–836.
 
     Coates     C       (2004)     The wines of Bordeaux – vintages and tasting notes 1952–2003  .   University of
 
@@ -71076,15 +68607,15 @@ schemes  .   Journal of the American Statistical Association  ,   96  ,   247  �
 
 Statistics  ,   35  ,   2173  –  2192  .
 
-Index
+# Index
 
-A
+## A
 Added-variable plots
 
 mathematical justification  163–165
 purpose  162
 
-Adjusted R-squared  137, 228
+Adjusted $R^2$  137, 228
 Analysis of covariance
 
 coincident regression lines  140
@@ -71097,7 +68628,7 @@ Analysis of variance
 
 ANOVA table  30, 136
 connection with t-tests  30
-F-statistic  29–30, 136
+$F$-statistic  29–30, 136
 graphical depiction  29
 hypotheses tested  27, 135–136
 partial F-test  143–144

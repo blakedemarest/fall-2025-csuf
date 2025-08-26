@@ -1,58 +1,63 @@
-Session Guidance
+# Session Guidance: Chapter 3 Internal Environment
 
-# Prep for Lecture – Topic outline
+## Prep for Lecture – Topic outline
 
 Use the following outline to focus on the parts in the text book that are absolutely necessary. The two exams will be solely based on these topic outlines, which are provided for every class with a lecture part.
 
-|  |
-| --- |
-| ***Notes and additional information are provided in italics*. An asterisks symbol (\*) is placed against sections and subsections that need careful attention. Key concepts are highlighted in yellow.** |
+> **Note:** *Notes and additional information are provided in italics*. An asterisk symbol (\*) is placed against sections and subsections that need careful attention. Key concepts are highlighted in yellow.
 
-**CHAPTER 3. ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM** *(Strategy spotlights and Executive interview in this chapter are optional reads. Read them only for further understanding of some of the concepts. No need to read the beginning part – start from value chain analysis.)*
+## CHAPTER 3: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM
 
-**Value-Chain Analysis \*\*** *(don’t read the subsection “Integrating Customers into the Value Chain”)*
+*Strategy spotlights and Executive interview in this chapter are optional reads. Read them only for further understanding of some of the concepts. No need to read the beginning part – start from value chain analysis.*
 
-**Primary Activities** *(read complete subsection)*
+### Value-Chain Analysis**
 
-**Support Activities** *(read complete subsection)*
+*Don't read the subsection "Integrating Customers into the Value Chain"*
 
-**Interrelationships among Value-Chain Activities within and across Organizations** *(read just the first para)*
+#### Primary Activities
+*Read complete subsection*
 
-**Applying the Value Chain to Service Organizations** *(read complete subsection and also, compare and contrast this with a typical value chain. Consider the two diagrammatic representations for comparison.)*
+#### Support Activities
+*Read complete subsection*
 
-**Resource-Based View of the Firm\*\*\*** *(read this in depth. Some of the concepts may appear easy to understand on the surface but try and figure out the differences between them.)*
+#### Interrelationships among Value-Chain Activities within and across Organizations
+*Read just the first para*
 
-**Types of Firm Resources\*\*\*** *(Pay particular attention to the differences between the three concepts below.)*
+#### Applying the Value Chain to Service Organizations
+*Read complete subsection and also, compare and contrast this with a typical value chain. Consider the two diagrammatic representations for comparison.*
 
-Tangible Resources
+### Resource-Based View of the Firm***
 
-Intangible Resources
+*Read this in depth. Some of the concepts may appear easy to understand on the surface but try and figure out the differences between them.*
 
-Organizational Capabilities
+### Types of Firm Resources***
 
-**Firm Resources and Sustainable Competitive Advantages\*\*** *(Read the whole subsection.)*
+*Pay particular attention to the differences between the three concepts below.*
 
-Valuable
+- **Tangible Resources**
+- **Intangible Resources**
+- **Organizational Capabilities**
 
-Rare
+### Firm Resources and Sustainable Competitive Advantages**
 
-Inimitability (difficult to imitate)
+*Read the whole subsection.*
 
-Physically unique
+- **Valuable**
+- **Rare**
+- **Inimitability** (difficult to imitate)
+  - Physically unique
+  - Path dependency
+  - Causal ambiguity
+  - Social complexity
+- **Difficult to substitute**
 
-Path dependency
+#### The Generation and Distribution of a Firm's Profits: Extending the Resource-Based View of the Firm
+*No need to read this*
 
-Causal ambiguity
+#### Evaluating Firm Performance: Two Approaches
+*This section will not be covered in the class lecture and no questions will be asked from this section during the exams. However, you are welcome to use "financial ratio analysis" in your company analysis project, especially if you've been exposed to it in other courses.*
 
-Social complexity
-
-Difficult to substitute
-
-**The Generation and Distribution of a Firm's Profits: Extending the Resource-Based View of the Firm** *(No need to read this)*
-
-**Evaluating Firm Performance: Two Approaches** *(this section will not be covered in the class lecture and no questions will be asked from this section during the exams. However, you are welcome to use “financial ratio analysis” in your company analysis project, especially if you’ve been exposed to it in other courses.)*
-
-# Guidance to approaching the DeBeers case
+## Guidance for Approaching the DeBeers Case
 
 The De Beers case will be used for two different topics. For each topic, use the relevant concepts to analyze the case.
 
@@ -66,7 +71,7 @@ Two major subsections in the internal environment topic are Value chain analysis
 
 This case prep should help you develop the skill to evaluate the information and data in the case using only the lens of the assigned topic. On the other hand, do not dismiss particular information as tangential without considering it. In other words, you should be able to discern the ‘importance’ and ‘relevance’ of a certain information in the case for the topic at hand.
 
-# Guidance questions for the De Beers case
+## Guidance Questions for the De Beers Case
 
 Guidance questions are meant to provoke a thought process. Ponder over them, especially when the answers are not evident. Remember, in a case discussion there are **no right answers but only better answers**.
 

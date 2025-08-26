@@ -1,20 +1,22 @@
-Session Guidance
+# Session Guidance: Chapter 7 International Strategy
 
-# Prep for Lecture – Topic outline
+## Prep for Lecture – Topic outline
 
 Use the following outline to focus on the parts in the text book that are absolutely necessary. The two exams will be solely based on these topic outlines, which are provided for every class with a lecture part.
 
-|  |
-| --- |
-| ***Notes and additional information are provided in italics*. An asterisks symbol (\*) is placed against sections and subsections that need careful attention. Key concepts are highlighted in yellow.** |
+> **Note:** *Notes and additional information are provided in italics*. An asterisk symbol (\*) is placed against sections and subsections that need careful attention. Key concepts are highlighted in yellow.
 
-**CH. 7 INTERNATIONAL STRATEGY: CREATING VALUE IN GLOBAL MARKETS** *(Strategy spotlights and Executive interview in this chapter are optional reads. Read them only for further understanding of some of the concepts. No need to read the initial paras, go straight to the section below)*
+## CHAPTER 7: INTERNATIONAL STRATEGY - CREATING VALUE IN GLOBAL MARKETS
 
-**The Global Economy: A Brief Overview** *(Skim through this for just a basic understanding.)*
+*Strategy spotlights and Executive interview in this chapter are optional reads. Read them only for further understanding of some of the concepts. No need to read the initial paras, go straight to the section below*
 
-**Factors Affecting a Nation's Competitiveness** *(read the section in-depth)*
+### The Global Economy: A Brief Overview
+*Skim through this for just a basic understanding.*
 
-Diamond of national advantage
+### Factors Affecting a Nation's Competitiveness
+*Read the section in-depth*
+
+- **Diamond of national advantage**
 
 **Factor endowments**
 
@@ -28,9 +30,11 @@ Diamond of national advantage
 
 US Demand conditions *(for this example US demand condition is equivalent to foreign demand condition. Observe that the demand condition in the normal diamond is the domestic demand)*
 
-**International Expansion: A Company's Motivations and Risks** *(Focus on understanding the implication for international strategy)*
+### International Expansion: A Company's Motivations and Risks
+*Focus on understanding the implication for international strategy*
 
-**Motivations for International Expansion** *(Understand how and why the following can be motivators for international expansion.)*
+#### Motivations for International Expansion
+*Understand how and why the following can be motivators for international expansion.*
 
 **Increase Market Size**
 

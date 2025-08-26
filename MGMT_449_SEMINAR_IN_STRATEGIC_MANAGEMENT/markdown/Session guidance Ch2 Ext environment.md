@@ -1,72 +1,69 @@
-Session Guidance
+# Session Guidance: Chapter 2 External Environment
 
-# Prep for Lecture – Topic outline
+## Prep for Lecture – Topic outline
 
 Use the following outline to focus on the parts in the text book that are absolutely necessary. The two exams will be solely based on these topic outlines, which are provided for every class with a lecture part.
 
-|  |
-| --- |
-| ***Notes and additional information are provided in italics*. An asterisks symbol (\*) is placed against sections and subsections that need careful attention. Key concepts are highlighted in yellow.** |
+> **Note:** *Notes and additional information are provided in italics*. An asterisk symbol (\*) is placed against sections and subsections that need careful attention. Key concepts are highlighted in yellow.
 
-**CHAPTER 2. ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM**
+## CHAPTER 2: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM
 
-**Enhancing Awareness of the External Environment** *(this section was already covered in the previous session so no need to read it again)*
+### Enhancing Awareness of the External Environment
+*This section was already covered in the previous session so no need to read it again*
 
-**The General Environment** *(You should understand the differences between the segments. Given a particular trend/phenomenon, you should be able to categorize it in the right segment. read just the first couple of paragraphs in each subsection, along with the exhibits 2.2 - General Environment: Key Trends and Events and 2.3 - The Impact of General Environmental Trends on Various Industries. Read this in greater depth only if you have trouble making the distinctions.)*
+### The General Environment
+*You should understand the differences between the segments. Given a particular trend/phenomenon, you should be able to categorize it in the right segment. Read just the first couple of paragraphs in each subsection, along with Exhibits 2.2 (General Environment: Key Trends and Events) and 2.3 (The Impact of General Environmental Trends on Various Industries). Read this in greater depth only if you have trouble making the distinctions.*
 
-**The Demographic segment**
+#### The Demographic Segment
 
-**The Sociocultural segment**
+#### The Sociocultural Segment
 
-**The Political/Legal segment**
+#### The Political/Legal Segment
 
-**The Technological Segment**
+#### The Technological Segment
 
-**The Economic Segment**
+#### The Economic Segment
 
-**The Global Segment**
+#### The Global Segment
 
-**Digital Economy: A Fundamental shift in the business environment** *(No need to read this for the purposes of this course but you may want to read it out of interest)*
+#### Digital Economy: A Fundamental Shift in the Business Environment
+*No need to read this for the purposes of this course but you may want to read it out of interest*
 
-**The Competitive Environment\*\*\*** *(this is one of the most important sections in the whole course. Spend a lot of time and effort on this )*
+### The Competitive Environment\*\*\*
+*This is one of the most important sections in the whole course. Spend a lot of time and effort on this*
 
-**Porter's Five Forces Model of Industry Competition\*\*\* *(read this complete subsection indepth. At the end of the subsection, pay particular attention to “EXHIBIT 2.5 Competitive Analysis Checklist” to ensure you have understood everything)***
+#### Porter's Five Forces Model of Industry Competition\*\*\*
+*Read this complete subsection in-depth. At the end of the subsection, pay particular attention to "Exhibit 2.5 Competitive Analysis Checklist" to ensure you have understood everything*
 
-**The Threat of New Entrants**
+##### The Threat of New Entrants
+- Economies of scale
+- Product differentiation
+- Capital requirements
+- Switching costs
+- Cost disadvantages independent of scale
 
-Economies of scale
+##### The Bargaining Power of Buyers
+- Backward integration
 
-Product Differentiation
+##### The Bargaining Power of Suppliers
+- Forward integration
 
-Capital requirements
+##### The Threat of Substitute Products and Services
 
-Switching costs
+##### The Intensity of Rivalry Among Competitors in an Industry
+- High fixed or storage costs
+- High exit barriers
 
-Cost disadvantages independent of scale
+##### How the Internet and Digital Technologies Are Affecting the Five Competitive Forces
+*Do not read this subsection*
 
-**The Bargaining Power of Buyers**
+##### Using Industry Analysis: A Few Caveats
+*Read this to get a sense of possible issues with this framework but no need to focus too much on this*
 
-Backward integration
+##### Strategic Groups within Industries
+*Do not read this subsection*
 
-**The Bargaining Power of Suppliers**
-
-Forward integration
-
-**The Threat of Substitute Products and Services**
-
-**The Intensity of Rivalry Among Competitors in an Industry**
-
-High fixed or storage costs
-
-High exit barriers
-
-**How the Internet and Digital Technologies Are Affecting the Five Competitive Forces** *(Do not read this sub-section)*
-
-**Using Industry Analysis: A Few Caveats** *(Read this to get a sense of possible issues with this frameworks but no need to focus too much on this)*
-
-**Strategic Groups within Industries** *(Do not read this sub-section)*
-
-# Discussion Preparation Guidance (NO case)
+## Discussion Preparation Guidance (NO Case)
 
 In preparation for the classroom discussion please undertake the following exercise for Porter’s five forces:
 

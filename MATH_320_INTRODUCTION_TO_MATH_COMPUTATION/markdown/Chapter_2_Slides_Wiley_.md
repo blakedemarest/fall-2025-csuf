@@ -1,11 +1,11 @@
-Creating Arrays
+# Creating Arrays
 
-MATLAB  An Introduction With Applications, 6th Edition
-Dr. Amos Gilat
+**MATLAB: An Introduction With Applications, 6th Edition**  
+Dr. Amos Gilat  
 The Ohio State University
 
-Slide deck by
-Dr. Greg Reese
+**Slide deck by**  
+Dr. Greg Reese  
 Miami University
 
 1
@@ -26,7 +26,7 @@ column)
 
 2
 
-2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
+## 2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
 
 To create a row vector from known
 numbers, type variable name, then equal
@@ -37,16 +37,17 @@ variable_name = [ n1, n2, n3 ]
 
 Commas optional
 
+```matlab
 >> yr = [1984 1986 1988 1990 1992 1994 1996]
 yr =
-
-1984 1986 1988 1990 1992 1994 1996
+    1984 1986 1988 1990 1992 1994 1996
+```
 
 Note MATLAB displays row vector horizontally
 
 3
 
-2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
+## 2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
 
 To create a column vector from
 known numbers
@@ -66,7 +67,7 @@ Note MATLAB displays column vector vertically
 
 4
 
-2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
+## 2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
 
 • Method 2 - same as row vector but put
 
@@ -84,7 +85,7 @@ yr =
 
 5
 
-2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
+## 2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
 
 To create a vector with specified
 constant spacing between elements
@@ -104,7 +105,7 @@ v = [ m m+q m+2q m+3q ... n ]
 
 6
 
-2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
+## 2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
 
 If omit q, spacing is one
 
@@ -124,7 +125,7 @@ Non-integer spacing
 
 7
 
-2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
+## 2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
 
 >> z = -3:7
 z = -3 -2 -1 0 1 2 3 4 5 6 7
@@ -135,7 +136,7 @@ Negative spacing
 
 8
 
-2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
+## 2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
 
 To create a vector with specified
 number of terms between first and last
@@ -148,7 +149,7 @@ v = linspace( xi, xf, n )
 
 9
 
-2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
+## 2.1 CREATING A ONE-DIMENSIONAL ARRAY (VECTOR)
 
 >> va = linspace( 0, 8, 6 )
 va = 0 1.6000 3.2000 4.8000 6.4000 8.0000

@@ -1,64 +1,70 @@
-Session Guidance
+# Session Guidance: Chapter 5 Business Strategy
 
-# Prep for Lecture – Topic outline
+## Prep for Lecture – Topic outline
 
 Use the following outline to focus on the parts in the text book that are absolutely necessary. The two exams will be solely based on these topic outlines, which are provided for every class with a lecture part.
 
-|  |
-| --- |
-| ***Notes and additional information are provided in italics*. An asterisks symbol (\*) is placed against sections and subsections that need careful attention. Key concepts are highlighted in yellow.** |
+> **Note:** *Notes and additional information are provided in italics*. An asterisk symbol (\*) is placed against sections and subsections that need careful attention. Key concepts are highlighted in yellow.
 
-**CH. 5 BUSINESS-LEVEL STRATEGY: CREATING AND SUSTAINING COMPETITIVE ADVANTAGES** *(Before starting this chapter, please revisit Porter’s five forces and Value chain analysis utilizing the book and lecture ppt. Strategy spotlights and Executive interview in this chapter are optional reads. Read them only for further understanding of some of the concepts. No need to read the initial paras, go straight to the section below)*
+## CHAPTER 5: BUSINESS-LEVEL STRATEGY - CREATING AND SUSTAINING COMPETITIVE ADVANTAGES
 
-**Types of Competitive Advantage and Sustainability\*\*** *(Recognize that you are moving from Analysis to Formulation/decision part of the book. This topic is about making certain decisions based on five-forces and value chain. In other words, 5-forces and value chain will be the analyses part of the strategic management process and generic strategies will be the subsequent decision. We are also considering how to continually ‘sustain’ the competitive adv. and not just how to gain it. Keep this in mind as you go through this section. Read this entire section)*
+*Before starting this chapter, please revisit Porter's five forces and Value chain analysis utilizing the book and lecture ppt. Strategy spotlights and Executive interview in this chapter are optional reads. Read them only for further understanding of some of the concepts. No need to read the initial paras, go straight to the section below*
 
-**Overall Cost Leadership**
+### Types of Competitive Advantage and Sustainability**
 
-Experience curve
+*Recognize that you are moving from Analysis to Formulation/decision part of the book. This topic is about making certain decisions based on five-forces and value chain. In other words, 5-forces and value chain will be the analyses part of the strategic management process and generic strategies will be the subsequent decision. We are also considering how to continually 'sustain' the competitive adv. and not just how to gain it. Keep this in mind as you go through this section. Read this entire section*
 
-Competitive parity
+#### Overall Cost Leadership
 
-**Overall Cost Leadership: Improving Competitive Position vis-à-vis the Five Forces**
+- **Experience curve**
+- **Competitive parity**
 
-**Potential Pitfalls of Overall Cost Leadership Strategies** *(No need to read this.)*
+#### Overall Cost Leadership: Improving Competitive Position vis-à-vis the Five Forces
 
-**Differentiation**
+#### Potential Pitfalls of Overall Cost Leadership Strategies
+*No need to read this.*
 
-Cost parity
+#### Differentiation
 
-**Differentiation: Improving Competitive Position vis-à-vis the Five Forces**
+- **Cost parity**
 
-**Potential Pitfalls of Differentiation Strategies** *(No need to read this.)*
+#### Differentiation: Improving Competitive Position vis-à-vis the Five Forces
 
-**Focus**
+#### Potential Pitfalls of Differentiation Strategies
+*No need to read this.*
 
-Cost focus
+#### Focus
 
-Differentiation focus
+- **Cost focus**
+- **Differentiation focus**
 
-**Focus: Improving Competitive Position vis-à-vis the Five Forces**
+#### Focus: Improving Competitive Position vis-à-vis the Five Forces
 
-**Potential Pitfalls of Focus Strategies** *(No need to read this.)*
+#### Potential Pitfalls of Focus Strategies
+*No need to read this.*
 
-**Combination Strategies: Integrating Overall Low Cost and Differentiation** *(Focus on understanding the following concepts.)*
+#### Combination Strategies: Integrating Overall Low Cost and Differentiation
+*Focus on understanding the following concepts.*
 
-Mass customization
+- **Mass customization**
+- **Data analytics (Big Data)**
 
-Data analytics (Big Data)
+#### Integrated Overall Low-Cost and Differentiation Strategies: Improving Competitive Position vis-à-vis the Five Forces
 
-**Integrated Overall Low-Cost and Differentiation Strategies: Improving Competitive Position vis-à-vis the Five Forces**
+#### Pitfalls of Integrated Overall Cost Leadership and Differentiation Strategies
+*No need to read this.*
 
-**Pitfalls of Integrated Overall Cost Leadership and Differentiation Strategies** *(No need to read this.)*
+#### Can Competitive Strategies Be Sustained? Integrating and Applying Strategic Management Concepts
+*Consider this question but there is no need to read this section*
 
-**Can Competitive Strategies Be Sustained? Integrating and Applying Strategic Management Concepts** *(Consider this question but there is no need to read this section)*
+#### Industry Life-Cycle Stages: Strategic Implications
+*There is no need to read this section*
 
-**Industry Life-Cycle Stages: Strategic Implications** *(There is no need to read this section)*
-
-# Guidance to approaching the De beers case
+## Guidance for Approaching the De Beers Case
 
 The De Beers case will be used for two different topics. For each topic, use the relevant concepts for analyzing the case.
 
-# With De Beers and the related topic of business strategy, we are moving from strategic analysis into the strategy formulation part of the strategic management process. This is where we assess the impact of the major decisions or changes in strategic direction that the firm undertakes in terms of its overall position in the industry/market segment. As mentioned in the chapter outline above, this session considers what you can potentially decide based on the five forces and value chain. In other words, the 5-forces and value chain will be the analyses, and generic strategies will be the subsequent formulation of strategy. Please, revisit Porter’s five forces and Value chain analysis utilizing the book and lecture ppt. In this session, we are also considering how to ‘sustain’ the competitive adv. and not just how to gain competitive adv. We apply these principles for our case analysis as well.
+With De Beers and the related topic of business strategy, we are moving from strategic analysis into the strategy formulation part of the strategic management process. This is where we assess the impact of the major decisions or changes in strategic direction that the firm undertakes in terms of its overall position in the industry/market segment. As mentioned in the chapter outline above, this session considers what you can potentially decide based on the five forces and value chain. In other words, the 5-forces and value chain will be the analyses, and generic strategies will be the subsequent formulation of strategy. Please, revisit Porter's five forces and Value chain analysis utilizing the book and lecture ppt. In this session, we are also considering how to 'sustain' the competitive adv. and not just how to gain competitive adv. We apply these principles for our case analysis as well.
 
 Our case discussion will proceed through the following stages; you can do the same for your analysis.
 
@@ -71,7 +77,7 @@ Our case discussion will proceed through the following stages; you can do the sa
    3. Analyze how specific characteristics of a generic strategy you have selected will help overcome some of the forces identified before.
    4. Consider how you can relate generic strategies to corporate social responsibility.
 
-# Guidance questions for the de beers case
+## Guidance Questions for the De Beers Case
 
 Guidance questions are meant to provoke a thought process. Ponder over them, especially when the answers are not evident. Remember, in a case discussion there are **no right answers but only better answers**.
 

@@ -1,52 +1,55 @@
-Session Guidance
+# Session Guidance: Chapter 6 Corporate Strategy
 
-# Prep for Lecture – Topic outline
+## Prep for Lecture – Topic outline
 
 Use the following outline to focus on the parts in the text book that are absolutely necessary. The two exams will be solely based on these topic outlines, which are provided for every class with a lecture part.
 
-|  |
-| --- |
-| ***Notes and additional information are provided in italics*. An asterisks symbol (\*) is placed against sections and subsections that need careful attention. Key concepts are highlighted in yellow.** |
+> **Note:** *Notes and additional information are provided in italics*. An asterisk symbol (\*) is placed against sections and subsections that need careful attention. Key concepts are highlighted in yellow.
 
-**CH. 6 CORPORATE-LEVEL STRATEGY: CREATING VALUE THROUGH DIVERSIFICATION** *(Strategy spotlights and Executive interview in this chapter are optional reads. Read them only for further understanding of some of the concepts. No need to read the initial paras, go straight to the section below)*
+## CHAPTER 6: CORPORATE-LEVEL STRATEGY - CREATING VALUE THROUGH DIVERSIFICATION
 
-**Making Diversification Work: An Overview** *(Focus only on understanding the concepts below within this sections. These concepts are shown in italics in the textbook so they should be easy to locate. Also, consider Exhibit 6.2: Creating Value through Related and Unrelated Diversification)*
+*Strategy spotlights and Executive interview in this chapter are optional reads. Read them only for further understanding of some of the concepts. No need to read the initial paras, go straight to the section below*
 
-Synergy
+### Making Diversification Work: An Overview
 
-Related businesses
+*Focus only on understanding the concepts below within this sections. These concepts are shown in italics in the textbook so they should be easy to locate. Also, consider Exhibit 6.2: Creating Value through Related and Unrelated Diversification*
 
-Horizontal relationships
+- **Synergy**
+- **Related businesses**
+- **Horizontal relationships**
+- **Unrelated businesses**
+- **Hierarchical relationships**
 
-Unrelated businesses
+### Related Diversification: Economies of Scope and Revenue Enhancement
 
-Hierarchical relationships
+*Read the section in-depth*
 
-**Related Diversification: Economies of Scope and Revenue Enhancement** *(read the section in-depth)*
+- **Economies of scope**
 
-Economies of scope
+#### Leveraging Core Competencies***
 
-**Leveraging Core Competencies\*\*\***
+- **Core competencies**
 
-Core competencies
+#### Sharing Activities
 
-**Sharing Activities**
+#### Deriving Cost Savings
 
-**Deriving Cost Savings**
+#### Enhancing Revenue and Differentiation
+*Read this section*
 
-**Enhancing Revenue and Differentiation** *(Read this section)*
+### Related Diversification: Market Power
+*Read the section indepth except for the parts that you can leave, as indicated below*
 
-**Related Diversification: Market Power** *(read the section indepth except for the parts that you can leave, as indicated below)*
+#### Pooled Negotiating Power**
 
-**Pooled Negotiating Power\*\***
+#### Vertical Integration *(read upto and including EXHIBIT 6.3: Benefits and Risks of Vertical Integration. No need to read the rest of the subsection)*
 
-**Vertical Integration** *(read upto and including EXHIBIT 6.3: Benefits and Risks of Vertical Integration. No need to read the rest of the subsection)*
-
-**Unrelated Diversification: Financial Synergies and Parenting**
+### Unrelated Diversification: Financial Synergies and Parenting
 
 Vertical (or hierarchical) relationships *(Pay attention to the difference between vertical integration and vertical relationship.)*
 
-**Corporate Parenting and Restructuring** *(read this subsection indepth)*
+#### Corporate Parenting and Restructuring
+*Read this subsection indepth*
 
 **Parenting\*\***
 
@@ -60,15 +63,13 @@ Capital restructuring
 
 Management restructuring
 
-**Portfolio Management** *(Focus on understanding what portfolio management means, the concepts below, and EXHIBIT 6.4: The Boston Consulting Group (BCG) Portfolio Matrix)*
+#### Portfolio Management
+*Focus on understanding what portfolio management means, the concepts below, and EXHIBIT 6.4: The Boston Consulting Group (BCG) Portfolio Matrix*
 
-Stars
-
-Question marks
-
-Cash cows
-
-Dogs
+- **Stars**
+- **Question marks**
+- **Cash cows**
+- **Dogs**
 
 **Limitations***(Skim through this)*
 
@@ -78,7 +79,7 @@ Dogs
 
 **How Managerial Motives Can Erode Value Creation** *(DO NOT read this subsection)*
 
-# Discussion Preparation Guidance (NO case)
+## Discussion Preparation Guidance (NO case)
 
 In preparation for the classroom discussion, please undertake the following exercise :
 
