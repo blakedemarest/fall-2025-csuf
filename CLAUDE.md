@@ -168,6 +168,14 @@ Fall 2025 academic materials and study resources for CSUF (California State Univ
 - **R Statistical Software** (free from r-project.org)
 - **RStudio** IDE (recommended)
 - Access available in MH 452 Computer Lab
+- **R Installation Path**: `C:\Program Files\R\R-4.5.1\bin\x64\R.exe`
+
+### Running R Scripts via Bash (for AI Agents)
+When executing R scripts through the Bash tool, use the following command format:
+```bash
+"C:\Program Files\R\R-4.5.1\bin\x64\Rscript.exe" script_name.R
+```
+Note: Always use the full path to Rscript.exe when running R scripts from bash commands.
 
 ### MGMT 449
 - **Zoom** for synchronous online sessions (CSUF authentication required)
