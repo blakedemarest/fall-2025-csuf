@@ -1,0 +1,318 @@
+---
+title: "Testing the 90th Percentile Using Simulation"
+subtitle: "Bootstrap and Parametric Approaches"
+author: "Blake Demarest"
+date: "August 27, 2025"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    theme: cerulean
+    highlight: tango
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, comment = "##")
+set.seed(123)  # For reproducibility
+```
+
+# The New Problem: 90th Percentile Test
+
+## Background
+The actual ambulance compliance case wants to know if the **90th percentile** of wait times exceeds 14 minutes. This means: "Do more than 10% of calls take longer than 14 minutes?"
+
+**Hypothesis Test:**
+- $H_0$: $P_{90} \leq 14$ minutes (90th percentile is at most 14 minutes)
+- $H_a$: $P_{90} > 14$ minutes (90th percentile exceeds 14 minutes)
+
+## Why Simulation?
+
+Traditional hypothesis tests (like t-tests) work well for means but not for percentiles. We need to:
+1. Create a "pseudo-population" where $H_0$ is true
+2. Simulate many samples from this population
+3. Build a distribution of the test statistic under $H_0$
+4. Compare our observed statistic to this null distribution
+
+---
+
+# Load and Explore the Data
+
+```{r load-data}
+# Load the ambulance wait time data
+waittime_data <- read.csv("waittime.csv")
+wait_times <- waittime_data$x
+
+# Calculate the observed 90th percentile
+observed_p90 <- quantile(wait_times, 0.90)
+n <- length(wait_times)
+
+cat("Sample size:", n, "\n")
+cat("Observed 90th percentile:", round(observed_p90, 2), "minutes\n")
+cat("Testing against threshold:", 14, "minutes\n")
+cat("Difference:", round(observed_p90 - 14, 2), "minutes\n")
+```
+
+---
+
+# Strategy 1: Parametric Approach
+
+## Step 1: Visualize and Choose a Distribution
+
+```{r visualize-dist}
+# Create histogram to understand the shape
+hist(wait_times, 
+     breaks = 30, 
+     freq = FALSE,  # Probability density instead of frequency
+     main = "Distribution of Wait Times with Fitted Curves",
+     xlab = "Wait Time (minutes)",
+     col = "lightblue")
+
+# Add density curve
+lines(density(wait_times), col = "blue", lwd = 2)
+
+# Fit and overlay normal distribution
+mean_est <- mean(wait_times)
+sd_est <- sd(wait_times)
+curve(dnorm(x, mean_est, sd_est), 
+      add = TRUE, col = "red", lwd = 2, lty = 2)
+
+# Fit and overlay gamma distribution (often good for wait times)
+library(MASS)
+gamma_fit <- fitdistr(wait_times, "gamma")
+curve(dgamma(x, shape = gamma_fit$estimate[1], rate = gamma_fit$estimate[2]), 
+      add = TRUE, col = "green", lwd = 2, lty = 3)
+
+legend("topright", 
+       legend = c("Empirical", "Normal", "Gamma"),
+       col = c("blue", "red", "green"),
+       lty = c(1, 2, 3),
+       lwd = 2)
+```
+
+## Step 2: Simulate from Chosen Distribution Under $H_0$
+
+```{r parametric-simulation}
+# Let's use normal distribution for simplicity
+# We need to adjust parameters so the 90th percentile = 14
+
+# For normal distribution: P90 = μ + 1.28 * σ
+# We want: μ + 1.28 * σ = 14
+# Keep the same variance, adjust the mean
+
+target_p90 <- 14
+z_90 <- qnorm(0.90)  # z-score for 90th percentile
+
+# Calculate what mean would give us P90 = 14 with our observed SD
+adjusted_mean <- target_p90 - z_90 * sd_est
+
+cat("Original mean:", round(mean_est, 2), "\n")
+cat("Adjusted mean for H0:", round(adjusted_mean, 2), "\n")
+cat("Standard deviation:", round(sd_est, 2), "\n")
+
+# Simulate under H0
+n_sims <- 10000
+p90_null_parametric <- replicate(n_sims, {
+  sample_sim <- rnorm(n, adjusted_mean, sd_est)
+  quantile(sample_sim, 0.90)
+})
+
+# Calculate p-value
+p_value_parametric <- mean(p90_null_parametric >= observed_p90)
+cat("\nParametric p-value:", round(p_value_parametric, 4), "\n")
+```
+
+---
+
+# Strategy 2: Bootstrap Approach
+
+## Method A: Shift the Original Data
+
+```{r bootstrap-shift}
+# Calculate how much to shift the data to make P90 = 14
+shift_amount <- 14 - observed_p90
+shifted_data <- wait_times + shift_amount
+
+# Verify the shift worked
+cat("Original 90th percentile:", round(observed_p90, 2), "\n")
+cat("Shifted 90th percentile:", round(quantile(shifted_data, 0.90), 2), "\n")
+cat("Shift amount:", round(shift_amount, 2), "\n")
+
+# Bootstrap from shifted data
+n_boot <- 10000
+p90_null_bootstrap <- replicate(n_boot, {
+  # Sample with replacement from shifted data
+  boot_sample <- sample(shifted_data, n, replace = TRUE)
+  quantile(boot_sample, 0.90)
+})
+
+# Calculate p-value
+p_value_bootstrap <- mean(p90_null_bootstrap >= observed_p90)
+cat("\nBootstrap p-value:", round(p_value_bootstrap, 4), "\n")
+```
+
+## Method B: Alternative - Amplify and Shift
+
+```{r bootstrap-amplify}
+# Alternative approach mentioned: repeat each observation many times
+# This creates a "pseudo-population"
+amplification_factor <- 1000
+pseudo_pop <- rep(shifted_data, amplification_factor)
+
+cat("Pseudo-population size:", length(pseudo_pop), "\n")
+cat("Pseudo-pop 90th percentile:", round(quantile(pseudo_pop, 0.90), 2), "\n")
+
+# Sample from pseudo-population
+p90_null_amplified <- replicate(n_boot, {
+  # Sample n observations from the pseudo-population
+  pseudo_sample <- sample(pseudo_pop, n, replace = TRUE)
+  quantile(pseudo_sample, 0.90)
+})
+
+# This should give very similar results to Method A
+p_value_amplified <- mean(p90_null_amplified >= observed_p90)
+cat("Amplified bootstrap p-value:", round(p_value_amplified, 4), "\n")
+```
+
+---
+
+# Comparing All Methods
+
+```{r compare-methods}
+# Create a comparison plot
+par(mfrow = c(2, 2))
+
+# Parametric null distribution
+hist(p90_null_parametric, breaks = 50, 
+     main = "Parametric (Normal) Null Distribution",
+     xlab = "90th Percentile under H0",
+     col = "lightcoral", xlim = c(12, 16))
+abline(v = observed_p90, col = "red", lwd = 2)
+abline(v = 14, col = "blue", lty = 2, lwd = 2)
+text(observed_p90 + 0.2, 100, paste("p =", round(p_value_parametric, 3)), col = "red")
+
+# Bootstrap (shifted) null distribution
+hist(p90_null_bootstrap, breaks = 50,
+     main = "Bootstrap (Shifted) Null Distribution",
+     xlab = "90th Percentile under H0",
+     col = "lightgreen", xlim = c(12, 16))
+abline(v = observed_p90, col = "red", lwd = 2)
+abline(v = 14, col = "blue", lty = 2, lwd = 2)
+text(observed_p90 + 0.2, 100, paste("p =", round(p_value_bootstrap, 3)), col = "red")
+
+# Bootstrap (amplified) null distribution
+hist(p90_null_amplified, breaks = 50,
+     main = "Bootstrap (Amplified) Null Distribution",
+     xlab = "90th Percentile under H0",
+     col = "lightyellow", xlim = c(12, 16))
+abline(v = observed_p90, col = "red", lwd = 2)
+abline(v = 14, col = "blue", lty = 2, lwd = 2)
+text(observed_p90 + 0.2, 100, paste("p =", round(p_value_amplified, 3)), col = "red")
+
+# QQ plot to check normality assumption
+qqnorm(wait_times, main = "Q-Q Plot (Check Normality)")
+qqline(wait_times, col = "red")
+
+par(mfrow = c(1, 1))
+```
+
+---
+
+# Results Summary
+
+```{r summary}
+# Create summary table
+results <- data.frame(
+  Method = c("Parametric (Normal)", "Bootstrap (Shifted)", "Bootstrap (Amplified)"),
+  P_Value = c(p_value_parametric, p_value_bootstrap, p_value_amplified),
+  Decision_at_0.05 = ifelse(c(p_value_parametric, p_value_bootstrap, p_value_amplified) < 0.05,
+                             "Reject H0", "Fail to Reject H0")
+)
+
+print(results)
+
+# Final interpretation
+alpha <- 0.05
+cat("\n", paste(rep("=", 50), collapse = ""), "\n")
+cat("CONCLUSION (α = 0.05)\n")
+cat(paste(rep("=", 50), collapse = ""), "\n")
+
+if (p_value_bootstrap < alpha) {
+  cat("\nWe REJECT H0.\n")
+  cat("There is significant evidence that the 90th percentile\n")
+  cat("of ambulance wait times exceeds 14 minutes.\n")
+  cat("The company is NOT meeting the legal requirement that\n")
+  cat("90% of calls be answered within 14 minutes.\n")
+} else {
+  cat("\nWe FAIL TO REJECT H0.\n")
+  cat("There is insufficient evidence that the 90th percentile\n")
+  cat("exceeds 14 minutes. The company appears to be meeting\n")
+  cat("the legal requirement.\n")
+}
+
+# Calculate what percentage actually exceed 14 minutes
+pct_over_14 <- mean(wait_times > 14) * 100
+cat("\nActual percentage exceeding 14 minutes:", round(pct_over_14, 1), "%\n")
+cat("Legal requirement: No more than 10% should exceed 14 minutes\n")
+```
+
+---
+
+# Key Concepts Explained
+
+## Why Bootstrap Works
+
+The **bootstrap principle**: Your sample is your best estimate of the population. By:
+1. **Resampling with replacement**: We simulate the variability we'd see from repeated sampling
+2. **Shifting to make H0 true**: We create a world where the null hypothesis holds
+3. **Comparing observed to null distribution**: We see how extreme our observation is
+
+## Bootstrap vs Parametric
+
+**Bootstrap Advantages:**
+- No distributional assumptions needed
+- Works for any statistic (mean, median, percentiles, etc.)
+- Captures actual data characteristics
+
+**Parametric Advantages:**
+- More powerful if assumptions are met
+- Smoother distributions
+- Can extrapolate beyond data range
+
+## The "Amplification" Trick
+
+Creating a pseudo-population by repeating observations:
+- Makes the sample "look like" a population
+- Sampling from it mimics drawing from the true population
+- Mathematically equivalent to sampling with replacement from original data
+
+---
+
+# Practice Exercises
+
+## Exercise 1: Different Percentiles
+Try testing the 95th percentile instead of the 90th. What changes?
+
+## Exercise 2: Two-Sided Test
+Modify the code to test if the 90th percentile equals 14 (two-sided test).
+
+## Exercise 3: Confidence Interval
+Create a bootstrap confidence interval for the 90th percentile.
+
+```{r exercise-hint, eval=FALSE}
+# Hint for Exercise 3:
+# boot_samples <- replicate(10000, {
+#   boot_data <- sample(wait_times, n, replace = TRUE)
+#   quantile(boot_data, 0.90)
+# })
+# CI <- quantile(boot_samples, c(0.025, 0.975))
+```
+
+---
+
+# Session Info
+
+```{r session}
+sessionInfo()
+```

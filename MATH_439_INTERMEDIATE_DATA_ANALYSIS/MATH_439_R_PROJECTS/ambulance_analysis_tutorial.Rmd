@@ -1,0 +1,455 @@
+---
+title: "Ambulance Wait Time Analysis - R Tutorial"
+subtitle: "A Step-by-Step Guide for R Beginners"
+author: "Blake Demarest"
+date: "August 27, 2025"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    theme: cerulean
+    highlight: tango
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, comment = "##")
+```
+
+# Introduction
+
+This tutorial will walk you through a hypothesis test analysis in R, explaining each function and concept along the way. We'll analyze ambulance response times to determine if a company meets compliance standards.
+
+## The Problem
+
+An ambulance company is being evaluated for compliance. The legal requirement states that the average response time should not exceed 10 minutes. A judge ordered 300 records to be examined.
+
+**Our Hypothesis Test:**
+
+- **Null Hypothesis ($H_0$):** $\mu \leq 10$ minutes (Company is compliant)
+- **Alternative Hypothesis ($H_a$):** $\mu > 10$ minutes (Company is non-compliant)
+- **Significance Level:** $\alpha = 0.05$ (5% chance of Type I error)
+
+---
+
+# Step 1: Setting Up Your Workspace
+
+```{r workspace}
+# rm() function: "remove" - clears objects from memory
+# list = ls() means "list all objects"
+# This gives us a clean slate to start
+rm(list = ls())
+
+# Note: In R, the hashtag (#) creates a comment
+# Comments are notes for humans and are ignored by R
+```
+
+## What These Functions Do:
+
+- **`rm()`**: Removes objects from your R environment
+- **`ls()`**: Lists all objects currently in memory
+- **`rm(list = ls())`**: Combining these clears everything - like clearing your desk before starting new work
+
+---
+
+# Step 2: Loading the Data
+
+```{r load-data}
+# read.csv() reads a CSV (Comma-Separated Values) file into R
+# It creates a "data frame" - R's version of a spreadsheet/table
+waittime_data <- read.csv("waittime.csv")
+
+# The arrow <- is the assignment operator
+# It means "put the result into this variable"
+# We could also use = but <- is more traditional in R
+```
+
+## Understanding the Assignment Operator
+
+In R, we store values in variables using `<-` or `=`:
+
+```{r assignment-demo}
+# Examples of assignment:
+my_number <- 42
+my_name <- "Student"
+my_calculation <- 10 + 5
+
+# We can then use these variables:
+cat("My number is:", my_number, "\n")
+cat("My name is:", my_name, "\n")
+cat("My calculation result is:", my_calculation, "\n")
+```
+
+---
+
+# Step 3: Exploring Your Data
+
+Before analyzing, always explore your data first!
+
+```{r explore-data}
+# str() shows the "structure" of your data
+# It tells you the type of object and its contents
+str(waittime_data)
+
+# head() shows the first 6 rows (the "head" of the data)
+# This gives you a preview of what your data looks like
+head(waittime_data)
+
+# summary() provides statistical summaries for each column
+# For numbers: min, max, mean, median, quartiles
+summary(waittime_data)
+
+# nrow() counts the number of rows (observations)
+n <- nrow(waittime_data)
+cat("Sample size:", n, "\n")
+```
+
+## What We Learned About Our Data:
+
+- We have 300 observations (rows)
+- Two columns: `X` (row numbers) and `x` (wait times in minutes)
+- Wait times range from 2.4 to 19.9 minutes
+- The median wait time is 10.28 minutes
+
+---
+
+# Step 4: Extracting and Analyzing the Wait Times
+
+```{r extract-analyze}
+# The dollar sign $ extracts a column from a data frame
+# dataframe$columnname gives you that column as a vector
+wait_times <- waittime_data$x
+
+# mean() calculates the average
+mean_wait <- mean(wait_times, na.rm = TRUE)
+
+# sd() calculates standard deviation (spread of data)
+sd_wait <- sd(wait_times, na.rm = TRUE)
+
+# sqrt() calculates square root
+# Standard error = standard deviation / square root of n
+se_wait <- sd_wait / sqrt(n)
+
+# cat() prints output without quotes or brackets
+cat("\nDescriptive Statistics:\n")
+cat("Mean wait time:", round(mean_wait, 2), "minutes\n")
+cat("Standard deviation:", round(sd_wait, 2), "minutes\n")
+cat("Standard error:", round(se_wait, 3), "minutes\n")
+```
+
+## Understanding These Statistics:
+
+- **Mean (Average)**: Add all values and divide by count. Our mean is 10.31 minutes.
+- **Standard Deviation**: Measures how spread out the data is. Ours is 3.12 minutes.
+- **Standard Error**: Measures uncertainty in our mean estimate. Smaller is better!
+
+### The `na.rm = TRUE` Parameter
+
+- **NA** stands for "Not Available" (missing data)
+- **na.rm = TRUE** means "remove NAs before calculating"
+- This prevents errors if your data has missing values
+
+---
+
+# Step 5: Visualizing the Data
+
+A picture is worth a thousand numbers!
+
+```{r visualization}
+# hist() creates a histogram (frequency bar chart)
+hist(wait_times, 
+     main = "Distribution of Ambulance Wait Times",  # Title
+     xlab = "Wait Time (minutes)",                    # X-axis label
+     col = "lightblue",                              # Bar color
+     breaks = 30)                                     # Number of bins
+
+# abline() adds straight lines to the plot
+# v = vertical line at specified x-value
+abline(v = mean_wait, col = "red", lwd = 2)
+abline(v = 10, col = "darkgreen", lwd = 2, lty = 2)
+
+# legend() adds a legend explaining the lines
+legend("topright",                                    # Position
+       legend = c("Sample Mean", "H₀: μ = 10"),      # Labels
+       col = c("red", "darkgreen"),                  # Colors
+       lty = c(1, 2),                                # Line types
+       lwd = 2)                                       # Line width
+```
+
+## What the Histogram Shows:
+
+- The distribution is roughly bell-shaped (approximately normal)
+- Most wait times are between 7-13 minutes
+- The red line (sample mean) is slightly to the right of the green line (10 minutes)
+- This visual suggests the mean might be above 10, but is it statistically significant?
+
+---
+
+# Step 6: The Hypothesis Test
+
+Now for the main analysis - testing if the mean significantly exceeds 10 minutes.
+
+```{r hypothesis-test}
+# Set our significance level (alpha)
+# This is our tolerance for making a Type I error (false positive)
+mu_0 <- 10      # The value we're testing against
+alpha <- 0.05   # 5% significance level
+
+# t.test() performs a t-test
+# We use this when we don't know the population standard deviation
+t_test <- t.test(wait_times,               # The data to test
+                 mu = mu_0,                 # Test if mean equals this
+                 alternative = "greater",   # We only care if it's greater
+                 conf.level = 1 - alpha)    # Confidence level (95%)
+
+# Extract and display results
+cat("\nHYPOTHESIS TEST RESULTS\n")
+cat("========================================\n")
+cat("Test Statistic (t):", round(t_test$statistic, 3), "\n")
+cat("Degrees of freedom:", t_test$parameter, "\n")
+cat("P-value:", round(t_test$p.value, 4), "\n")
+```
+
+## Understanding the t-test Parameters:
+
+- **`mu`**: The value we're comparing our mean against (10 minutes)
+- **`alternative = "greater"`**: We're doing a one-tailed test (only testing if mean > 10)
+  - Use `"two.sided"` to test if mean ≠ 10
+  - Use `"less"` to test if mean < 10
+- **`conf.level`**: The confidence level (1 - α = 0.95 means 95% confidence)
+
+## Understanding the Output:
+
+- **Test Statistic (t = 1.726)**: Measures how many standard errors our mean is from 10
+- **Degrees of freedom (299)**: n - 1, used to determine the exact t-distribution
+- **P-value (0.0427)**: The probability of seeing data this extreme if H₀ were true
+
+---
+
+# Step 7: Confidence Intervals
+
+After a hypothesis test, confidence intervals provide additional insight by showing the range of plausible values for the true population mean.
+
+```{r confidence-interval}
+# Get the one-sided confidence interval from our test
+# Since we tested "greater", we get a lower bound
+cat("\n95% ONE-SIDED CONFIDENCE INTERVAL\n")
+cat("=====================================\n")
+cat("Lower bound:", round(t_test$conf.int[1], 2), "minutes\n")
+cat("Upper bound: ∞ (infinity)\n")
+cat("\nInterpretation: We are 95% confident that the true mean\n")
+cat("wait time is AT LEAST", round(t_test$conf.int[1], 2), "minutes.\n")
+
+# Also calculate a two-sided CI for the mean (not testing against 10)
+# This shows the range where the true mean likely falls
+t_test_two <- t.test(wait_times, conf.level = 0.95)
+cat("\n95% TWO-SIDED CONFIDENCE INTERVAL\n")
+cat("=====================================\n")
+cat("Range: [", round(t_test_two$conf.int[1], 2), ",", 
+    round(t_test_two$conf.int[2], 2), "] minutes\n")
+cat("\nInterpretation: We are 95% confident that the true mean\n")
+cat("wait time is between", round(t_test_two$conf.int[1], 2), 
+    "and", round(t_test_two$conf.int[2], 2), "minutes.\n")
+```
+
+## Understanding Confidence Intervals
+
+### One-Sided vs Two-Sided CIs
+
+**One-Sided CI (for our one-tailed test):**
+- Since we're testing if μ > 10, we only care about the lower bound
+- Format: [lower bound, ∞)
+- Tells us the minimum plausible value for the true mean
+- If the lower bound > 10, this supports rejecting H₀
+
+**Two-Sided CI (for the mean itself):**
+- Shows the full range of plausible values
+- Format: [lower bound, upper bound]
+- More commonly reported in practice
+- If 10 is not in this interval, it suggests μ ≠ 10
+
+### Connection to Hypothesis Test
+
+```{r ci-connection}
+# Check if 10 is in the two-sided confidence interval
+if (t_test_two$conf.int[1] > 10) {
+  cat("Note: The entire 95% CI is above 10 minutes.\n")
+  cat("This strongly supports our rejection of H₀.\n")
+} else if (t_test_two$conf.int[2] < 10) {
+  cat("Note: The entire 95% CI is below 10 minutes.\n")
+  cat("This would suggest μ < 10 (opposite of our alternative).\n")
+} else {
+  cat("Note: The 95% CI contains 10 minutes.\n")
+  cat("The mean is close to the threshold, making the decision borderline.\n")
+}
+```
+
+## Visual Representation
+
+```{r ci-visual}
+# Create a visual showing the confidence interval
+plot(1, mean_wait, 
+     xlim = c(0.5, 1.5), 
+     ylim = c(9, 11.5),
+     pch = 19, 
+     cex = 2,
+     xlab = "", 
+     xaxt = "n",
+     ylab = "Wait Time (minutes)",
+     main = "95% Confidence Interval for Mean Wait Time")
+
+# Add the confidence interval
+arrows(1, t_test_two$conf.int[1], 
+       1, t_test_two$conf.int[2], 
+       length = 0.05, 
+       angle = 90, 
+       code = 3, 
+       lwd = 2,
+       col = "blue")
+
+# Add reference line at 10
+abline(h = 10, col = "red", lty = 2, lwd = 2)
+
+# Add labels
+text(1.1, mean_wait, paste("Sample Mean:", round(mean_wait, 2)), pos = 4)
+text(1.1, 10, "H₀: μ = 10", pos = 4, col = "red")
+text(1.1, t_test_two$conf.int[1], paste("Lower:", round(t_test_two$conf.int[1], 2)), pos = 4, col = "blue")
+text(1.1, t_test_two$conf.int[2], paste("Upper:", round(t_test_two$conf.int[2], 2)), pos = 4, col = "blue")
+```
+
+---
+
+# Step 8: Making a Decision
+
+```{r decision}
+# Use an if-else statement to make our decision
+if (t_test$p.value < alpha) {
+  cat("\n*** DECISION: REJECT H₀ ***\n")
+  cat("The p-value (", round(t_test$p.value, 4), ") is less than α (", alpha, ")\n", sep="")
+  cat("\nConclusion: The ambulance company is NON-COMPLIANT.\n")
+  cat("There is statistically significant evidence that the average\n")
+  cat("wait time exceeds 10 minutes.\n")
+} else {
+  cat("\n*** DECISION: FAIL TO REJECT H₀ ***\n")
+  cat("The p-value (", round(t_test$p.value, 4), ") is greater than α (", alpha, ")\n", sep="")
+  cat("\nConclusion: Insufficient evidence of non-compliance.\n")
+}
+```
+
+## The Decision Rule:
+
+- If **p-value < α**: Reject H₀ (evidence supports H_a)
+- If **p-value ≥ α**: Fail to reject H₀ (insufficient evidence)
+
+In our case: p-value (0.0427) < α (0.05), so we **REJECT H₀**
+
+---
+
+# Final Interpretation
+
+## Statistical Conclusion
+
+With a p-value of 0.0427, we have statistically significant evidence at the 5% level that the ambulance company's average response time exceeds 10 minutes. The company is **NON-COMPLIANT** based on this criterion.
+
+## Practical Significance
+
+```{r practical}
+# Let's look at the practical implications
+excess_time <- mean_wait - 10
+percent_over <- (mean_wait - 10) / 10 * 100
+
+cat("The average wait time is", round(excess_time, 2), "minutes over the limit.\n")
+cat("This represents a", round(percent_over, 1), "% increase over the standard.\n")
+```
+
+While statistically significant, the practical impact is relatively small:
+
+- The mean is only 0.31 minutes (about 19 seconds) over the limit
+- This is a 3.1% increase over the 10-minute standard
+
+## Recommendations
+
+1. **For the Company**: While violating the standard, the violation is marginal. Small operational improvements could bring them into compliance.
+
+2. **For the Court**: The evidence shows non-compliance, but the severity is minimal. Consider whether this small difference has practical impact on patient outcomes.
+
+3. **Statistical Note**: With large samples (n=300), even small differences can be statistically significant. Always consider both statistical AND practical significance.
+
+---
+
+# R Function Reference Guide
+
+Here's a quick reference of all functions we used:
+
+| Function | Purpose | Example |
+|----------|---------|---------|
+| `rm()` | Remove objects from memory | `rm(list = ls())` |
+| `ls()` | List all objects in memory | `ls()` |
+| `read.csv()` | Read CSV file | `data <- read.csv("file.csv")` |
+| `str()` | Show structure of object | `str(data)` |
+| `head()` | Show first 6 rows | `head(data)` |
+| `summary()` | Statistical summary | `summary(data)` |
+| `nrow()` | Count rows | `n <- nrow(data)` |
+| `mean()` | Calculate average | `mean(x, na.rm = TRUE)` |
+| `sd()` | Standard deviation | `sd(x, na.rm = TRUE)` |
+| `sqrt()` | Square root | `sqrt(16)` returns 4 |
+| `round()` | Round numbers | `round(3.14159, 2)` returns 3.14 |
+| `cat()` | Print output | `cat("Hello", "World\n")` |
+| `hist()` | Create histogram | `hist(data)` |
+| `abline()` | Add lines to plot | `abline(v = 10, col = "red")` |
+| `legend()` | Add legend to plot | `legend("topright", ...)` |
+| `t.test()` | Perform t-test | `t.test(x, mu = 10)` |
+| `if/else` | Conditional logic | `if (condition) {do this} else {do that}` |
+
+---
+
+# Practice Exercises
+
+Try these exercises to reinforce your learning:
+
+## Exercise 1: Change the Hypothesis
+```{r exercise1, eval=FALSE}
+# What if the standard was 12 minutes instead of 10?
+# Run a t-test with mu = 12
+# What's your conclusion now?
+```
+
+## Exercise 2: Two-Tailed Test
+```{r exercise2, eval=FALSE}
+# Run a two-tailed test (alternative = "two.sided")
+# How does this change your p-value?
+# Would you still reject H₀?
+```
+
+## Exercise 3: Explore the Data
+```{r exercise3, eval=FALSE}
+# Calculate the median wait time
+# What percentage of calls exceed 10 minutes?
+# Hint: Use median() and mean(wait_times > 10)
+```
+
+---
+
+# Summary
+
+You've learned how to:
+
+1. ✅ Load and explore data in R
+2. ✅ Calculate descriptive statistics
+3. ✅ Create visualizations
+4. ✅ Perform hypothesis tests
+5. ✅ Interpret statistical results
+6. ✅ Make data-driven decisions
+
+Remember: Statistics is about making informed decisions under uncertainty. Our test provided evidence, not absolute proof. Always consider both statistical significance and practical importance!
+
+---
+
+# Session Information
+
+```{r session}
+# This shows what version of R and packages you're using
+# Helpful for reproducing analyses
+sessionInfo()
+```

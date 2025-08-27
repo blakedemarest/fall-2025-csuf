@@ -1,0 +1,124 @@
+---
+title: "MATH 439 - Class Notes"
+subtitle: "Simulation of Hypothesis Testing"
+author: "Blake Demarest"
+date: "August 27, 2025"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+## Course Information
+
+- **Course:** MATH 439 - Intermediate Data Analysis
+- **Time:** 10:00-11:50 AM  
+- **Location:** MH 452
+- **Instructor:** Dr. Kevin Nichols
+
+## Today's Topic: Simulation of Hypothesis Testing
+
+### Problem Review from Monday
+
+We are revisiting the **100 fail tests problem** from Monday's class, but this time we will recreate it using simulation methods in R.
+
+## Recap of Inference on $p$
+
+### Theoretical Approach (CLT Approach)
+
+**Hypothesis Test:**
+$$H_0: p = 0.2$$
+$$H_a: p < 0.2$$
+
+**Sample Information:**
+- Sample size: $n = 100$
+- Sample proportion: $\hat{p} = \frac{15}{100} = 0.15$
+
+**If $H_0$ is true** (theoretical approach):
+- We need a distribution for the random variable $\hat{p}$
+- Under $H_0$, by the Central Limit Theorem:
+  $$\hat{p} \sim N\left(0.2, \sqrt{\frac{0.2(1-0.2)}{100}}\right)$$
+
+### Simulated Approach
+
+**Key Concept:** Simulate an experiment under a true $H_0$ repeatedly!
+
+**Process:**
+1. Each simulation: record estimate $\hat{\theta}$ or $\hat{p}$ of unknown parameter $\theta$ or $p$
+2. Collect results:
+   - $\hat{\theta}_1, \hat{\theta}_2, ..., \hat{\theta}_{10000}$
+   - or $\hat{p}_1, \hat{p}_2, ..., \hat{p}_{10000}$
+
+### Simulation Setup
+
+```{r simulation-parameters}
+# Set seed for reproducibility
+set.seed(123)
+
+# Parameters
+n <- 100           # Sample size
+p_null <- 0.2      # Null hypothesis value
+n_sims <- 10000    # Number of simulations
+observed_phat <- 15/100  # Our observed sample proportion
+
+```
+
+```{r simulation}
+# Simulate under H_0: p = 0.2
+# Each simulation: draw n=100 observations from Bernoulli(p=0.2)
+# Calculate sample proportion for each simulation
+
+simulated_phats <- replicate(n_sims, {
+  sample_data <- rbinom(1, n, p_null)  # Number of successes in n trials
+  sample_data / n  # Sample proportion
+})
+
+# View first few simulated proportions
+head(simulated_phats)
+```
+
+```{r visualization}
+# Histogram of simulated distribution
+hist(simulated_phats, 
+     breaks = 30,
+     main = "Simulated Distribution of Sample Proportions under H_0",
+     xlab = expression(hat(p)),
+     col = "lightblue",
+     probability = TRUE)
+
+# Add observed value
+abline(v = observed_phat, col = "red", lwd = 2)
+text(observed_phat - 0.02, 8, paste("Observed:", observed_phat), col = "red")
+
+# Add theoretical normal curve for comparison
+curve(dnorm(x, mean = p_null, 
+            sd = sqrt(p_null*(1-p_null)/n)), 
+      add = TRUE, col = "blue", lwd = 2)
+legend("topright", 
+       legend = c("Simulated", "Theoretical (CLT)", "Observed"),
+       col = c("lightblue", "blue", "red"),
+       lwd = c(NA, 2, 2),
+       fill = c("lightblue", NA, NA))
+```
+
+```{r p-value}
+# Calculate p-value (proportion of simulated values <= observed)
+p_value_simulated <- mean(simulated_phats <= observed_phat)
+cat("Simulated p-value:", p_value_simulated, "\n")
+
+# Compare with theoretical p-value
+theoretical_sd <- sqrt(p_null * (1 - p_null) / n)
+z_score <- (observed_phat - p_null) / theoretical_sd
+p_value_theoretical <- pnorm(z_score)
+cat("Theoretical p-value (CLT):", p_value_theoretical, "\n")
+```
+
+### Notes
+
+*[Additional notes from lecture]*
