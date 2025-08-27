@@ -1833,7 +1833,7 @@ themes.
 
 xxviii
 
-CHAPTER1PART 1: STRATEGIC ANALYSISStrategic ManagementCreating Competitive AdvantagesAnatoli Styf/ShutterstockLearning ObjectivesLO1-1 Define strategic management and its four key attributes.LO1-2 Understand the strategic management process and its three interrelated and principal activities.LO1-3 Identify the vital role of corporate governance and stakeholder management, as well as how “symbiosis” can be achieved among an organization’s stakeholders.LO1-4 Understand the importance of social responsibility, including environmental sustainability, and how it can enhance a corporation’s innovation strategy.LO1-5 Recognize the need for greater empowerment throughout the organization.LO1-6 Explain how an awareness of a hierarchy of strategic goals can help an organization achieve coherence in its strategic direction.We encourage you to reflect on how the concepts presented in this chapter can enhance your career success (see “Reflecting on Career Implications...” at the end of the chapter).des24325_ch01_001-035.indd   29/12/22   3:09 PMPART 1: STRATEGIC ANALYSISWhat makes the study of strategic management so inter-esting? The answer is things can change so rapidly. Some startups can disrupt industries and become globally rec-ognized names almost overnight, and the rankings of the world’s most valuable firms can dramatically change in a brief period. On the other hand, many impressive, high-flying firms can struggle to reclaim past glory—or fail alto-gether. As colorfully (and ironically) noted by Arthur Martinez, Sears’s former chairman: “Today’s peacock is tomorrow’s feather duster.”1Consider the following:2• The 33-year average tenure of companies on the S&P 500 in 1962 narrowed to 24 years by 2016 and is forecast to shrink to merely 12 years by 2027.• At the beginning of 2000, the four firms in the world with the highest market values were General Electric, Exxon Mobil, Pfizer, and Citigroup. By late 2019, four tech firms headed the list: Apple, Alphabet (parent of Google), Amazon, and Microsoft.• When Fortune created the first Fortune Global 500 list of the largest global companies in 1990, no Chinese company was included. In 2020, Chinese companies made up the majority of the Fortune Global 500 list.• Record private equity activity, a strong M&A market, and the growth of startups with billion dollar market caps (called “unicorns”) are often viewed as leading factors to increase disruptions in a wide variety of industries.• In 1995, only about 3 percent of the companies on the Fortune Global 500 list were from emerging markets. This number has increased to 26 percent in 2013 and is predicted to grow to 45 percent by 2025.• With the emergence of the digital economy, new entrants are shaking up long-standing industries. After all, Alibaba is one of the world’s most valuable retailers—but holds no inventory; Airbnb is the world’s largest provider of accommodations—but owns no real estate; and Uber is the world’s largest car service—but owns no cars.The rise of the digital economy has inspired entrepre-neurs to start technology companies that could disrupt existing industries. Take the example of Luckin Coffee.3 Founded in 2017, Luckin took aim at the expanding  coffee industry in China, a market dominated by Starbucks. While chief rival Starbucks operates posh cafes in prime real-estate locations, Luckin overwhelmingly operates small pickup locations in less costly locations. Customers must place their orders via a smartphone app, eliminating the need for cashiers and allowing Luckin to collect data to optimize sales. This technology-driven business model  allowed Luckin to offer lower prices than Starbucks,  enabling the Chinese coffee chain to go from founding to initial public listing (IPO) on the Nasdaq stock exchange in less than two years.While Luckin’s success took many by surprise, its crash was even more startling. Luckin revealed in April 2020 it had inflated its 2019 sales numbers, sending its stock plunging 75 percent overnight. It all started when Luckin’s management team set an aggressive goal to overtake Starbucks and dominate the Chinese coffee market. This aggressive goal incentivized employees to create fake transactions to prop up sale numbers by $310 million, suggesting the firm’s leadership failed to create effective internal controls to ensure reliable financial statements. More worrisome, Luckin CEO Jenny Zhiya Qian actively approved illegitimate payments and contributed to a  culture of financial misconduct.The financial misconduct at Luckin also illustrates how challenging it is for external control mechanisms—such as public accounting firms—to effectively control companies. Public accounting firms such as KPMG and Ernst & Young certify financial statements to ensure shareholders and other investors are not defrauded by unscrupulous insid-ers. In the case of Luckin Coffee, Ernst & Young—one of the most prestigious accounting firms in the world— audited Luckin’s financial statements but failed to raise red flags. Similarly, the U.S. Securities and Exchange Com-mission (SEC) proved unable to properly inspect the finan-cial records of Luckin as a foreign company listed on a U.S. stock exchange. Instead, the SEC issued a warning to investors about the risks of investing in foreign market firms, especially from China and other emerging markets.LEARNING FROM MISTAKESdes24325_ch01_001-035.indd   39/12/22   3:09 PMCHAPTER 1 :: STRATEGIC MANAGEMENT 9THE STRATEGIC MANAGEMENT PROCESSWe’ve identified three ongoing processes—analyses, decisions, and actions—that are central to strategic management. In practice, these three processes—often referred to as strategy analysis, strategy formulation, and strategy implementation—are highly interdependent and do not take place one after the other in a sequential fashion in most companies.Intended versus Realized StrategiesHenry Mintzberg, a management scholar at McGill University, argues that viewing the stra-tegic management process as one in which analysis is followed by optimal decisions and their subsequent meticulous implementation neither describes the strategic management process accurately nor prescribes ideal practice.28 He sees the business environment as far from predictable, thus limiting our ability for analysis. Further, decisions are seldom based on optimal rationality alone, given the political processes that occur in all organizations.29STRATEGY SPOTLIGHT1.1AMBIDEXTROUS BEHAVIORS: COMBINING ALIGNMENT AND ADAPTABILITYA study involving 41 business units in 10 multinational compa-nies identified four ambidextrous behaviors in individuals. Such behaviors are the essence of ambidexterity. They illustrate how a dual capacity for alignment and adaptability can be woven into the fabric of an organization at the individual level.They take time and are alert to opportunities beyond the confines of their own jobs. A large computer company’s sales manager became aware of a need for a new software module that nobody currently offered. Instead of selling the customer something else, he worked up a business case for the new mod-ule. With management’s approval, he began working full time on its development.They are cooperative and seek out opportunities to com-bine their efforts with others. A marketing manager for Italy was responsible for supporting a newly acquired subsidiary. When frustrated about the limited amount of contact she had with her peers in other countries, she began discussions with them. This led to the creation of a European marketing forum that meets quarterly to discuss issues, share best practices, and collaborate on marketing plans.They are brokers, always looking to build internal net-works. When visiting the head office in St. Louis, a Canadian plant manager heard about plans for a $10 million investment for a new tape manufacturing plant. After inquiring further about the plans and returning to Canada, he contacted a regional man-ager in Manitoba, who he knew was looking for ways to build his business. With some generous support from the Manitoba gov-ernment, the regional manager bid for, and ultimately won, the $10 million investment.They are multitaskers who are comfortable wearing more than one hat. Although an operations manager for a major coffee and tea distributor was charged with running his plant as effi-ciently as possible, he took it upon himself to identify value-added services for his clients. By developing a dual role, he was able to manage operations and develop a promising electronic module that automatically reported impending problems inside a coffee vending machine. With corporate funding, he found a subcontrac-tor to develop the software, and he then piloted the module in his own operations. It was so successful that it was eventually ad-opted by operations managers in several other countries.A Harvard Business Review article provides some useful in-sights on how one can become a more ambidextrous leader. Consider the following questions:• Do you meet your numbers?• Do you help others?• What do you do for your peers? Are you just their in-house competitor?• When you manage up, do you bring problems—or prob-lems with possible solutions?• Are you transparent? Managers who get a reputation for spinning events gradually lose the trust of peers and supe-riors.• Are you developing a group of senior managers who know you and are willing to back your original ideas with resources?Sources: Birkinshaw, J. and C. Gibson. 2004. Building ambidexterity into an orga-nization. MIT Sloan Management Review, 45(4): 47–55; and Bower, J. L. 2007. Solve the succession crisis by growing inside-out leaders. Harvard Business Review, 85(11): 90–99.Understand the strategic management process and its three interrelated and principal activities.LO 1-2STRATEGY SPOTLIGHT1.2ESG FUNDS ARE GOOD FOR YOUR WALLET AND THE PLANET Investors increasingly seek out investment options that are not only good for their wallets but also good for the planet and for society. Investments that satisfy responsible investment objec-tives are commonly known as environmental, social, and gover-nance (ESG) investment funds. ESG funds offer fund investors access to companies that do good and avoid harm, thus matching the values of a new generation of investors with companies that espouse similar values. In the U.S. alone, the net new investment inflow into ESG funds reached more than $51 billion in 2020, with the ESG fund industry now accounting for about 33 percent of total assets under management in the U.S. In addition, ESG funds do not only contribute to a greener and more sustainable society, but they also allow their fund investors to do well financially. The average returns of ESG funds in the U.S. outperformed traditional investment funds by more than 4 percent in 2020.While ESG investing is clearly a force to be reckoned with in the asset management industry, the success of ESG investing at-tracted numerous new funds that may espouse ESG investing principles on paper only but not in spirit. Today more than 6,000 funds state that they invest funds in ethical firms and projects, double the number of such funds in 2013. ESG funds offered in Europe must describe in detail how exactly they address social and environmental issues, ensuring that ESG funds are in sub-stantial compliance with the ideas of ESG investing. However, similar rules do not exist in the U.S., creating the need for inves-tors to carefully select ESG funds that align with their values. Jon Hale, U.S. head of sustainable research for Morningstar, provides several best practices that make this process easier.According to Hale, investors should start by assessing the fi-nancial performance and fees of ESG funds as they would for tra-ditional mutual funds. Next, investors should understand the three basic types of ESG funds. First, “shunners” avoid bad actors in a specific set of companies and then purge all companies that rank in the bottom of sustainability, social responsibility, or gover-nance effectiveness. Second, “seekers” actively pick the best stocks according to ESG criteria. This type of ESG fund may in-clude activist shareholders that pressure companies to change their business practices. Lastly, “specialists” follow a niche strat-egy and target current environmental or social issues. For in-stance, some specialist ESG funds may invest in clean technology companies while others invest in companies known for women-friendly workplace practices. Investors who follow these guide-lines may have an easier time ensuring that their investments into ESG funds are indeed improving the planet and society at large. Sources: Derousseau, R. 2021. Just how green is your ‘green’ fund? Fortune, March 31: 43–44; Nason, D. 2020. ‘Sustainable investing’ is surging, accounting for 33% of total U.S. assets under management. www.cnbc.com, December 21: np; and Simpson, C., Rathi, A., & Kishan, S. 2021. Sustainable investing is mostly about sustaining corporations. www.bloomberg.com, December 9: np.ENVIRONMENTAL SUSTAINABILITY1.1
+CHAPTER1PART 1: STRATEGIC ANALYSISStrategic ManagementCreating Competitive AdvantagesAnatoli Styf/ShutterstockLearning ObjectivesLO1-1 Define strategic management and its four key attributes.LO1-2 Understand the strategic management process and its three interrelated and principal activities.LO1-3 Identify the vital role of corporate governance and stakeholder management, as well as how “symbiosis” can be achieved among an organization’s stakeholders.LO1-4 Understand the importance of social responsibility, including environmental sustainability, and how it can enhance a corporation’s innovation strategy.LO1-5 Recognize the need for greater empowerment throughout the organization.LO1-6 Explain how an awareness of a hierarchy of strategic goals can help an organization achieve coherence in its strategic direction.We encourage you to reflect on how the concepts presented in this chapter can enhance your career success (see “Reflecting on Career Implications...” at the end of the chapter).des24325_ch01_001-035.indd   29/12/22   3:09 PMPART 1: STRATEGIC ANALYSISWhat makes the study of strategic management so inter-esting? The answer is things can change so rapidly. Some startups can disrupt industries and become globally rec-ognized names almost overnight, and the rankings of the world’s most valuable firms can dramatically change in a brief period. On the other hand, many impressive, high-flying firms can struggle to reclaim past glory—or fail alto-gether. As colorfully (and ironically) noted by Arthur Martinez, Sears’s former chairman: “Today’s peacock is tomorrow’s feather duster.”1Consider the following:2• The 33-year average tenure of companies on the S&P 500 in 1962 narrowed to 24 years by 2016 and is forecast to shrink to merely 12 years by 2027.• At the beginning of 2000, the four firms in the world with the highest market values were General Electric, Exxon Mobil, Pfizer, and Citigroup. By late 2019, four tech firms headed the list: Apple, Alphabet (parent of Google), Amazon, and Microsoft.• When Fortune created the first Fortune Global 500 list of the largest global companies in 1990, no Chinese company was included. In 2020, Chinese companies made up the majority of the Fortune Global 500 list.• Record private equity activity, a strong M&A market, and the growth of startups with billion dollar market caps (called “unicorns”) are often viewed as leading factors to increase disruptions in a wide variety of industries.• In 1995, only about 3 percent of the companies on the Fortune Global 500 list were from emerging markets. This number has increased to 26 percent in 2013 and is predicted to grow to 45 percent by 2025.• With the emergence of the digital economy, new entrants are shaking up long-standing industries. After all, Alibaba is one of the world’s most valuable retailers—but holds no inventory; Airbnb is the world’s largest provider of accommodations—but owns no real estate; and Uber is the world’s largest car service—but owns no cars.The rise of the digital economy has inspired entrepre-neurs to start technology companies that could disrupt existing industries. Take the example of Luckin Coffee.3 Founded in 2017, Luckin took aim at the expanding  coffee industry in China, a market dominated by Starbucks. While chief rival Starbucks operates posh cafes in prime real-estate locations, Luckin overwhelmingly operates small pickup locations in less costly locations. Customers must place their orders via a smartphone app, eliminating the need for cashiers and allowing Luckin to collect data to optimize sales. This technology-driven business model  allowed Luckin to offer lower prices than Starbucks,  enabling the Chinese coffee chain to go from founding to initial public listing (IPO) on the Nasdaq stock exchange in less than two years.While Luckin’s success took many by surprise, its crash was even more startling. Luckin revealed in April 2020 it had inflated its 2019 sales numbers, sending its stock plunging 75 percent overnight. It all started when Luckin’s management team set an aggressive goal to overtake Starbucks and dominate the Chinese coffee market. This aggressive goal incentivized employees to create fake transactions to prop up sale numbers by $310 million, suggesting the firm’s leadership failed to create effective internal controls to ensure reliable financial statements. More worrisome, Luckin CEO Jenny Zhiya Qian actively approved illegitimate payments and contributed to a  culture of financial misconduct.The financial misconduct at Luckin also illustrates how challenging it is for external control mechanisms—such as public accounting firms—to effectively control companies. Public accounting firms such as KPMG and Ernst & Young certify financial statements to ensure shareholders and other investors are not defrauded by unscrupulous insid-ers. In the case of Luckin Coffee, Ernst & Young—one of the most prestigious accounting firms in the world— audited Luckin’s financial statements but failed to raise red flags. Similarly, the U.S. Securities and Exchange Com-mission (SEC) proved unable to properly inspect the finan-cial records of Luckin as a foreign company listed on a U.S. stock exchange. Instead, the SEC issued a warning to investors about the risks of investing in foreign market firms, especially from China and other emerging markets.LEARNING FROM MISTAKESdes24325_ch01_001-035.indd   39/12/22   3:09 PM## Chapter 1: Strategic Management 9THE STRATEGIC MANAGEMENT PROCESSWe’ve identified three ongoing processes—analyses, decisions, and actions—that are central to strategic management. In practice, these three processes—often referred to as strategy analysis, strategy formulation, and strategy implementation—are highly interdependent and do not take place one after the other in a sequential fashion in most companies.Intended versus Realized StrategiesHenry Mintzberg, a management scholar at McGill University, argues that viewing the stra-tegic management process as one in which analysis is followed by optimal decisions and their subsequent meticulous implementation neither describes the strategic management process accurately nor prescribes ideal practice.28 He sees the business environment as far from predictable, thus limiting our ability for analysis. Further, decisions are seldom based on optimal rationality alone, given the political processes that occur in all organizations.29STRATEGY SPOTLIGHT1.1AMBIDEXTROUS BEHAVIORS: COMBINING ALIGNMENT AND ADAPTABILITYA study involving 41 business units in 10 multinational compa-nies identified four ambidextrous behaviors in individuals. Such behaviors are the essence of ambidexterity. They illustrate how a dual capacity for alignment and adaptability can be woven into the fabric of an organization at the individual level.They take time and are alert to opportunities beyond the confines of their own jobs. A large computer company’s sales manager became aware of a need for a new software module that nobody currently offered. Instead of selling the customer something else, he worked up a business case for the new mod-ule. With management’s approval, he began working full time on its development.They are cooperative and seek out opportunities to com-bine their efforts with others. A marketing manager for Italy was responsible for supporting a newly acquired subsidiary. When frustrated about the limited amount of contact she had with her peers in other countries, she began discussions with them. This led to the creation of a European marketing forum that meets quarterly to discuss issues, share best practices, and collaborate on marketing plans.They are brokers, always looking to build internal net-works. When visiting the head office in St. Louis, a Canadian plant manager heard about plans for a $10 million investment for a new tape manufacturing plant. After inquiring further about the plans and returning to Canada, he contacted a regional man-ager in Manitoba, who he knew was looking for ways to build his business. With some generous support from the Manitoba gov-ernment, the regional manager bid for, and ultimately won, the $10 million investment.They are multitaskers who are comfortable wearing more than one hat. Although an operations manager for a major coffee and tea distributor was charged with running his plant as effi-ciently as possible, he took it upon himself to identify value-added services for his clients. By developing a dual role, he was able to manage operations and develop a promising electronic module that automatically reported impending problems inside a coffee vending machine. With corporate funding, he found a subcontrac-tor to develop the software, and he then piloted the module in his own operations. It was so successful that it was eventually ad-opted by operations managers in several other countries.A Harvard Business Review article provides some useful in-sights on how one can become a more ambidextrous leader. Consider the following questions:• Do you meet your numbers?• Do you help others?• What do you do for your peers? Are you just their in-house competitor?• When you manage up, do you bring problems—or prob-lems with possible solutions?• Are you transparent? Managers who get a reputation for spinning events gradually lose the trust of peers and supe-riors.• Are you developing a group of senior managers who know you and are willing to back your original ideas with resources?Sources: Birkinshaw, J. and C. Gibson. 2004. Building ambidexterity into an orga-nization. MIT Sloan Management Review, 45(4): 47–55; and Bower, J. L. 2007. Solve the succession crisis by growing inside-out leaders. Harvard Business Review, 85(11): 90–99.Understand the strategic management process and its three interrelated and principal activities.LO 1-2STRATEGY SPOTLIGHT1.2ESG FUNDS ARE GOOD FOR YOUR WALLET AND THE PLANET Investors increasingly seek out investment options that are not only good for their wallets but also good for the planet and for society. Investments that satisfy responsible investment objec-tives are commonly known as environmental, social, and gover-nance (ESG) investment funds. ESG funds offer fund investors access to companies that do good and avoid harm, thus matching the values of a new generation of investors with companies that espouse similar values. In the U.S. alone, the net new investment inflow into ESG funds reached more than $51 billion in 2020, with the ESG fund industry now accounting for about 33 percent of total assets under management in the U.S. In addition, ESG funds do not only contribute to a greener and more sustainable society, but they also allow their fund investors to do well financially. The average returns of ESG funds in the U.S. outperformed traditional investment funds by more than 4 percent in 2020.While ESG investing is clearly a force to be reckoned with in the asset management industry, the success of ESG investing at-tracted numerous new funds that may espouse ESG investing principles on paper only but not in spirit. Today more than 6,000 funds state that they invest funds in ethical firms and projects, double the number of such funds in 2013. ESG funds offered in Europe must describe in detail how exactly they address social and environmental issues, ensuring that ESG funds are in sub-stantial compliance with the ideas of ESG investing. However, similar rules do not exist in the U.S., creating the need for inves-tors to carefully select ESG funds that align with their values. Jon Hale, U.S. head of sustainable research for Morningstar, provides several best practices that make this process easier.According to Hale, investors should start by assessing the fi-nancial performance and fees of ESG funds as they would for tra-ditional mutual funds. Next, investors should understand the three basic types of ESG funds. First, “shunners” avoid bad actors in a specific set of companies and then purge all companies that rank in the bottom of sustainability, social responsibility, or gover-nance effectiveness. Second, “seekers” actively pick the best stocks according to ESG criteria. This type of ESG fund may in-clude activist shareholders that pressure companies to change their business practices. Lastly, “specialists” follow a niche strat-egy and target current environmental or social issues. For in-stance, some specialist ESG funds may invest in clean technology companies while others invest in companies known for women-friendly workplace practices. Investors who follow these guide-lines may have an easier time ensuring that their investments into ESG funds are indeed improving the planet and society at large. Sources: Derousseau, R. 2021. Just how green is your ‘green’ fund? Fortune, March 31: 43–44; Nason, D. 2020. ‘Sustainable investing’ is surging, accounting for 33% of total U.S. assets under management. www.cnbc.com, December 21: np; and Simpson, C., Rathi, A., & Kishan, S. 2021. Sustainable investing is mostly about sustaining corporations. www.bloomberg.com, December 9: np.ENVIRONMENTAL SUSTAINABILITY1.1
 
 INSIGHTS from Executives
 
@@ -2052,7 +2052,7 @@ des24325_ch01_001-035.indd   14
 
 Source: Adapted from Porter, M. E. 1985. Competitive Advantage: Creating and Sustaining Superior Performance. New York: Free Press.
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 73
+## Chapter 3: Assessing the Internal Environment of the Firm 73
 
 des24325_ch03_070-101.indd   73
 
@@ -2222,7 +2222,7 @@ des24325_ch03_070-101.indd   96
 
 xxix
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 95ISSUE FOR DEBATEOne of the most difficult decisions firms in dynamic industries need to make is whether to invest primarily in one line of research and development or to spread its investments in mul-tiple lines of research. Merck, a major pharmaceutical firm, faced this very choice recently. Until recent years, Merck preferred to spread its investments across a range of research directions and products. As Bernard Munos, a pharmaceutical R&D consultant stated, “Merck’s R&D strategy was to bring as many drugs to market as they could.”Recently, the firm’s focus shifted. Rather than developing a range of drugs, Merck has focused largely on one drug, Keytruda, a new type of cancer drug that leverages the patient’s own immune system to fight cancer tumors. The drug is already marketed to treat skin, blad-der, and other cancers, but the firm is looking for even more uses for it. Merck has expanded its oncology team, doctors who study and treat cancer, from 20 to 100 specialists. The firm has over 700 clinical trials examining how Keytruda could treat more than 30 types of cancer. Over half of Merck’s budget for clinical trials is aimed at Keytruda. Merck’s R&D head, Roger Perlmutter, put it bluntly to his staff when he said, “Whatever other projects you’re working on, you can stop now, because we’re doing this, and we’re going to put a lot of muscle behind this.”Not all clinical trials have produced positive outcomes. The drug did not appear to extend the survival of gastric cancer patients. Still, the general news has been positive. Trials for kidney, brain, lung, and esophageal cancers have shown positive results. The sales of the drug have been growing rapidly, making up 35 percent of Merck’s sales in 2021, $17 billion in sales for the one drug alone, up from $11 billion in 2019. Even with its success, some wonder if Merck is investing too heavily in this one patented drug.Discussion Questions 1. Why is Merck investing so heavily in this one drug? What are the risks and opportunities?  2. What are the long-term implications for Merck’s culture, its human resources, and its knowl-edge base? 3. Is this a good “bet the company” decision? How do you think Merck should move forward from here?Sources: Loftus, P. 2018. Why Merck is betting big on one cancer drug. The Wall Street Journal, April 15; Mishra, M. 2019. Merck’s Keytruda tops $2 billion in quarterly sales, shares rise. reuters.com, February 1: np; and Gapper, J. 2019. Keytruda shows the high price of curing cancer. ft.com, February 13: np.Reflecting on Career Implications . . .This chapter addresses the importance of the internal environment for strategic managers. As a strategic manager, you should fully understand how you can leverage your competencies to both bring value to your firm and enhance your career opportunities. The Value Chain: It is important that you develop an understanding of your firm’s value chain. What activities are most critical for attaining competitive advantage? Think of ways in which you can add value in your firm’s value chain. How might your firm’s support activities (e.g., information technology, human resource practices) help you accomplish your assigned tasks more effectively? How will you bring your value-added contribution to the attention of your superiors? The Value Chain: Consider the most important linkages between the activities you perform in your organization with other activities both within your firm and between your firm and its suppliers, customers, and alliance partners. Understanding and strengthening these linkages can contribute greatly to your career advancement within your current organization. Resource-Based View of the Firm: Are your skills and talents rare, valuable, and difficult to imitate, and do they have few substitutes? If so, you are in the better position to add value for your firm—and earn rewards and incentives. How can your skills and talents be enhanced to help satisfy these criteria to a greater extent? Get more training? Change positions within the firm? Consider career options at other organizations? Balanced Scorecard: Can you design a balanced scorecard for your life? What perspectives would you include in it? In what ways would such a balanced scorecard help you attain success in life?des24325_ch03_070-101.indd   959/14/22   1:20 PM94 PART 1 :: STRATEGIC ANALYSISOverviewBusiness leaders face strong pressures to produce financial results, but they also know that ignoring other areas of the firm can cause trouble down the line. This study speaks on that topic and shows that having balance in performance pays off for the firm financially.What the Research ShowsResearchers from the Drucker Institute have compiled a data set on 693 large, publicly-traded companies from 2012 to 2017. They collected information on 37 indica-tors of performance in five specific areas: customer satis-faction, employee engagement, innovation, social responsibility, and financial performance. Companies were scored on a range of 0 to 100 in each of these five areas. The scores were standardized so that the mean score on each scale was 50. The researchers were specifi-cally focused on whether consistency in performance across the five areas would have an impact on the firm’s future financial performance.The results were very clear. The more a firm consis-tently performed across the five areas, the more the firm avoided major peaks and valleys, the better the firm’s finan-cial performance in the following year. For example, if a firm received an average score over the five areas of 70 (an above average score) and had a consistency score of 50 (right on the mean value), the predicted financial perfor-mance for the following year was 62. But if the firm’s aver-age score remained the same (70), but its consistency score was also well above average (70), it could anticipate the firm’s performance in the following year would be 65. This three-point rise may not seem like much, but it moves the firm’s anticipated financial performance from the top 12 percent into the top 7 percent of firms.So why is consistency beneficial? The researchers sug-gest that when a firm has uneven performance across these measures, there may be particular areas of weakness that could become major problems for the firm in coming years. The researchers use the metaphor of an elite athlete. If the athlete neglects endurance and focuses exclusively on strength and speed, they will not be able to sustain perfor-mance over time.Key Takeaways• Five key areas of performance for firms to focus on are customer satisfaction, employee engagement and development, innovation, social responsibility, and financial strength.• Firms tend to perform better over time if they per-form consistently across these five areas.• Weakness on any of the five areas indicates an issue that could emerge into a crisis for the firm.Questions1. What are some examples of firms that have been strong performers but that faced struggles because of specific areas of weakness? How did these firms respond to these challenges?2. Amazon is very highly ranked on a number of the dimensions examined, but the firm scored quite unevenly across the areas, scoring particularly low in social responsibility. Should Amazon see this as a potential threat? What actions, if any, should Ama-zon take moving forward?Research ReviewedWartzman, R., and L. Crosby. 2018. The key to improving a firm’s financial health. The Wall Street Journal, May 21: R6.INSIGHTS from Research3.1THE BENEFITS OF BALANCEProblems often occur in the balanced scorecard implementation efforts when the com-mitment to learning is insufficient and employees’ personal ambitions are included. With-out a set of rules for employees that address continuous process improvement and the personal improvement of individual employees, there will be limited employee buy-in and insufficient cultural change. Thus, many improvements may be temporary and superficial. Often, scorecards that failed to attain alignment and improvements dissipated very quickly. And, in many cases, management’s efforts to improve performance were seen as divisive and were viewed by employees as aimed at benefiting senior management compensation. This fostered a “what’s in it for me?” attitude.des24325_ch03_070-101.indd   949/14/22   1:20 PM
+## Chapter 3: Assessing the Internal Environment of the Firm 95ISSUE FOR DEBATEOne of the most difficult decisions firms in dynamic industries need to make is whether to invest primarily in one line of research and development or to spread its investments in mul-tiple lines of research. Merck, a major pharmaceutical firm, faced this very choice recently. Until recent years, Merck preferred to spread its investments across a range of research directions and products. As Bernard Munos, a pharmaceutical R&D consultant stated, “Merck’s R&D strategy was to bring as many drugs to market as they could.”Recently, the firm’s focus shifted. Rather than developing a range of drugs, Merck has focused largely on one drug, Keytruda, a new type of cancer drug that leverages the patient’s own immune system to fight cancer tumors. The drug is already marketed to treat skin, blad-der, and other cancers, but the firm is looking for even more uses for it. Merck has expanded its oncology team, doctors who study and treat cancer, from 20 to 100 specialists. The firm has over 700 clinical trials examining how Keytruda could treat more than 30 types of cancer. Over half of Merck’s budget for clinical trials is aimed at Keytruda. Merck’s R&D head, Roger Perlmutter, put it bluntly to his staff when he said, “Whatever other projects you’re working on, you can stop now, because we’re doing this, and we’re going to put a lot of muscle behind this.”Not all clinical trials have produced positive outcomes. The drug did not appear to extend the survival of gastric cancer patients. Still, the general news has been positive. Trials for kidney, brain, lung, and esophageal cancers have shown positive results. The sales of the drug have been growing rapidly, making up 35 percent of Merck’s sales in 2021, $17 billion in sales for the one drug alone, up from $11 billion in 2019. Even with its success, some wonder if Merck is investing too heavily in this one patented drug.Discussion Questions 1. Why is Merck investing so heavily in this one drug? What are the risks and opportunities?  2. What are the long-term implications for Merck’s culture, its human resources, and its knowl-edge base? 3. Is this a good “bet the company” decision? How do you think Merck should move forward from here?Sources: Loftus, P. 2018. Why Merck is betting big on one cancer drug. The Wall Street Journal, April 15; Mishra, M. 2019. Merck’s Keytruda tops $2 billion in quarterly sales, shares rise. reuters.com, February 1: np; and Gapper, J. 2019. Keytruda shows the high price of curing cancer. ft.com, February 13: np.Reflecting on Career Implications . . .This chapter addresses the importance of the internal environment for strategic managers. As a strategic manager, you should fully understand how you can leverage your competencies to both bring value to your firm and enhance your career opportunities. The Value Chain: It is important that you develop an understanding of your firm’s value chain. What activities are most critical for attaining competitive advantage? Think of ways in which you can add value in your firm’s value chain. How might your firm’s support activities (e.g., information technology, human resource practices) help you accomplish your assigned tasks more effectively? How will you bring your value-added contribution to the attention of your superiors? The Value Chain: Consider the most important linkages between the activities you perform in your organization with other activities both within your firm and between your firm and its suppliers, customers, and alliance partners. Understanding and strengthening these linkages can contribute greatly to your career advancement within your current organization. Resource-Based View of the Firm: Are your skills and talents rare, valuable, and difficult to imitate, and do they have few substitutes? If so, you are in the better position to add value for your firm—and earn rewards and incentives. How can your skills and talents be enhanced to help satisfy these criteria to a greater extent? Get more training? Change positions within the firm? Consider career options at other organizations? Balanced Scorecard: Can you design a balanced scorecard for your life? What perspectives would you include in it? In what ways would such a balanced scorecard help you attain success in life?des24325_ch03_070-101.indd   959/14/22   1:20 PM94 PART 1 :: STRATEGIC ANALYSISOverviewBusiness leaders face strong pressures to produce financial results, but they also know that ignoring other areas of the firm can cause trouble down the line. This study speaks on that topic and shows that having balance in performance pays off for the firm financially.What the Research ShowsResearchers from the Drucker Institute have compiled a data set on 693 large, publicly-traded companies from 2012 to 2017. They collected information on 37 indica-tors of performance in five specific areas: customer satis-faction, employee engagement, innovation, social responsibility, and financial performance. Companies were scored on a range of 0 to 100 in each of these five areas. The scores were standardized so that the mean score on each scale was 50. The researchers were specifi-cally focused on whether consistency in performance across the five areas would have an impact on the firm’s future financial performance.The results were very clear. The more a firm consis-tently performed across the five areas, the more the firm avoided major peaks and valleys, the better the firm’s finan-cial performance in the following year. For example, if a firm received an average score over the five areas of 70 (an above average score) and had a consistency score of 50 (right on the mean value), the predicted financial perfor-mance for the following year was 62. But if the firm’s aver-age score remained the same (70), but its consistency score was also well above average (70), it could anticipate the firm’s performance in the following year would be 65. This three-point rise may not seem like much, but it moves the firm’s anticipated financial performance from the top 12 percent into the top 7 percent of firms.So why is consistency beneficial? The researchers sug-gest that when a firm has uneven performance across these measures, there may be particular areas of weakness that could become major problems for the firm in coming years. The researchers use the metaphor of an elite athlete. If the athlete neglects endurance and focuses exclusively on strength and speed, they will not be able to sustain perfor-mance over time.Key Takeaways• Five key areas of performance for firms to focus on are customer satisfaction, employee engagement and development, innovation, social responsibility, and financial strength.• Firms tend to perform better over time if they per-form consistently across these five areas.• Weakness on any of the five areas indicates an issue that could emerge into a crisis for the firm.Questions1. What are some examples of firms that have been strong performers but that faced struggles because of specific areas of weakness? How did these firms respond to these challenges?2. Amazon is very highly ranked on a number of the dimensions examined, but the firm scored quite unevenly across the areas, scoring particularly low in social responsibility. Should Amazon see this as a potential threat? What actions, if any, should Ama-zon take moving forward?Research ReviewedWartzman, R., and L. Crosby. 2018. The key to improving a firm’s financial health. The Wall Street Journal, May 21: R6.INSIGHTS from Research3.1THE BENEFITS OF BALANCEProblems often occur in the balanced scorecard implementation efforts when the com-mitment to learning is insufficient and employees’ personal ambitions are included. With-out a set of rules for employees that address continuous process improvement and the personal improvement of individual employees, there will be limited employee buy-in and insufficient cultural change. Thus, many improvements may be temporary and superficial. Often, scorecards that failed to attain alignment and improvements dissipated very quickly. And, in many cases, management’s efforts to improve performance were seen as divisive and were viewed by employees as aimed at benefiting senior management compensation. This fostered a “what’s in it for me?” attitude.des24325_ch03_070-101.indd   949/14/22   1:20 PM
 
 brief
 contents
@@ -3463,7 +3463,7 @@ organization undertakes in
 order to create and sustain
 competitive advantages.
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  5
+## Chapter 1: Strategic Management
 
 strategy
 the ideas, decisions, and
@@ -3636,7 +3636,7 @@ low cost relative to a
 benchmark, or “doing
 things right.”
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  7
+## Chapter 1: Strategic Management  7
 
 Successful managers must make many trade-offs. It is central to the practice of strategic
 management. At times, managers must focus on the short term and efficiency; at other
@@ -3811,7 +3811,7 @@ process accurately nor prescribes ideal practice.28 He sees the business environ
 from predictable, thus limiting our ability for analysis. Further, decisions are seldom based
 on optimal rationality alone, given the political processes that occur in all organizations.29
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  9
+## Chapter 1: Strategic Management  9
 
 EXHIBIT 1.2  Realized Strategy and Intended Strategy: Usually Not the Same
 
@@ -3998,7 +3998,7 @@ offensive coordinator.” However, that is not enough. He asks the question, “
 translate that and make those same decisions and those same type of reads in the two and a
 half seconds he has to get rid of the ball?”
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  11
+## Chapter 1: Strategic Management  11
 
 Strategy Analysis
 
@@ -4144,7 +4144,7 @@ In the “INSIGHTS from Executives” sidebar we include an interview that the a
 conducted with Usman Ghani, chairman of ConfluCore, a large and successful consulting
 firm that has offices and affiliates on six continents.
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  13
+## Chapter 1: Strategic Management  13
 
 1.1
 
@@ -4385,7 +4385,7 @@ themselves.
 
 continued
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  15
+## Chapter 1: Strategic Management  15
 
 continued
 
@@ -4531,7 +4531,7 @@ and can influence an organization’s performance. Each stakeholder group makes 
 claims on the company.56 Exhibit 1.5 provides a list of major stakeholder groups and the
 nature of their claims on the company.
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  17
+## Chapter 1: Strategic Management  17
 
 EXHIBIT 1.5  An
  Organization’s Key
@@ -4695,7 +4695,7 @@ uted to public health via access to hygiene products. The project attained more
 than $100 million in revenues and has led the firm to roll out similar programs in
 other countries.
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  19
+## Chapter 1: Strategic Management  19
 
 A key stakeholder group that appears to be particularly susceptible to corporate social
 responsibility (CSR) initiatives is customers.63 Surveys indicate a strong positive relation-
@@ -4853,7 +4853,7 @@ Strategy Spotlight 1.2 provides more insights into the ESG investment trend and 
 
 advice for investors to select an appropriate ESG fund.
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  21
+## Chapter 1: Strategic Management  21
 
 Making the Business Case for Sustainability Initiatives We mentioned many financial and
 nonfinancial benefits associated with sustainability initiatives in the previous section. How-
@@ -4984,7 +4984,7 @@ Strategy Spotlight 1.3 illustrates the importance of listening and empowering lo
 level executives to enable companies to act upon early warning signs of problems within
 corporations.
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  23
+## Chapter 1: Strategic Management  23
 
 1.3
 
@@ -5155,7 +5155,7 @@ Speciﬁc
 Short
 Time Horizon
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  25
+## Chapter 1: Strategic Management  25
 
 vision
 organizational goal(s) that
@@ -5322,7 +5322,7 @@ organization, its basis of
 competition, and
 competitive advantage.
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  27
+## Chapter 1: Strategic Management  27
 
 EXHIBIT 1.7
 Comparing Disney’s
@@ -5462,7 +5462,7 @@ and Working Conditions. www.bls.gov, November 23: np; Fast Company. 2008. 45 soc
 Profits with purpose: Seventh Generation. www.fastcompany, np; and Ratical. n.d. The six nations: Oldest living participatory democ-
 racy on earth. www.ratical.org, np.
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  29
+## Chapter 1: Strategic Management  29
 
   •  Realistic. It must be an achievable target given the organization’s capabilities and
 
@@ -5696,7 +5696,7 @@ for owners of the firm—its shareholders?
 
 elements, and how can it be improved?
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  31
+## Chapter 1: Strategic Management  31
 
 5.  How can symbiosis (interdependence, mutual bene-
 fit) be achieved among a firm’s stakeholders?
@@ -6070,7 +6070,7 @@ quest for aesthetic coherence.
 Harvard Business Review, 86(1):
 18–19.
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  33
+## Chapter 1: Strategic Management  33
 
 37.  Some insights on partnering in the
 
@@ -6432,7 +6432,7 @@ Management Review, 47(2): 33–49.
 96.  Harnish, V. 2011. Five ways to get your
 strategy right. Fortune, April 11: 42.
 
-CHAPTER 1 :: STRATEGIC MANAGEMENT  35
+## Chapter 1: Strategic Management  35
 
 CHAPTER
 
@@ -6735,7 +6735,7 @@ Such indices are critical for managers in determining a firm’s strategic direc
 
 resource allocation.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  39
+## Chapter 2: Analyzing the External Environment of the Firm  39
 
 competitive intelligence
 a firm’s activities of collecting
@@ -6901,7 +6901,7 @@ characterized by
 unpredictability and
 change.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  41
+## Chapter 2: Analyzing the External Environment of the Firm  41
 
 Jason Zweig, an editor at The Wall Street Journal, provides an important cautionary note
 regarding the need to question the reliability of forecasts: “Humans don’t want accuracy;
@@ -7054,7 +7054,7 @@ beyond a firm’s control,
 that affect a firm’s
 strategy.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  43
+## Chapter 2: Analyzing the External Environment of the Firm  43
 
 EXHIBIT 2.2
 General Environment:
@@ -7247,7 +7247,7 @@ exercises power, including
 rules, laws, and taxation
 policies.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  45
+## Chapter 2: Analyzing the External Environment of the Firm  45
 
 2.1
 
@@ -7456,7 +7456,7 @@ sciences, and pure
 science; and their
 interaction with society.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  47
+## Chapter 2: Analyzing the External Environment of the Firm  47
 
 Nanotechnology is becoming a very promising area of research with many potentially
 useful applications.46 Nanotechnology takes place at industry’s tiniest stage: one-billionth of
@@ -7613,7 +7613,7 @@ other countries is a very positive development for drugstores but a very negativ
 U.S. drug manufacturers. Exhibit 2.3 provides other examples of how the impact of trends
 or events in the general environment can vary across industries.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  49
+## Chapter 2: Analyzing the External Environment of the Firm  49
 
 EXHIBIT 2.3
 The Impact of General
@@ -7844,7 +7844,7 @@ hidden patterns, market
 trends, and customer
 preferences.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  51
+## Chapter 2: Analyzing the External Environment of the Firm  51
 
 Kaiser  Permanente  collects  petabytes  of  data  on  the  health  treatments  of  its  8  million
 healthcare members. This has allowed Kaiser to develop insights on the cost, efficiency, and
@@ -8026,7 +8026,7 @@ parison sites make it difficult to raise room rates. Growing supply may make it 
 In 2018, supply additions outpaced the demand growth for hotel rooms, further putting
 pressure on hotels and their profit margins.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  53
+## Chapter 2: Analyzing the External Environment of the Firm  53
 
 EXHIBIT 2.4  Porter’s Five Forces Model of Industry Competition
 
@@ -8188,7 +8188,7 @@ services, and play
 competitors against each
 other.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  55
+## Chapter 2: Analyzing the External Environment of the Firm  55
 
 2.4
 
@@ -8374,7 +8374,7 @@ will switch their business
 to competitors within the
 industry.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  57
+## Chapter 2: Analyzing the External Environment of the Firm  57
 
   •  Slow industry growth. Slow industry growth turns competition into a fight for market
 
@@ -8632,7 +8632,7 @@ account for more than 85 percent of all cars and light trucks in the U.S. Those 
 1” suppliers say GM is their least favorite big customer—less popular than even Chrysler, the
 unit of Fiat Chrysler Automobiles that had “earned” the dubious distinction since 2008.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  59
+## Chapter 2: Analyzing the External Environment of the Firm  59
 
 complements
 products or services that
@@ -8769,7 +8769,7 @@ strategic groups
 clusters of firms that share
 similar strategies.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  61
+## Chapter 2: Analyzing the External Environment of the Firm  61
 
 within the group) seems to be moving. If all strategic groups are moving in a similar direc-
 tion, this could indicate a high degree of future volatility and intensity of competition. In the
@@ -8902,7 +8902,7 @@ Sources: Nonko, E. 2018. Drones hit a wall on inspections. Wall Street Journal, 
 drone use to expand tenfold by 2021. www.reuters.com, March 22: np; Madigan, N. 2018. Need a quick inspection of a 58-story tower?
 Send a drone. New York Times, August 14: np; Cellan-Jones, R. 2017. Drone collisions ‘worse than bird hits’. bbc.com, December 5: np.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  63
+## Chapter 2: Analyzing the External Environment of the Firm  63
 
 The  auto  market  has  been  very  dynamic  and  competition  has  intensified  in  recent
 years.89 For example, some car brands are going more upscale with their product offerings.
@@ -9111,7 +9111,7 @@ groups of firms that share similar strategies. Strategic
 groups are important because rivalry tends to be
 greater among firms that are alike.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  65
+## Chapter 2: Analyzing the External Environment of the Firm  65
 
 SUMMARY REVIEW QUESTIONS
 
@@ -9524,7 +9524,7 @@ www.uscis.gov : np.
 limit. Bloomberg Businessweek, May
 26–June 1: 39–40.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  67
+## Chapter 2: Analyzing the External Environment of the Firm  67
 
 43.  Hout, T. M. & Ghemawat, P. 2010.
 China vs. the world: Whose
@@ -9852,7 +9852,7 @@ P. 2014. Cheapest car tag hit Tata
 Nano: Creator. economictimes.
 indiatimes.com, August 21: np.
 
-CHAPTER 2 :: ANALYZING THE EXTERNAL ENVIRONMENT OF THE FIRM  69
+## Chapter 2: Analyzing the External Environment of the Firm  69
 
 CHAPTER
 
@@ -10181,7 +10181,7 @@ Service
 
 Source: Adapted from Porter, M. E. 1985. Competitive Advantage: Creating and Sustaining Superior Performance. New York: Free Press.
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 73
+## Chapter 3: Assessing the Internal Environment of the Firm 73
 
 environmental endeavors have multiple payoffs. Shaw has received many awards for its recy-
 cling efforts—awards that enhance its reputation.
@@ -10357,7 +10357,7 @@ Procurement
 Source: Adapted from Porter, M. E. 1985. Competitive Advantage: Creating and Sustaining Superior Performance. New York: Free
 Press.
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 75
+## Chapter 3: Assessing the Internal Environment of the Firm 75
 
 review process used for employees to its outside suppliers.15 The employee services group,
 which is responsible for everything from travel to 401(k) programs to the on-site library,
@@ -10556,7 +10556,7 @@ people, technology, or
 money that contribute to
 the success of the firm.
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 77
+## Chapter 3: Assessing the Internal Environment of the Firm 77
 
 connectivity, involving regular, low-friction, and customized interactions with suppliers and
 customers. These interactions increase the firm’s ability to anticipate supplier challenges
@@ -10728,7 +10728,7 @@ sales
 
 Service
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 79
+## Chapter 3: Assessing the Internal Environment of the Firm 79
 
 about 3,500 employees, based in 20 offices throughout the Asia Pacific region. In its
 technology and innovation management practices, Beca strives to make the best use of
@@ -10910,7 +10910,7 @@ resources, innovation
 resources, and reputation
 resources.
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 81
+## Chapter 3: Assessing the Internal Environment of the Firm 81
 
 capitalizing on its strong brand image—a valuable intangible resource.34 It has used that
 image to sell accessories, clothing, and toys.
@@ -11098,7 +11098,7 @@ Difficult to substitute?
 
 •  No equivalent strategic resources or capabilities
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 83
+## Chapter 3: Assessing the Internal Environment of the Firm 83
 
 Can the Resource Be Imitated Easily? Inimitability (difficulty in imitating) is a key to value
 creation because it constrains competition.42 If a resource is inimitable, then any profits
@@ -11266,7 +11266,7 @@ organizational culture, and
 reputation with suppliers
 and customers.
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 85
+## Chapter 3: Assessing the Internal Environment of the Firm 85
 
 However, it might be able to develop its own unique management team. Though these two
 teams would have different ages, functional backgrounds, experience, and so on, they could
@@ -11434,7 +11434,7 @@ score on a borrower based on their facial expressions and to regularly improve t
 predictive ability of the model by comparing the facial expressions of prior custom-
 ers with their repayment behavior.
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 87
+## Chapter 3: Assessing the Internal Environment of the Firm 87
 
 While these firms compete in very different markets, they show how leveraging the power
 of  artificial  intelligence  opens  up  a  powerful  path  for  a  firm  to  build  a  sustainable
@@ -11578,7 +11578,7 @@ make meaningful
 comparisons of
 performance across firms.
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 89
+## Chapter 3: Assessing the Internal Environment of the Firm 89
 
 EXHIBIT 3.8 A Summary of Five Types of Financial Ratios
 
@@ -11868,7 +11868,7 @@ EXHIBIT 3.10
 How Financial Ratios
 Differ across Industries
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 91
+## Chapter 3: Assessing the Internal Environment of the Firm 91
 
 LO 3-6
 
@@ -12037,7 +12037,7 @@ eventually do,” and “If scorecards are supposed to be a measurement tool, wh
 to measure their results?” There is much work to do before scorecards can become a viable
 framework to measure sustained strategic performance.
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 93
+## Chapter 3: Assessing the Internal Environment of the Firm 93
 
 3.1
 
@@ -12219,7 +12219,7 @@ for your life? What perspectives would you include in it? In
 what ways would such a balanced scorecard help you attain
 success in life?
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 95
+## Chapter 3: Assessing the Internal Environment of the Firm 95
 
 key points
 
@@ -12636,7 +12636,7 @@ Human resource management
 
 General administration
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 97
+## Chapter 3: Assessing the Internal Environment of the Firm 97
 
 c.  What resources, activities, and relationships enable Caterpillar to achieve a sustainable competitive advantage?
 
@@ -13049,7 +13049,7 @@ competitive advantage doesn’t lead to
 performance: The resource-based
 view and stakeholder bargaining
 
-CHAPTER 3 :: ASSESSING THE INTERNAL ENVIRONMENT OF THE FIRM 99
+## Chapter 3: Assessing the Internal Environment of the Firm 99
 
 power. Organization Science, 10(2):
 119–133; and Blyler, M. & Coff, R.
@@ -13473,7 +13473,7 @@ Ratio of Market Value
 to Book Value for
 Selected Companies
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 105
+## Chapter 4: Recognizing a Firm's Intellectual Assets 105
 
 social capital
 the network of friendships
@@ -13619,7 +13619,7 @@ Retaining
 Human
 Capital
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS  107
+## Chapter 4: Recognizing a Firm's Intellectual Assets  107
 
 4.1
 
@@ -13810,7 +13810,7 @@ themselves. During the presentations, interviewers observe which candidates enth
 cally support their peers and which candidates focus on polishing their own presentations
 while the others are presenting.37 The former are, of course, favored.
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 109
+## Chapter 4: Recognizing a Firm's Intellectual Assets 109
 
 Alan Cooper, president of Cooper Software, Inc., in Palo Alto, California, goes further.
 He cleverly uses technology to hone in on the problem-solving ability of his applicants and
@@ -13963,7 +13963,7 @@ In addition to training and developing human capital, firms must encourage wides
 
 involvement, monitor and track employee development, and evaluate human capital.45
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 111
+## Chapter 4: Recognizing a Firm's Intellectual Assets 111
 
 Encouraging  Widespread  Involvement Developing  human  capital  requires  the  active
 involvement of leaders at all levels. It won’t be successful if it is viewed only as the responsi-
@@ -14092,7 +14092,7 @@ enormous impact. Turnover is a huge hidden cost in a profit-and-loss statement t
 ever focuses on. If there was a line item that showed that, I guarantee you’d have the atten-
 tion of a CEO.
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 113
+## Chapter 4: Recognizing a Firm's Intellectual Assets 113
 
 Identifying with an Organization’s Mission and Values People who identify with and are
 committed to the core mission and values of the organization are less likely to stray or bolt
@@ -14248,7 +14248,7 @@ only when the patient’s chest is open and the heart is ready to be operated on
 an approach helps the hospital lower the cost to a fraction of the cost of U.S. provid-
 ers while maintaining U.S.-level mortality and infection rates.
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 115
+## Chapter 4: Recognizing a Firm's Intellectual Assets 115
 
 Breaking high-end knowledge work into highly specialized pieces involves several processes.
 These include identifying the gap between the talent your firm has and what it requires; creating
@@ -14417,7 +14417,7 @@ the United States, a disproportionately low percent-
 age of women hold management or executive roles.
 To  facilitate  change  in  any  organization,  leadership
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 117
+## Chapter 4: Recognizing a Firm's Intellectual Assets 117
 
 continued
 
@@ -14599,7 +14599,7 @@ former IBM colleagues and Andersen subordinates. One protégé from his time at 
 Mary Goode, was brought on board as executive vice president. She promptly tapped her
 own network and brought along former colleagues.
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 119
+## Chapter 4: Recognizing a Firm's Intellectual Assets 119
 
 Firms can also benefit by maintaining relationships and positive experiences with former
 employees, what some firms refer to as alumni employees. While firms typically focus on
@@ -14731,7 +14731,7 @@ Let’s briefly review a simplified network analysis to grasp the key ideas. In 
 the links depict informal relationships among individuals, such as communication flows,
 personal support, and advice networks. There may be some individuals with literally no
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 121
+## Chapter 4: Recognizing a Firm's Intellectual Assets 121
 
 EXHIBIT 4.3 A Simplified Social Network
 
@@ -14866,7 +14866,7 @@ know enough people, you will begin to see how the problems that another person i
 gling with can be solved by the solutions being developed by others. If you can bring together
 problems and solutions, it will greatly benefit your career.
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 123
+## Chapter 4: Recognizing a Firm's Intellectual Assets 123
 
 Power Traditionally, a manager’s power was embedded in a firm’s hierarchy. But when
 corporate organizations became flatter, more like pancakes than pyramids, that power was
@@ -15001,7 +15001,7 @@ of technology in
 leveraging knowledge
 and human capital.
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 125
+## Chapter 4: Recognizing a Firm's Intellectual Assets 125
 
 LO 4-6
 
@@ -15138,7 +15138,7 @@ and  (2)  how  effective  they  are  in  leveraging  human  capital  through  so
 technology. These questions, included in Exhibit 4.4, summarize some of the key issues
 addressed in this chapter.
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 127
+## Chapter 4: Recognizing a Firm's Intellectual Assets 127
 
 4.4
 
@@ -15310,7 +15310,7 @@ necessary before any investor will finance such an undertaking. Appropriation of
 returns is harder to police, since possession and deployment are not as readily observable.
 Unlike physical assets, intellectual property can be stolen by simply broadcasting it. Part of
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 129
+## Chapter 4: Recognizing a Firm's Intellectual Assets 129
 
 the problem is that using an idea does not prevent others from simultaneously using it for
 their own benefit, which is typically impossible with physical assets. Moreover, new ideas
@@ -15447,7 +15447,7 @@ technology that Anthony Levandowski learned while employed at Google and took to
 
 continued
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 131
+## Chapter 4: Recognizing a Firm's Intellectual Assets 131
 
 continued
 
@@ -15670,7 +15670,7 @@ that are placed on face-to-face teams, and (2) they can
 be very effective in generating “social capital”—the
 quality of relationships and networks that form.
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 133
+## Chapter 4: Recognizing a Firm's Intellectual Assets 133
 
 •  The two primary challenges of virtual teams are:
 
@@ -15998,7 +15998,7 @@ Haven, CT: Yale University Press.
 
 perspective on the workplace are in
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 135
+## Chapter 4: Recognizing a Firm's Intellectual Assets 135
 
 Erickson, T. J. 2008. Task, not time:
 Profile of a Gen Y job. Harvard
@@ -16503,7 +16503,7 @@ Sloan Management Review, 50(2):
 
 advantages of social networks draws
 
-CHAPTER 4 :: RECOGNIZING A FIRM’S INTELLECTUAL ASSETS 137
+## Chapter 4: Recognizing a Firm's Intellectual Assets 137
 
 on Uzzi, B. & Dunlap. S. 2005. How to build your network.
 Harvard Business Review, 83(12): 53–60. For an excellent
@@ -16995,7 +16995,7 @@ differentiation, or other
 strategic product
 characteristic.
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 143
+## Chapter 5: Business-Level Strategy 143
 
 EXHIBIT 5.3
 Value-Chain Activities:
@@ -17162,7 +17162,7 @@ the five forces that
 determine an industry’s
 average profitability.
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 145
+## Chapter 5: Business-Level Strategy 145
 
 LO 5-3
 
@@ -17293,7 +17293,7 @@ games and marketing new and existing games.25
 Firms achieve and sustain differentiation advantages and attain above-average perfor-
 mance when their price premiums exceed the extra costs incurred in being unique.26 Thus,
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 147
+## Chapter 5: Business-Level Strategy 147
 
 EXHIBIT 5.4
 Value-Chain Activities:
@@ -17473,7 +17473,7 @@ Strategy Spotlight 5.2 discusses the differential power of platforms and how som
 
 are fighting against the power of these platforms.
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 149
+## Chapter 5: Business-Level Strategy 149
 
 Differentiation: Improving Competitive Position vis-à-vis the Five Forces Differentiation pro-
 tects against rivalry since brand loyalty lowers customer sensitivity to price and raises cus-
@@ -17628,7 +17628,7 @@ Differentiation
 •  Dilution of brand identification through product-line extensions.
 •  Perceptions of differentiation that vary between buyers and sellers.
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 151
+## Chapter 5: Business-Level Strategy 151
 
 5.3
 
@@ -17797,7 +17797,7 @@ early pioneers in online education, such as the University of Phoenix, have face
 increasing challenges as traditional universities have entered with their own online
 programs that allow them to match the cost benefits associated with online delivery
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 153
+## Chapter 5: Business-Level Strategy 153
 
 systems. Similarly, other firms have seen their profit margins drop as competitors
 enter their product segment.
@@ -17937,7 +17937,7 @@ comparable  cost/value  proposition.  This  reduces  the  possibility  of  inten
 rivalry, such as protracted price wars. Finally, Walmart’s overall value proposition makes
 potential substitute products (e.g., online competitors) a less viable threat.
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 155
+## Chapter 5: Business-Level Strategy 155
 
 5.5
 
@@ -18092,7 +18092,7 @@ cepts from the first five chapters. To illustrate our points, we will examine a 
 Door, which created an innovative strategy in its industry and enjoyed superior performance
 for several years. Our discussion of Atlas Door draws on a Harvard Business Review article
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 157
+## Chapter 5: Business-Level Strategy 157
 
 by George Stalk, Jr.56 It was published some time ago (1988), which provides us the benefit
 of hindsight to make our points about the sustainability of competitive advantage. After all,
@@ -18205,7 +18205,7 @@ for a rival to challenge Atlas Door in the short term: (1) The success that Atla
 with its just-in-time scheduling and production  systems—which involve the successful integration
 of many value-creating  activities—helps the firm not only lower costs but also respond quickly to
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 159
+## Chapter 5: Business-Level Strategy 159
 
 customer needs, and (2) the strong, positive reputational effects that it has earned with its cus-
 tomers increases their loyalty and would take significant time for rivals to match.
@@ -18339,7 +18339,7 @@ emphasis on functional
 area strategies and
 value-creating activities.
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 161
+## Chapter 5: Business-Level Strategy 161
 
 Why are industry life cycles important?58 The emphasis on various generic strategies,
 functional areas, value-creating activities, and overall objectives varies over the course of an
@@ -18574,7 +18574,7 @@ marketing, sales, customer
 service, and research and
 development.
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 163
+## Chapter 5: Business-Level Strategy 163
 
 Revenues increase at an accelerating rate because (1) new consumers are trying the prod-
 uct and (2) a growing proportion of satisfied consumers are making repeat purchases.64 In
@@ -18756,7 +18756,7 @@ an industry in order to
 enhance market power
 and gain valuable assets.
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 165
+## Chapter 5: Business-Level Strategy 165
 
 assets. One example of a consolidation strategy has been taking place in the newspaper
 industry. Newspaper circulation in the United States dropped by 59 percent from 1990
@@ -18896,7 +18896,7 @@ Is regenerative farming a beneficial action or is it just a marketing slogan?
 Sources: Patton, L. & Chipman, K. 2021. Farmers see sustainable eggs as the industry’s next big thing. Bloombergbusinessweek.com.
 May 27: np; and Andrews, E. 2021. What makes a ‘regenerative’ egg better than the rest? grist.org. June 10: np.
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 167
+## Chapter 5: Business-Level Strategy 167
 
 Reflecting on Career Implications . . .
 
@@ -19170,7 +19170,7 @@ activities that enable Nucor, a $36 billion steel
 manufacturer, to achieve a low-cost strategy? (Fill in
 the following table.)
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 169
+## Chapter 5: Business-Level Strategy 169
 
 Value-Chain Activity
 
@@ -19560,7 +19560,7 @@ strategies, refer to D’Aveni, R. A.,
 Dagnino, G. B., & Smith, K. G. 2010.
 The age of temporary advantage.
 
-CHAPTER 5 :: BUSINESS-LEVEL STRATEGY 171
+## Chapter 5: Business-Level Strategy 171
 
 Strategic Management Journal,
 31(13): 1371–1385. This is the lead
@@ -20002,7 +20002,7 @@ they can take to win in each of their markets since any action one business unit
 the other business units in the firm. For example, Polaris uses shared components, designs,
 production  facilities,  and  distribution  systems  for  its  snowmobiles,  ATVs,  and  electric
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 177
+## Chapter 6: Corporate-Level Strategy 177
 
 EXHIBIT 6.2
 Creating Value through
@@ -20162,7 +20162,7 @@ the competition can easily imitate or substitute them. Similarly, if the skills 
 ated with a firm’s core competencies are easily imitated or replicated, they are not a
 sound basis for sustainable advantages.
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 179
+## Chapter 6: Corporate-Level Strategy 179
 
 6.1
 
@@ -20316,7 +20316,7 @@ market or coordinating
 with other firms to reduce
 investment.
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 181
+## Chapter 6: Corporate-Level Strategy 181
 
 Pooled Negotiating Power
 Similar businesses working together or the affiliation of a business with a strong parent can
@@ -20484,7 +20484,7 @@ EXHIBIT 6.4
 Benefits and Risks of
 Vertical Integration
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 183
+## Chapter 6: Corporate-Level Strategy 183
 
   2.  Are there activities in the industry value chain presently being outsourced or performed
 independently by others that are a viable source of future profits? Even if a firm is out-
@@ -20659,7 +20659,7 @@ with new technologies,
 processes, and reward
 systems.
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 185
+## Chapter 6: Corporate-Level Strategy 185
 
 complete, the firm can either sell high and capture the added value or keep the business and
 enjoy financial and competitive benefits.
@@ -20882,7 +20882,7 @@ resources among the business units according to prescribed criteria (e.g., use c
 from the cash cows to fund promising stars). Second, the expertise and analytical resources
 in the corporate office provide guidance in determining what firms may be attractive
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 187
+## Chapter 6: Corporate-Level Strategy 187
 
 (or  unattractive)  acquisitions.  Third,  the  corporate  office  is  able  to  provide  financial
 resources to the business units on favorable terms that reflect the corporation’s overall abil-
@@ -21052,7 +21052,7 @@ $
 
 Source: Thomson Financial, Institute of Mergers, Acquisitions, and Alliances (IMAA) analysis.
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 189
+## Chapter 6: Corporate-Level Strategy 189
 
 investment bank BNP Paribas, highlights two of the key determinants, stating, “When merg-
 ers and acquisitions pick up, that’s a good sign that businesses are feeling confident enough
@@ -21194,7 +21194,7 @@ does Hitachi’s $9.6 billion acquisition of GlobalLogic tell us? It’s a softw
 world. forbes.com. March 31: np; and Uberti, D. 2021. Why Hitachi is spending
 $9.6 billion to drive into the software business. wsj.com. April 5: np.
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 191
+## Chapter 6: Corporate-Level Strategy 191
 
 EXHIBIT 6.7
 Benefits of Mergers
@@ -21329,7 +21329,7 @@ divestment
 the exit of a business from
 a firm’s portfolio.
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 193
+## Chapter 6: Corporate-Level Strategy 193
 
 6.1
 
@@ -21514,7 +21514,7 @@ a cooperative relationship
 between two or more
 firms.
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 195
+## Chapter 6: Corporate-Level Strategy 195
 
 joint ventures
 new entities formed within
@@ -21676,7 +21676,7 @@ across the value chains of several firms or merging corporate cultures.66 Also, 
 often develop new products or services at a relatively lower cost and thus rely on their own
 resources rather than turning to external funding.67
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 197
+## Chapter 6: Corporate-Level Strategy 197
 
 LO 6-6
 
@@ -21851,7 +21851,7 @@ of 2021, and it has ambitious goals—grow to 4,000 clinics by 2029. But its suc
 
 continued
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 199
+## Chapter 6: Corporate-Level Strategy 199
 
 continued
 
@@ -22100,7 +22100,7 @@ greenmail 199
 golden parachute 199
 poison pill 199
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 201
+## Chapter 6: Corporate-Level Strategy 201
 
 EXPERIENTIAL EXERCISES AND
 APPLICATION QUESTIONS
@@ -22516,7 +22516,7 @@ Mergers and acquisitions: A guide to
 creating value for stakeholders. New
 York: Oxford University Press.
 
-CHAPTER 6 :: CORPORATE-LEVEL STRATEGY 203
+## Chapter 6: Corporate-Level Strategy 203
 
 48.  Sirmon, D. G., Hitt, M. A., & Ireland,
 R. D. 2007. Managing firm resources
@@ -23020,7 +23020,7 @@ successful than the
 same industry in
 another country.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  209
+## Chapter 7: International Strategy  209
 
 Related and Supporting Industries
 Related and supporting industries enable firms to manage inputs more effectively. For exam-
@@ -23196,7 +23196,7 @@ Development Report: 6. New York: Oxford University Press; Reuters. 2001. Oracle
 in India push, taps software talent. Washington Post Online, July 3; and Venkat, A.
 2018. NASSCOM India Leadership Forum 2018. CIO India, February 20: np.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  211
+## Chapter 7: International Strategy  211
 
 LO 7-3
 
@@ -23344,7 +23344,7 @@ emerging markets that
 have adequate functionality
 at a low cost.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  213
+## Chapter 7: International Strategy  213
 
 developing products specifically for emerging markets can pay off in a big way. In the past,
 multinational companies typically developed products for their rich home markets and then
@@ -23488,7 +23488,7 @@ systems whereby behavior
 is governed by rules that
 are uniformly enforced.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  215
+## Chapter 7: International Strategy  215
 
 significant slide in sales. Renault realized its ownership claim may not have held up in the
 corrupt court system in Russia. Therefore, it was forced to negotiate and eventually agreed
@@ -23643,7 +23643,7 @@ activity from a domestic
 location to a foreign
 location.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  217
+## Chapter 7: International Strategy  217
 
 For manufacturing industries, the rapid decline in transportation and coordination costs
 has enabled firms to disperse their value chains over different locations. For example, Nike’s
@@ -23799,7 +23799,7 @@ K., & Wesselink, E. 2020. Becoming an all-weather company. www.bcg.com, Sep-
 tember 8: np; and Cherney, M. 2020. Firms want to adjust supply chains post-pan-
 demic, but changes take time. www.wsj.com, December 27: np.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  219
+## Chapter 7: International Strategy  219
 
 LO 7-4
 
@@ -23963,7 +23963,7 @@ Pressures for Local Adaptation
 
 High
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  221
+## Chapter 7: International Strategy  221
 
 international strategy
 a strategy based on firms’
@@ -24145,7 +24145,7 @@ facilitated.
 
 costs.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  223
+## Chapter 7: International Strategy  223
 
 7.4
 
@@ -24319,7 +24319,7 @@ given market, enhancing revenue.
 •  Greater difficulty in transferring knowledge across countries.
 •  Possibility of leading to “over adaptation” as conditions change.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  225
+## Chapter 7: International Strategy  225
 
 more decentralization in order to adapt to local market conditions. On the other hand, pri-
 mary activities that are upstream (e.g., logistics and operations), or further away from the
@@ -24498,7 +24498,7 @@ to ensure cost and quality.
 
 •  Unique managerial challenges in fostering knowledge transfer.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  227
+## Chapter 7: International Strategy  227
 
 regionalization
 increasing international
@@ -24675,7 +24675,7 @@ producing goods in one
 country to sell to residents
 of another country.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  229
+## Chapter 7: International Strategy  229
 
 firm’s  products  to  meet  local  market  needs  is  typically  very  limited.  In  a  study  of  250
 instances in which multinational firms used local distributors to implement their exporting
@@ -24815,7 +24815,7 @@ When a firm desires the highest level of control, it develops wholly owned subsi
 Although wholly owned subsidiaries can generate the greatest returns, they also have the
 highest levels of investment and risk. We will now discuss them.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  231
+## Chapter 7: International Strategy  231
 
 wholly owned
 subsidiary
@@ -24979,7 +24979,7 @@ for its success.
 
 continued
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  233
+## Chapter 7: International Strategy  233
 
 continued
 
@@ -25128,7 +25128,7 @@ markets.
 guide which international strategies to select: interna-
 tional, global, multi-domestic, or transnational.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  235
+## Chapter 7: International Strategy  235
 
 LO 7-5 Identify the advantages and disadvantages
 associated with each of the four basic strategies:
@@ -25409,7 +25409,7 @@ physical presence in those markets.
 
 relationship between international
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  237
+## Chapter 7: International Strategy  237
 
 diversification and firm performance
 is Lu, J. W. & Beamish, P. W. 2004.
@@ -25905,7 +25905,7 @@ Management Journal, 21(5): 525–548.
 international business (4th ed.).
 Malden, MA: Blackwell.
 
-CHAPTER 7 :: INTERNATIONAL STRATEGY  239
+## Chapter 7: International Strategy  239
 
 CHAPTER
 
@@ -26166,7 +26166,7 @@ Strategy Spotlight 8.1 illustrates how the social venture Goodr used a connected
 
 to reduce food waste in the U.S.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  243
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  243
 
 8.1
 
@@ -26336,7 +26336,7 @@ How water technology can help farmers survive California’s drought. fortune.
 com, June 1: np; and Vekshin, A. 2014. California water prices soar for farmers as
 drought grows. bloomberg.com, July 24: np.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  245
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  245
 
 Entrepreneurial Resources
 As Exhibit 8.1 indicates, resources are an essential component of a successful entrepreneurial
@@ -26500,7 +26500,7 @@ Krajewski, R. 2021. The rise of no-code and low-code solutions: Will your CTO
 become obsolete? www.forbes.com, October 14: np; and Thompson, C. 2020. The
 new startup: No code, no problem. www.wired.com, May 19: np.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  247
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  247
 
 The ability of firms to extend their human capital base to outside partners is an espe-
 cially important skill in the gig economy. Platform firms in this market will only succeed if
@@ -26636,7 +26636,7 @@ and that embodies vision,
 dedication and drive, and
 commitment to excellence.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  249
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  249
 
 dedicated entrepreneur’s enthusiasm is also important—like a magnet, it attracts
 others to the business to help with the work.34
@@ -26808,7 +26808,7 @@ important, I learned everything I could. While I never
 learned to code, I did what I could to learn the terms
 and the processes.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  251
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  251
 
 benefit entrepreneurial firms and address the potential pitfalls associated with launching
 new venture strategies.
@@ -26956,7 +26956,7 @@ create value for customers
 by capitalizing on current
 market trends.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  253
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  253
 
 EXHIBIT 8.2  Examples of Adaptive New Entrants
 
@@ -27137,7 +27137,7 @@ according to Garry Ridge, CEO of the WD-40 Company, “You need to have a great 
 make the end user aware of it, and make it easy to buy.”44 It sounds simple, but it is a diffi-
 cult challenge for new ventures with differentiation strategies.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  255
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  255
 
 Focus Focus strategies are often associated with small businesses because there is a natu-
 ral fit between the narrow scope of the strategy and the small size of the firm. A focus strat-
@@ -27305,7 +27305,7 @@ cutting, imitating successful
 products, and expanding
 production capacity.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  257
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  257
 
 As former Intel chairman Andy Grove stated, “Business success contains the seeds of its
 own destruction. The more successful you are, the more people want a chunk of your busi-
@@ -27500,7 +27500,7 @@ quickly react or overreact. Part of the story of online retailer Amazon’s earl
 attributed to Barnes & Noble’s overreaction to Amazon’s claim that it was “Earth’s biggest
 bookstore.”  Because  Barnes  &  Noble  was  already  using  the  phrase  “world’s  largest
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  259
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  259
 
 bookstore,” it sued Amazon, but lost. The confrontation made it to the front pages of The
 Wall Street Journal, and Amazon was on its way to becoming a household name.57
@@ -27659,7 +27659,7 @@ meals strategy in the late 1960s, it represented a direct assault on the major c
 day. In Europe, Ryanair has similarly directly challenged the traditional carriers with an
 overall cost leadership strategy.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  261
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  261
 
 Guerrilla  offensives  and  selective  attacks  provide  an  alternative  for  firms  with  fewer
 resources.60 These draw attention to products or services by creating buzz or generating
@@ -27810,7 +27810,7 @@ dynamics of a marketplace. Thus, the cycle of actions and reactions that occur i
 every day is a vital aspect of entrepreneurial strategy that leads to continual new value
 creation and the ongoing advancement of economic well-being.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  263
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  263
 
 ISSUE FOR DEBATE
 
@@ -27975,7 +27975,7 @@ nesses because there is a natural fit between the nar-
 row scope of the strategy and the small size of the
 firm.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  265
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  265
 
 LO 8-4 How competitive actions, such as the entry
 of new competitors into a marketplace, may launch
@@ -28297,7 +28297,7 @@ Report. Kansas City, MO: Kauffman
 Center for Entrepreneurial
 Leadership.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  267
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  267
 
 17.	 Cooper,	S.	2003.	Cash	cows.
 Entrepreneur, June:	36.
@@ -28615,7 +28615,7 @@ strategy process: Clean models and
 dirty hands. Strategic Management
 Journal, 21: 781–790.
 
-CHAPTER 8 :: ENTREPRENEURIAL STRATEGY AND COMPETITIVE DYNAMICS  269
+## Chapter 8: Entrepreneurial Strategy AND COMPETITIVE DYNAMICS  269
 
 CHAPTER
 
@@ -28932,7 +28932,7 @@ control
 Strategic
 control
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  273
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  273
 
 In the contemporary approach, information control is part of an ongoing process of
 organizational  learning  that  continuously  updates  and  challenges  the  assumptions  that
@@ -29068,7 +29068,7 @@ stories to reinforce the culture of the firm. One of those is the story of Franc
 1922, Okie came up with the idea of selling sandpaper to men as a replacement for razor
 blades.  The  idea  obviously  didn’t  pan  out,  but  Okie  was  allowed  to  remain  at  3M.
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  275
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  275
 
 9.1
 
@@ -29248,7 +29248,7 @@ through distribution channels the firm would rather avoid. Thus, the collective 
 vidual behaviors of an organization’s employees does not always result in what is best for the
 organization; individual rationality is no guarantee of organizational rationality.
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  277
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  277
 
 Reward and incentive systems can also cause problems across organizational units. As
 corporations grow and evolve, they often develop different business units with multiple
@@ -29375,7 +29375,7 @@ nization.33 To be effective, short-term objectives must have several attributes.
 
 accomplish them.
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  279
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  279
 
 Research has found that performance is enhanced when individuals are encouraged to
 
@@ -29539,7 +29539,7 @@ EXHIBIT 9.5
 Organizational Control:
 Alternative Approaches
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  281
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  281
 
 Evolving from Boundaries to Rewards and Culture
 In most environments, organizations should strive to provide a system of rewards and incen-
@@ -29699,7 +29699,7 @@ expertise, and labor for
 the maximum benefit of
 each party.
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  283
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  283
 
 Over 90 years ago, Columbia University professors Adolf Berle and Gardiner C. Means
 addressed the divergence of the interests of the owners of the corporation from the profes-
@@ -29870,7 +29870,7 @@ While the roles of the board are fairly clear, following these guidelines does n
 that the board will be effective. To be effective, the board needs to allocate its scarce time to
 the most critical issues to which its members can add value. A survey of several hundred
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  285
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  285
 
 corporate board members revealed dramatic differences in how the most and least effective
 boards allocated their time. Boards seen as being ineffective, meaning they had limited
@@ -30029,7 +30029,7 @@ CEO in the future.
 Taking it one step further, research and simple observations of boards indicate that sim-
 ple prescriptions, such as having a majority of outside directors, are insufficient to lead to
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  287
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  287
 
 effective board operations. Firms need to cultivate engaged and committed boards. There
 are several actions that can have a positive influence on board dynamics as the board works
@@ -30165,7 +30165,7 @@ earn enormous levels of compensation. In 2020, the average CEO leading a Standar
 Poor’s 500 company took home 299 times the pay of the median employee—up from 40
 times the average in 1980.89
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  289
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  289
 
 9.1
 
@@ -30353,7 +30353,7 @@ CEO duality is one of the most controversial issues in corporate governance. It 
 dual-leadership structure wherein the CEO acts simultaneously as the chair of the board of
 directors.93 Scholars, consultants, and executives who are interested in determining the best
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  291
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  291
 
 way to manage a corporation are divided on the issue of the roles and responsibilities of a
 CEO. Two schools of thought represent the alternative positions.
@@ -30491,7 +30491,7 @@ auditing work.
 Banks and Analysts Commercial and investment banks have lent money to corporations
 and therefore have to ensure that the borrowing firm’s finances are in order and that the
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  293
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  293
 
 loan covenants are being followed. Stock analysts conduct ongoing in-depth studies of the
 firms that they follow and make recommendations to their clients to buy, hold, or sell. Their
@@ -30648,7 +30648,7 @@ shareholders ahead of those of minority investors.
 Source: Adapted from Young, M., Peng, M. W., Ahlstrom, D., & Bruton, G. 2002. Governing the Corporation in Emerging Economies: A Principal–Principal
 Perspective. Academy of Management Best Papers Proceedings, Denver.
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  295
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  295
 
 EXHIBIT 9.7  Principal–Agent Conflicts and Principal–Principal Conflicts: A Diagram
 
@@ -30777,7 +30777,7 @@ Sources: Batish, A., Gordon, A., Larcker, D. F., Tayan, B., Watts, E. M., & Yu, 
 pay in response to COVID-19? Stanford, CA: Stanford University; and DiNapoli, J. 2021. Investor opposition to U.S. CEO pay at its
 highest ever. www.reuters.com, May 24: np.
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  297
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  297
 
 Reflecting on Career Implications . . .
 
@@ -31037,7 +31037,7 @@ of directors, and institutional owners. (Fill in the
 chart.) Are the issues you list favorable or unfavorable
 for sound corporate governance?
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  299
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  299
 
 Management
 
@@ -31450,7 +31450,7 @@ Academy of Management Journal,
 “shirking”—that is, reducing or
 withholding their efforts. See, for
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  301
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  301
 
 example, Kidwell, R. E., Jr. &
 Bennett, N. 1993. Employee
@@ -31809,7 +31809,7 @@ business groups in emerging markets.
 Strategic Management Journal, 22:
 45–74.
 
-CHAPTER 9 :: STRATEGIC CONTROL AND CORPORATE GOVERNANCE  303
+## Chapter 9: Strategic Control AND CORPORATE GOVERNANCE  303
 
 CHAPTER
 
@@ -32103,7 +32103,7 @@ pany), and matrix—and their advantages and disadvantages. We will close the se
 discussion of the structural implications when a firm expands its operations into interna-
 tional markets.10
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  307
+## Chapter 10: Creating Effective Organizational Designs  307
 
 LO 10-2
 
@@ -32266,7 +32266,7 @@ which products, projects,
 or product markets are
 grouped internally.
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  309
+## Chapter 10: Creating Effective Organizational Designs  309
 
 EXHIBIT 10.3  Divisional Organizational Structure
 
@@ -32426,7 +32426,7 @@ from other divisions and
 from corporate
 headquarters.
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  311
+## Chapter 10: Creating Effective Organizational Designs  311
 
 matrix organizational
 structure
@@ -32638,7 +32638,7 @@ international operations
 for organizational
 structure.
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  313
+## Chapter 10: Creating Effective Organizational Designs  313
 
 As international operations become an important part of a firm’s overall operations,
 managers must make changes that are consistent with their firm’s structure. The primary
@@ -32836,7 +32836,7 @@ man, E. 2017. The year at BRCK. brck.com, January 2: np; and Bright, J. 2017.
 Kenyan startup BRCK launches SupaBRCK device to solve Africa’s Internet equa-
 tion. techcrunch.com, March 8: np.
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  315
+## Chapter 10: Creating Effective Organizational Designs  315
 
 How an Organization’s Structure Can
 Influence Strategy Formulation
@@ -33010,7 +33010,7 @@ facilitates information
 sharing and other forms of
 cooperative behavior.
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  317
+## Chapter 10: Creating Effective Organizational Designs  317
 
 10.3
 
@@ -33168,7 +33168,7 @@ their organizations and help teams to implement agile principles.
 Developing Effective Relationships with External Constituencies In barrier-free organiza-
 tions, managers must also create flexible, porous organizational boundaries and establish
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  319
+## Chapter 10: Creating Effective Organizational Designs  319
 
 10.4
 
@@ -33360,7 +33360,7 @@ to the more democratic, participative style that teamwork requires.
 
 The pros and cons of barrier-free structures are summarized in Exhibit 10.6.
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  321
+## Chapter 10: Creating Effective Organizational Designs  321
 
 10.1
 
@@ -33558,7 +33558,7 @@ are key to a manufacturer’s success can, in essence, hold the manufacturer hos
 
 Exhibit 10.7 summarizes the pros and cons of modular structures.49
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  323
+## Chapter 10: Creating Effective Organizational Designs  323
 
 EXHIBIT 10.7  Pros and Cons of Modular Structures
 
@@ -33721,7 +33721,7 @@ author of The Wisdom of Teams, pointed out, “A completely diverse group must a
 goal, put the notion of individual accountability aside and figure out how to work with each
 other. Most of all, they must learn that if the team fails, it’s everyone’s fault.”58 Within the
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  325
+## Chapter 10: Creating Effective Organizational Designs  325
 
 framework of an appropriate organizational design, managers must select a mix and balance
 of tools and techniques to facilitate the effective coordination and integration of key activi-
@@ -33872,7 +33872,7 @@ opportunities and
 effectively integrate
 existing operations.
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  327
+## Chapter 10: Creating Effective Organizational Designs  327
 
 alignment
 managers’ clear sense of
@@ -34018,7 +34018,7 @@ Sources: Craig, W. 2018. What businesses need in order to develop a flat structu
 2018. Tesla CEO Musk says company is ‘flattening management structure’ in reorganization. wsj.com, May 14: np; and Walker, S. 2018.
 There’s a war on middle management and Tesla just joined it. wsj.com, May 18: np.
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  329
+## Chapter 10: Creating Effective Organizational Designs  329
 
 Reflecting on Career Implications . . .
 
@@ -34299,7 +34299,7 @@ organization). Was the firm successful
 or unsuccessful in this endeavor? Why?
 Why not?
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  331
+## Chapter 10: Creating Effective Organizational Designs  331
 
 ETHICS QUESTIONS
 
@@ -34762,7 +34762,7 @@ alliances. Journal of Management, 26:
 organizations is R&D consortia. For
 an insightful discussion, refer to
 
-CHAPTER 10 :: CREATING EFFECTIVE ORGANIZATIONAL DESIGNS  333
+## Chapter 10: Creating Effective Organizational Designs  333
 
 Sakaibara, M. 2002. Formation of
 R&D consortia: Industry and company

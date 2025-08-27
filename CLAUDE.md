@@ -246,6 +246,20 @@ Note: Always use the full path to Rscript.exe when running R scripts from bash c
 - Teams form by Sept 23
 - Draft due Oct 7, Final due Dec 16
 
+## Fall 2025 Calendar & Todo List
+
+A comprehensive calendar and todo list with all semester assignments, exam dates, and important due dates is maintained at:
+`/mnt/e/REPOS/fall-2025-csuf/FALL_2025_CALENDAR.md`
+
+**When adding assignments, exam dates, or other important due dates**, append them to the FALL_2025_CALENDAR.md file to keep the master calendar current.
+
+### Calendar Usage Notes:
+- File contains checkboxes for tracking assignment completion
+- Organized chronologically by week for easy planning
+- Major exams and projects marked with ⚠️ symbols
+- Includes course breakdown summary at bottom
+- Updated regularly throughout semester - always check for latest deadlines
+
 ## Development Notes
 
 When working with course materials:
