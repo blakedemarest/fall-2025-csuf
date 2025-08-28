@@ -142,9 +142,12 @@ config.json
 *.sas7bdat.bak
 *.dta.bak
 
+# Large PDF Files (GitHub size limit)
+**/New Directions in Chicanx & Latinx Studies PDF.pdf
+
 # Note: The following file types are intentionally NOT ignored
 # to enable tracking across devices:
-# *.pdf
+# *.pdf (except large textbooks)
 # *.md
 # *.docx
 # *.pptx
