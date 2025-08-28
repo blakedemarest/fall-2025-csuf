@@ -35,17 +35,22 @@ fall-2025-csuf/
 ├── CHIC_106/                    # Chicano Studies course materials
 │   ├── syllabus/
 │   └── assignments/
-├── MATH_320/                    # Mathematical Computation with MATLAB
-│   ├── textbook_chapters/       # Gilat textbook PDFs (split by chapter)
-│   ├── lecture_slides/
-│   ├── homework/
-│   ├── MATH_320_HOMEWORK_INFO.md
-│   └── syllabus/
-├── MATH_439/                    # Intermediate Data Analysis with R
-│   ├── R_tutorials/             # R code examples and tutorials
-│   ├── sample_data/
-│   ├── homework/
-│   ├── case_studies/
+├── MATH_320_INTRODUCTION_TO_MATH_COMPUTATION/  # MATLAB Course
+│   ├── homework/                # Submitted assignments
+│   │   └── templates/           # Assignment templates
+│   ├── practice/                # Scratch/practice files
+│   ├── course_docs/            # Syllabus and homework info
+│   └── textbook/               # Gilat textbook materials
+│       ├── markdown/           # Markdown conversions
+│       └── pdfs_docx_pptx/     # Original PDFs and slides
+├── MATH_439_INTERMEDIATE_DATA_ANALYSIS/  # R Course
+│   ├── MATH_439_R_PROJECTS/    # R work directory
+│   │   ├── tutorials/          # R learning tutorials
+│   │   ├── homework/           # R homework assignments
+│   │   ├── case_studies/       # Case study analyses + datasets
+│   │   ├── notes/              # Class notes and simulations
+│   │   ├── data/               # Shared datasets
+│   │   └── outputs/            # Generated plots and outputs
 │   └── syllabus/
 └── MGMT_449/                    # Strategic Management capstone
     ├── session_guidance/        # Weekly session documents
@@ -64,10 +69,19 @@ fall-2025-csuf/
 ### Course Directories
 - **CHIC_106/** - Chicano Studies course materials and syllabus
   - Status: Syllabus pending, directory structure TBD
-- **MATH_320/** - Mathematical Computation with MATLAB materials
-  - Contains: Gilat textbook chapters (split PDFs), lecture slides, syllabus, homework info
-- **MATH_439/** - Intermediate Data Analysis with R materials
-  - Contains: R tutorials, sample data, syllabus, homework and case study directories
+- **MATH_320_INTRODUCTION_TO_MATH_COMPUTATION/** - MATLAB course materials
+  - **homework/**: All submitted assignments (Demarest_Blake_HW#.m format)
+  - **homework/templates/**: Assignment templates for reuse
+  - **practice/**: Scratch files and experimental code
+  - **course_docs/**: Syllabus, homework info, assignment lists
+  - **textbook/**: All Gilat textbook materials (markdown + PDFs)
+- **MATH_439_INTERMEDIATE_DATA_ANALYSIS/** - R course materials
+  - **MATH_439_R_PROJECTS/tutorials/**: R learning tutorials and examples
+  - **MATH_439_R_PROJECTS/homework/**: R homework assignments
+  - **MATH_439_R_PROJECTS/case_studies/**: Case analyses with associated datasets
+  - **MATH_439_R_PROJECTS/notes/**: Class notes and simulation files
+  - **MATH_439_R_PROJECTS/data/**: Shared datasets used across multiple files
+  - **MATH_439_R_PROJECTS/outputs/**: Generated plots, PDFs, and analysis results
 - **MGMT_449/** - Strategic Management capstone course materials
   - Contains: Session guidance documents, textbook PDF, HBS cases, group project materials
 
@@ -92,7 +106,23 @@ fall-2025-csuf/
 3. Homework typically due 11:59 PM on specified dates
 4. Remind about full name requirement on all submissions
 5. Use MATLAB exclusively for homework completion
-6. **When creating homework files**: Always format using template reference: '/mnt/e/REPOS/fall-2025-csuf/MATH_320_INTRODUCTION_TO_MATH_COMPUTATION/Lastname_Firstname_HW1.m'
+6. **When creating homework files**: Always format using template reference: '/mnt/e/REPOS/fall-2025-csuf/MATH_320_INTRODUCTION_TO_MATH_COMPUTATION/homework/templates/Lastname_Firstname_HW_template.m'
+
+**CRITICAL FUNCTION RESTRICTION PROTOCOL:**
+- **BEFORE writing ANY MATLAB homework code, you MUST:**
+  1. Check the syllabus schedule in `course_docs/math_320_syllabus.md` to see which chapters have been covered up to that homework's due date
+  2. Reference ONLY the textbook chapters in `textbook/markdown/` that correspond to covered material
+  3. Use ONLY MATLAB functions introduced in those chapters - NO advanced functions not yet taught
+- **Chapter-by-homework mapping from syllabus:**
+  - Chapter 1 HW (Due Sept 10): Use only Chapter 1 functions
+  - Chapter 2 HW (Due Sept 17): Use only Chapters 1-2 functions  
+  - Chapter 3 HW (Due Sept 24): Use only Chapters 1-3 functions
+  - Chapter 5 HW (Due Oct 8): Use only Chapters 1-5 functions
+  - Chapter 10 HW (Due Oct 15): Use only Chapters 1-5, 10 functions
+  - Chapter 11 HW (Due Oct 22): Use only Chapters 1-5, 10-11 functions
+  - Chapter 6 HW (Due Nov 5): Use only Chapters 1-6, 10-11 functions
+  - Chapter 7 HW (Due Nov 19): Use only Chapters 1-7, 10-11 functions
+  - Chapter 8 HW (Due Dec 3): Use only Chapters 1-8, 10-11 functions
 
 **When asked about MATH 320 quizzes/exams**:
 - **Quizzes**: 5 total, in-person, 15 minutes each, every other Wednesday
@@ -121,7 +151,7 @@ fall-2025-csuf/
 **When asked about MATH 439 assignments**:
 - **Homework**: 6 assignments total (15% of grade)
 - **Case Studies**: 2-3 total (20% of grade)
-- Check R tutorials in /R tutorials/ directory for code examples
+- Check R tutorials in MATH_439_R_PROJECTS/tutorials/ directory for code examples
 
 **When asked about MATH 439 exams**:
 - **Midterm 1**: Oct 28
@@ -358,6 +388,29 @@ A comprehensive calendar and todo list with all semester assignments, exam dates
 - [ ] Updated grade tracking
 - [ ] Planned next week's priorities
 ```
+
+## Project Organization Standards
+
+### MATH_320 (MATLAB) Organization:
+**When creating MATLAB files:**
+- **Homework submissions**: Place in `homework/` directory using format `Demarest_Blake_HW#.m`
+- **Practice/scratch work**: Place in `practice/` directory  
+- **Templates**: Store in `homework/templates/` for reuse
+- **Course documents**: Keep syllabus and info files in `course_docs/`
+
+### MATH_439 (R) Organization:
+**When creating R files:**
+- **R tutorials**: Place in `MATH_439_R_PROJECTS/tutorials/`
+- **Homework assignments**: Place in `MATH_439_R_PROJECTS/homework/`
+- **Case studies**: Place in `MATH_439_R_PROJECTS/case_studies/` with associated datasets
+- **Class notes**: Place in `MATH_439_R_PROJECTS/notes/`
+- **Shared datasets**: Place in `MATH_439_R_PROJECTS/data/`
+- **Generated outputs**: Place in `MATH_439_R_PROJECTS/outputs/`
+
+**File Path References in R Code:**
+- From `tutorials/`: Use `../data/filename.csv` for shared datasets
+- From `notes/`: Use `../case_studies/filename.csv` or `../data/filename.csv`
+- From `case_studies/`: Datasets in same directory can use `filename.csv`
 
 ## Development Notes
 
