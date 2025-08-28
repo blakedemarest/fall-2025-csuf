@@ -36,7 +36,7 @@ sd(dummievar)
  ###the desktop.  Now lets read the data set in. lets call it 
 ###"practice"
 
-practice = read.csv("student.csv",h=T)
+practice = read.csv("../data/student.csv",h=T)
 
 practice
 

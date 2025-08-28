@@ -108,7 +108,7 @@ Since most of the classes are held online, it is important to be aware of the fo
 2. **Canvas:** This course will use Canvas platform.
 3. You are highly encouraged to use **Grammarly** for your essay type assignments and exams. Link: https://www.fullerton.edu/it/students/software/grammarly/
 4. **Turnitin:** Written assignments will have Turnitin enabled on Canvas to prevent plagiarism. See the following on how to use it: https://help.turnitin.com/integrity/student/canvas.htm
-5. **Proctorio** software is going to be used for exam proctoring. Ensure that you do all the necessary things as indicated here: https://www.fullerton.edu/it/services/software/proctorio/index.php
+5. **Proctorio** software is going to be used for exam proctoring. Ensure that you do all the necessary things as indicated here: https://www.fullerton.edu/it/services/software/proctorio.html
 
 ## CLASSROOM MANAGEMENT
 
@@ -620,7 +620,7 @@ Hardware/Software Requirements:
 Important Settings/Considerations:
 - For Zoom, a smart phone will work, but you may have a hard time viewing the PowerPoint(s), so a laptop/computer/tablet is recommended. Test your Zoom technology: https://zoom.us/test
 - Free software to CSUF students (including Zoom, Microsoft Office, and Adobe): http://www.fullerton.edu/it/students/software/
-- Resources for Proctorio: http://www.fullerton.edu/it/services/software/proctorio/. Make sure to review the contents on the page before your first exam.
+- Resources for Proctorio:https://www.fullerton.edu/it/services/software/proctorio.html Make sure to review the contents on the page before your first exam.
 
 **What to do when technical problems develop:**
 

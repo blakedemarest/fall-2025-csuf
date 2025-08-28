@@ -34,7 +34,7 @@ matrix(1:20,nrow=5,byrow = T)
 
 ####Okay, lets move on.  Tomorrow in class we will be spending a ton of time going over the normal distribution.  We will soon discuss normal quantile plots.  Just so you know how to make them in R, lets look at two variables, one that is normally distributed, another that clearly isn't.  Lets download our student.csv file again and look at the distances students are commuting to campus.  Don't forget to download the csv file and change your directory to the desktop.###
 
-student = read.csv("student.csv",h=T)
+student = read.csv("../data/student.csv",h=T)
 attach(student)
 hist(commute,breaks=9)
 

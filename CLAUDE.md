@@ -25,14 +25,51 @@ Fall 2025 academic materials and study resources for CSUF (California State Univ
 
 ## Directory Structure
 
+### Repository Organization
+```
+fall-2025-csuf/
+├── CLAUDE.md                    # AI agent instructions (this file)
+├── FALL_2025_CALENDAR.md        # Master calendar and todo list
+├── requirements.txt             # Python dependencies
+├── .venv/                       # Python virtual environment
+├── CHIC_106/                    # Chicano Studies course materials
+│   ├── syllabus/
+│   └── assignments/
+├── MATH_320/                    # Mathematical Computation with MATLAB
+│   ├── textbook_chapters/       # Gilat textbook PDFs (split by chapter)
+│   ├── lecture_slides/
+│   ├── homework/
+│   ├── MATH_320_HOMEWORK_INFO.md
+│   └── syllabus/
+├── MATH_439/                    # Intermediate Data Analysis with R
+│   ├── R_tutorials/             # R code examples and tutorials
+│   ├── sample_data/
+│   ├── homework/
+│   ├── case_studies/
+│   └── syllabus/
+└── MGMT_449/                    # Strategic Management capstone
+    ├── session_guidance/        # Weekly session documents
+    ├── textbook/                # Strategic Management PDF
+    ├── hbs_cases/              # Harvard Business School cases
+    ├── group_project/
+    └── syllabus/
+```
+
+### File Naming Conventions
+- **Homework files**: `Lastname_Firstname_HW#.m` (MATLAB) or `Lastname_Firstname_HW#.R` (R)
+- **Case studies**: `Lastname_Firstname_Case#.pdf`
+- **Group projects**: `Team#_ProjectName_Draft.pdf` / `Team#_ProjectName_Final.pdf`
+- **Notes**: `COURSE_Week#_Topic.md` or `COURSE_Chapter#_Notes.md`
+
 ### Course Directories
 - **CHIC_106/** - Chicano Studies course materials and syllabus
+  - Status: Syllabus pending, directory structure TBD
 - **MATH_320/** - Mathematical Computation with MATLAB materials
-  - Contains: Gilat textbook chapters (split PDFs), lecture slides, syllabus
+  - Contains: Gilat textbook chapters (split PDFs), lecture slides, syllabus, homework info
 - **MATH_439/** - Intermediate Data Analysis with R materials
-  - Contains: R tutorials, sample data, syllabus
+  - Contains: R tutorials, sample data, syllabus, homework and case study directories
 - **MGMT_449/** - Strategic Management capstone course materials
-  - Contains: Session guidance documents, textbook PDF, syllabus
+  - Contains: Session guidance documents, textbook PDF, HBS cases, group project materials
 
 ## Course-Specific AI Agent Instructions
 
@@ -55,6 +92,7 @@ Fall 2025 academic materials and study resources for CSUF (California State Univ
 3. Homework typically due 11:59 PM on specified dates
 4. Remind about full name requirement on all submissions
 5. Use MATLAB exclusively for homework completion
+6. **When creating homework files**: Always format using template reference: '/mnt/e/REPOS/fall-2025-csuf/MATH_320_INTRODUCTION_TO_MATH_COMPUTATION/Lastname_Firstname_HW1.m'
 
 **When asked about MATH 320 quizzes/exams**:
 - **Quizzes**: 5 total, in-person, 15 minutes each, every other Wednesday
@@ -225,6 +263,7 @@ Note: Always use the full path to Rscript.exe when running R scripts from bash c
 1. Check course syllabus in respective directory
 2. Reference Canvas for most current information
 3. Note that assignments typically due at 11:59 PM
+4. **Always update FALL_2025_CALENDAR.md with new deadlines**
 
 ### When asked about exam preparation:
 1. **MATH 320**: Focus on MATLAB coding, review homework problems
@@ -235,6 +274,7 @@ Note: Always use the full path to Rscript.exe when running R scripts from bash c
 1. Direct to instructor office hours first
 2. Reference textbook chapters and examples
 3. For MATLAB/R code issues, check tutorial files in course directories
+4. **Update progress tracking templates when assignments are completed**
 
 ### When asked about technical issues:
 1. Canvas issues: (855) 302-7528
@@ -246,19 +286,78 @@ Note: Always use the full path to Rscript.exe when running R scripts from bash c
 - Teams form by Sept 23
 - Draft due Oct 7, Final due Dec 16
 
-## Fall 2025 Calendar & Todo List
+### When asked about progress tracking:
+1. Use individual course progress templates for detailed tracking
+2. Update semester overview weekly for big-picture view
+3. Reference FALL_2025_CALENDAR.md for comprehensive timeline
+4. Maintain grade tracking tables as scores become available
 
+## Academic Progress Tracking
+
+### Fall 2025 Calendar & Todo List
 A comprehensive calendar and todo list with all semester assignments, exam dates, and important due dates is maintained at:
 `/mnt/e/REPOS/fall-2025-csuf/FALL_2025_CALENDAR.md`
 
 **When adding assignments, exam dates, or other important due dates**, append them to the FALL_2025_CALENDAR.md file to keep the master calendar current.
 
-### Calendar Usage Notes:
+#### Calendar Usage Notes:
 - File contains checkboxes for tracking assignment completion
 - Organized chronologically by week for easy planning
 - Major exams and projects marked with ⚠️ symbols
 - Includes course breakdown summary at bottom
 - Updated regularly throughout semester - always check for latest deadlines
+
+### Grade Tracking Templates
+
+#### Individual Course Progress Template:
+```markdown
+## [COURSE_CODE] - [COURSE_NAME]
+**Target Grade:** [A/B/C]  
+**Current Status:** [On Track/Behind/Ahead]
+
+### Assignments Completed:
+- [ ] HW1 - [Score]/[Total] - [Date Submitted]
+- [ ] HW2 - [Score]/[Total] - [Date Submitted]
+- [ ] Quiz1 - [Score]/[Total] - [Date Taken]
+
+### Upcoming Deadlines:
+- [Assignment Name] - Due: [Date] - Weight: [%]
+
+### Grade Breakdown:
+| Component | Weight | Current Score | Points Earned | Status |
+|-----------|---------|---------------|---------------|--------|
+| Homework  | 15%     | --/--         | --            | --     |
+| Quizzes   | 15%     | --/--         | --            | --     |
+| Midterms  | 40%     | --/--         | --            | --     |
+| Final     | 30%     | --/--         | --            | --     |
+| **Total** | **100%**| **--**        | **--**        | **--** |
+```
+
+### Semester Overview Template:
+```markdown
+## Fall 2025 Semester Progress
+
+**Overall GPA Target:** [3.0/3.5/4.0]  
+**Current Status:** [Week X of 16]  
+**Study Hours This Week:** [X hours]
+
+### Course Status Summary:
+| Course    | Credits | Target | Current | Status     | Notes |
+|-----------|---------|---------|---------|------------|-------|
+| CHIC 106  | 3       | A       | --      | On Track   | --    |
+| MATH 320  | 4       | B       | --      | On Track   | --    |
+| MATH 439  | 3       | A       | --      | On Track   | --    |
+| MGMT 449  | 3       | B       | --      | On Track   | --    |
+| **Total** | **13**  | **--**  | **--**  | **--**     | **--**|
+
+### Weekly Review Checklist:
+- [ ] All assignments submitted on time
+- [ ] Attended all classes/Zoom sessions
+- [ ] Completed required readings
+- [ ] Reviewed lecture materials
+- [ ] Updated grade tracking
+- [ ] Planned next week's priorities
+```
 
 ## Development Notes
 

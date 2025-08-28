@@ -41,7 +41,7 @@ Traditional hypothesis tests (like t-tests) work well for means but not for perc
 
 ```{r load-data}
 # Load the ambulance wait time data
-waittime_data <- read.csv("waittime.csv")
+waittime_data <- read.csv("../case_studies/waittime.csv")
 wait_times <- waittime_data$x
 
 # Calculate the observed 90th percentile
